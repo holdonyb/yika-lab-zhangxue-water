@@ -1,0 +1,681 @@
+{
+  "scope": "Read-only final-state domain replay and energy-ledger interpretation. No new trajectory or solver edits.",
+  "domain_replays": [
+    {
+      "name": "pln_four_skis_v15_p176_roll1_30s",
+      "samples": 240,
+      "time_interval_s": [
+        25.021000000007596,
+        30.00000000001368
+      ],
+      "roll_deg": {
+        "min": 0.023619793477390037,
+        "mean": 0.050792056772379565,
+        "max": 0.08148947130961096
+      },
+      "pitch_deg": {
+        "min": -1.0708075341429317,
+        "mean": -0.7498072146043541,
+        "max": -0.4470035449515785
+      },
+      "yaw_deg": {
+        "min": 20.95370755370936,
+        "mean": 24.00654734437087,
+        "max": 27.163683195994462
+      },
+      "course_deg": {
+        "min": 12.460253370218846,
+        "mean": 14.96900878300891,
+        "max": 17.440596684263156
+      },
+      "heading_minus_course_deg": {
+        "min": 8.459555598483973,
+        "mean": 9.03753856136196,
+        "max": 9.72308651173131
+      },
+      "yaw_change_deg": 6.209975642285102,
+      "replay_max_domain_force_error_n": 0.0,
+      "surfaces": {
+        "ski_bottom_-1.3_-1": {
+          "active_samples": 240,
+          "lift_sample_sum_n": 715926.842206259,
+          "valid_sample_sum_n": 0.0,
+          "sideslip_deg": {
+            "min": -9.900134369211296,
+            "mean": -9.190213043519611,
+            "max": -8.58414367409749
+          },
+          "geometric_trim_deg": {
+            "min": 4.9291916578178,
+            "mean": 5.250190147285396,
+            "max": 5.5529918771688775
+          },
+          "vertical_flow_deg": {
+            "min": -0.5906368561029516,
+            "mean": 0.005930408312930392,
+            "max": 0.5506731378618795
+          },
+          "wet_width_fraction_spread": {
+            "min": 0.018605479485021365,
+            "mean": 0.04001195569244806,
+            "max": 0.06419718253873152
+          },
+          "roll_screen_deg": {
+            "min": 0.023616342952482383,
+            "mean": 0.05078805998485178,
+            "max": 0.08148691619644269
+          },
+          "cp_error_m": {
+            "min": 0.004838475728569103,
+            "mean": 0.009250240049194254,
+            "max": 0.016577001381714612
+          },
+          "valid_fraction": 0.0,
+          "failed_lift_fraction": {
+            "Cv_range": 0.0,
+            "effective_attack_range": 0.0,
+            "lambda_range": 0.0,
+            "forward_positive": 0.0,
+            "sideslip_3deg": 1.0,
+            "continuous_wet_from_transom": 0.0,
+            "full_width_wet": 0.0,
+            "roll_5deg": 0.0,
+            "speed_spread_10pct": 0.0,
+            "attack_spread_2deg": 0.0,
+            "geometric_trim_range": 0.0,
+            "vertical_flow_2deg": 0.0,
+            "effective_geometric_trim_difference_2deg": 0.0
+          }
+        },
+        "ski_bottom_-1.3_1": {
+          "active_samples": 240,
+          "lift_sample_sum_n": 686777.4849112703,
+          "valid_sample_sum_n": 0.0,
+          "sideslip_deg": {
+            "min": -9.944337268883377,
+            "mean": -9.224356953250611,
+            "max": -8.60668928717487
+          },
+          "geometric_trim_deg": {
+            "min": 4.9291916578178,
+            "mean": 5.250190147285396,
+            "max": 5.5529918771688775
+          },
+          "vertical_flow_deg": {
+            "min": -0.5630999329261006,
+            "mean": 0.0057051990178783206,
+            "max": 0.5191466855313516
+          },
+          "wet_width_fraction_spread": {
+            "min": 0.018605479485021392,
+            "mean": 0.04001195569244798,
+            "max": 0.06419718253873147
+          },
+          "roll_screen_deg": {
+            "min": 0.023616342952482383,
+            "mean": 0.05078805998485178,
+            "max": 0.08148691619644269
+          },
+          "cp_error_m": {
+            "min": 0.005226059301868924,
+            "mean": 0.009764193919275311,
+            "max": 0.016901093144938234
+          },
+          "valid_fraction": 0.0,
+          "failed_lift_fraction": {
+            "Cv_range": 0.0,
+            "effective_attack_range": 0.0,
+            "lambda_range": 0.0,
+            "forward_positive": 0.0,
+            "sideslip_3deg": 1.0,
+            "continuous_wet_from_transom": 0.0,
+            "full_width_wet": 0.0,
+            "roll_5deg": 0.0,
+            "speed_spread_10pct": 0.0,
+            "attack_spread_2deg": 0.0,
+            "geometric_trim_range": 0.0,
+            "vertical_flow_2deg": 0.0,
+            "effective_geometric_trim_difference_2deg": 0.0
+          }
+        },
+        "ski_bottom_1.3_-1": {
+          "active_samples": 240,
+          "lift_sample_sum_n": 1012090.6352944742,
+          "valid_sample_sum_n": 0.0,
+          "sideslip_deg": {
+            "min": -9.61848332754277,
+            "mean": -8.96601828420668,
+            "max": -8.348889051456604
+          },
+          "geometric_trim_deg": {
+            "min": 4.9291916578178,
+            "mean": 5.250190147285396,
+            "max": 5.5529918771688775
+          },
+          "vertical_flow_deg": {
+            "min": -0.5779986324715185,
+            "mean": 0.006260455197447404,
+            "max": 0.5169143438755145
+          },
+          "wet_width_fraction_spread": {
+            "min": 0.018605479485021448,
+            "mean": 0.04001195569244798,
+            "max": 0.06419718253873152
+          },
+          "roll_screen_deg": {
+            "min": 0.023616342952482383,
+            "mean": 0.05078805998485178,
+            "max": 0.08148691619644269
+          },
+          "cp_error_m": {
+            "min": 0.0018175104422618604,
+            "mean": 0.004128152311778454,
+            "max": 0.006195168855894828
+          },
+          "valid_fraction": 0.0,
+          "failed_lift_fraction": {
+            "Cv_range": 0.0,
+            "effective_attack_range": 0.0,
+            "lambda_range": 0.0,
+            "forward_positive": 0.0,
+            "sideslip_3deg": 1.0,
+            "continuous_wet_from_transom": 0.0,
+            "full_width_wet": 0.0,
+            "roll_5deg": 0.0,
+            "speed_spread_10pct": 0.0,
+            "attack_spread_2deg": 0.0,
+            "geometric_trim_range": 0.0,
+            "vertical_flow_2deg": 0.0,
+            "effective_geometric_trim_difference_2deg": 0.0
+          }
+        },
+        "ski_bottom_1.3_1": {
+          "active_samples": 240,
+          "lift_sample_sum_n": 987704.9124126097,
+          "valid_sample_sum_n": 0.0,
+          "sideslip_deg": {
+            "min": -9.657010405606822,
+            "mean": -8.999368307512622,
+            "max": -8.386294414078346
+          },
+          "geometric_trim_deg": {
+            "min": 4.9291916578178,
+            "mean": 5.250190147285396,
+            "max": 5.5529918771688775
+          },
+          "vertical_flow_deg": {
+            "min": -0.5712176867174675,
+            "mean": 0.006318864683107072,
+            "max": 0.520861060628382
+          },
+          "wet_width_fraction_spread": {
+            "min": 0.018605479485021448,
+            "mean": 0.04001195569244798,
+            "max": 0.06419718253873147
+          },
+          "roll_screen_deg": {
+            "min": 0.023616342952482383,
+            "mean": 0.05078805998485178,
+            "max": 0.08148691619644269
+          },
+          "cp_error_m": {
+            "min": 0.0019372395521524144,
+            "mean": 0.004286396914164065,
+            "max": 0.006336500409064638
+          },
+          "valid_fraction": 0.0,
+          "failed_lift_fraction": {
+            "Cv_range": 0.0,
+            "effective_attack_range": 0.0,
+            "lambda_range": 0.0,
+            "forward_positive": 0.0,
+            "sideslip_3deg": 1.0,
+            "continuous_wet_from_transom": 0.0,
+            "full_width_wet": 0.0,
+            "roll_5deg": 0.0,
+            "speed_spread_10pct": 0.0,
+            "attack_spread_2deg": 0.0,
+            "geometric_trim_range": 0.0,
+            "vertical_flow_2deg": 0.0,
+            "effective_geometric_trim_difference_2deg": 0.0
+          }
+        }
+      }
+    },
+    {
+      "name": "pln_four_skis_v15_p176_30s",
+      "samples": 240,
+      "time_interval_s": [
+        25.021000000007596,
+        30.00000000001368
+      ],
+      "roll_deg": {
+        "min": -3.786235613815039e-14,
+        "mean": 2.6274057765067393e-14,
+        "max": 9.155466004807386e-14
+      },
+      "pitch_deg": {
+        "min": -1.0815935117226405,
+        "mean": -0.7560766884083333,
+        "max": -0.4450984690049121
+      },
+      "yaw_deg": {
+        "min": 4.8457447343030845e-12,
+        "mean": 9.04326246064399e-12,
+        "max": 1.2565200486921468e-11
+      },
+      "course_deg": {
+        "min": 4.883777311381972e-12,
+        "mean": 5.7036500040657945e-12,
+        "max": 6.016433841269208e-12
+      },
+      "heading_minus_course_deg": {
+        "min": -1.1368683772161603e-12,
+        "mean": 3.3397877056510578e-12,
+        "max": 7.673861546209082e-12
+      },
+      "yaw_change_deg": -7.69259358313649e-12,
+      "replay_max_domain_force_error_n": 0.0,
+      "surfaces": {
+        "ski_bottom_-1.3_-1": {
+          "active_samples": 240,
+          "lift_sample_sum_n": 700635.1078231853,
+          "valid_sample_sum_n": 700635.1078231854,
+          "sideslip_deg": {
+            "min": -7.519257368363955e-12,
+            "mean": -3.1844217898917153e-12,
+            "max": 1.2120625487928144e-12
+          },
+          "geometric_trim_deg": {
+            "min": 4.918406488277359,
+            "mean": 5.243923311591668,
+            "max": 5.554901530995089
+          },
+          "vertical_flow_deg": {
+            "min": -0.6018737046411107,
+            "mean": 0.0031610263172362845,
+            "max": 0.5586738948213043
+          },
+          "wet_width_fraction_spread": {
+            "min": 0.0,
+            "mean": 2.5264547037195015e-14,
+            "max": 7.405187574249794e-14
+          },
+          "roll_screen_deg": {
+            "min": -3.78589274363714e-14,
+            "mean": 2.6271963673777725e-14,
+            "max": 9.154825136232834e-14
+          },
+          "cp_error_m": {
+            "min": 0.004946245781014547,
+            "mean": 0.009539068345698742,
+            "max": 0.017005140765042392
+          },
+          "valid_fraction": 1.0000000000000002,
+          "failed_lift_fraction": {
+            "Cv_range": 0.0,
+            "effective_attack_range": 0.0,
+            "lambda_range": 0.0,
+            "forward_positive": 0.0,
+            "sideslip_3deg": 0.0,
+            "continuous_wet_from_transom": 0.0,
+            "full_width_wet": 0.0,
+            "roll_5deg": 0.0,
+            "speed_spread_10pct": 0.0,
+            "attack_spread_2deg": 0.0,
+            "geometric_trim_range": 0.0,
+            "vertical_flow_2deg": 0.0,
+            "effective_geometric_trim_difference_2deg": 0.0
+          }
+        },
+        "ski_bottom_-1.3_1": {
+          "active_samples": 240,
+          "lift_sample_sum_n": 700635.1078231799,
+          "valid_sample_sum_n": 700635.1078231799,
+          "sideslip_deg": {
+            "min": -7.519257368363913e-12,
+            "mean": -3.184421789891702e-12,
+            "max": 1.212062548792813e-12
+          },
+          "geometric_trim_deg": {
+            "min": 4.918406488277359,
+            "mean": 5.243923311591668,
+            "max": 5.554901530995089
+          },
+          "vertical_flow_deg": {
+            "min": -0.6018737046409117,
+            "mean": 0.0031610263172329504,
+            "max": 0.5586738948212746
+          },
+          "wet_width_fraction_spread": {
+            "min": 0.0,
+            "mean": 2.5924842423271274e-14,
+            "max": 7.405187574249794e-14
+          },
+          "roll_screen_deg": {
+            "min": -3.78589274363714e-14,
+            "mean": 2.6271963673777725e-14,
+            "max": 9.154825136232834e-14
+          },
+          "cp_error_m": {
+            "min": 0.004946245781014602,
+            "mean": 0.00953906834569902,
+            "max": 0.017005140765042476
+          },
+          "valid_fraction": 1.0,
+          "failed_lift_fraction": {
+            "Cv_range": 0.0,
+            "effective_attack_range": 0.0,
+            "lambda_range": 0.0,
+            "forward_positive": 0.0,
+            "sideslip_3deg": 0.0,
+            "continuous_wet_from_transom": 0.0,
+            "full_width_wet": 0.0,
+            "roll_5deg": 0.0,
+            "speed_spread_10pct": 0.0,
+            "attack_spread_2deg": 0.0,
+            "geometric_trim_range": 0.0,
+            "vertical_flow_2deg": 0.0,
+            "effective_geometric_trim_difference_2deg": 0.0
+          }
+        },
+        "ski_bottom_1.3_-1": {
+          "active_samples": 240,
+          "lift_sample_sum_n": 1002570.6210510947,
+          "valid_sample_sum_n": 1002570.6210510946,
+          "sideslip_deg": {
+            "min": -7.865083643515077e-12,
+            "mean": -3.466738943265064e-12,
+            "max": 1.2151718863740493e-12
+          },
+          "geometric_trim_deg": {
+            "min": 4.918406488277359,
+            "mean": 5.243923311591668,
+            "max": 5.554901530995089
+          },
+          "vertical_flow_deg": {
+            "min": -0.6005547518696734,
+            "mean": 0.008170767849322726,
+            "max": 0.5407361824088743
+          },
+          "wet_width_fraction_spread": {
+            "min": 0.0,
+            "mean": 2.569158445737731e-14,
+            "max": 7.405187574249794e-14
+          },
+          "roll_screen_deg": {
+            "min": -3.78589274363714e-14,
+            "mean": 2.6271963673777725e-14,
+            "max": 9.154825136232834e-14
+          },
+          "cp_error_m": {
+            "min": 0.0017909268849141124,
+            "mean": 0.00414185897488872,
+            "max": 0.006329747125640661
+          },
+          "valid_fraction": 0.9999999999999999,
+          "failed_lift_fraction": {
+            "Cv_range": 0.0,
+            "effective_attack_range": 0.0,
+            "lambda_range": 0.0,
+            "forward_positive": 0.0,
+            "sideslip_3deg": 0.0,
+            "continuous_wet_from_transom": 0.0,
+            "full_width_wet": 0.0,
+            "roll_5deg": 0.0,
+            "speed_spread_10pct": 0.0,
+            "attack_spread_2deg": 0.0,
+            "geometric_trim_range": 0.0,
+            "vertical_flow_2deg": 0.0,
+            "effective_geometric_trim_difference_2deg": 0.0
+          }
+        },
+        "ski_bottom_1.3_1": {
+          "active_samples": 240,
+          "lift_sample_sum_n": 1002570.6210510957,
+          "valid_sample_sum_n": 1002570.6210510957,
+          "sideslip_deg": {
+            "min": -7.865083643515035e-12,
+            "mean": -3.4667389432650494e-12,
+            "max": 1.215171886374051e-12
+          },
+          "geometric_trim_deg": {
+            "min": 4.918406488277359,
+            "mean": 5.243923311591668,
+            "max": 5.554901530995089
+          },
+          "vertical_flow_deg": {
+            "min": -0.6005547518696265,
+            "mean": 0.008170767849319345,
+            "max": 0.5407361824088635
+          },
+          "wet_width_fraction_spread": {
+            "min": 0.0,
+            "mean": 2.554212086338751e-14,
+            "max": 7.405187574249794e-14
+          },
+          "roll_screen_deg": {
+            "min": -3.78589274363714e-14,
+            "mean": 2.6271963673777725e-14,
+            "max": 9.154825136232834e-14
+          },
+          "cp_error_m": {
+            "min": 0.0017909268849142235,
+            "mean": 0.004141858974888857,
+            "max": 0.006329747125640439
+          },
+          "valid_fraction": 1.0,
+          "failed_lift_fraction": {
+            "Cv_range": 0.0,
+            "effective_attack_range": 0.0,
+            "lambda_range": 0.0,
+            "forward_positive": 0.0,
+            "sideslip_3deg": 0.0,
+            "continuous_wet_from_transom": 0.0,
+            "full_width_wet": 0.0,
+            "roll_5deg": 0.0,
+            "speed_spread_10pct": 0.0,
+            "attack_spread_2deg": 0.0,
+            "geometric_trim_range": 0.0,
+            "vertical_flow_2deg": 0.0,
+            "effective_geometric_trim_difference_2deg": 0.0
+          }
+        }
+      }
+    }
+  ],
+  "energies": [
+    {
+      "name": "pln_four_skis_v15_p176_30s",
+      "duration_s": 30.00000000001368,
+      "dt_s": 0.001,
+      "output_hz": 48.0,
+      "initial_energy_j": 184439.49166578925,
+      "mechanical_energy_change_j": 29120.388660727735,
+      "integrated_non_gravity_work_j": 28349.481540528806,
+      "signed_energy_residual_j": 770.9071201989282,
+      "absolute_energy_residual_j": 770.9071201989282,
+      "original_energy_balance_relative_error": 0.027192988312566804,
+      "original_denominator_value": 28349.481540528806,
+      "positive_motor_work_sampled_trapezoid_j": 3689734.647188182,
+      "positive_motor_work_sampled_left_j": 3688931.147869209,
+      "positive_motor_work_sampled_right_j": 3690538.1465071547,
+      "absolute_residual_over_initial_energy": 0.004179729152560443,
+      "absolute_residual_over_sampled_positive_motor_work": 0.00020893294339917087,
+      "sampled_net_work_j": 53319.77521257126,
+      "sampled_minus_solver_step_net_work_j": 24970.29367204245,
+      "note": "Net work and residual are original solver-step metadata. Positive motor work is a trapezoid estimate from saved 48 Hz snapshots, with left/right sampled estimates; it is not the unavailable exact per-step positive-work integral. The alternative ratios do not replace the original metric.",
+      "group_world_work_sampled_j": {
+        "buoyancy": -18.317568676640715,
+        "wave_pressure": 0.0,
+        "volume_drag": -319895.7360466889,
+        "panel_pressure": -619140.3457683851,
+        "skin_drag": -662685.8848750838,
+        "paddles": -1973683.4630135463,
+        "air_drag": -50539.493496286676
+      },
+      "source_sha256": "4ee1a5ba360123179ab01ed0578f06d075c99d324b4ad87ca06208b16300d641",
+      "trajectory_sha256": "9a6669d51a1fd6b26e41ff9b891a813defd463359ddc0c3edb5b64983fd39759"
+    },
+    {
+      "name": "pln_four_skis_v10_p176_30s",
+      "duration_s": 30.00000000001368,
+      "dt_s": 0.001,
+      "output_hz": 48.0,
+      "initial_energy_j": 88778.98318828059,
+      "mechanical_energy_change_j": 125545.98395899215,
+      "integrated_non_gravity_work_j": 125102.20461534582,
+      "signed_energy_residual_j": 443.7793436463253,
+      "absolute_energy_residual_j": 443.7793436463253,
+      "original_energy_balance_relative_error": 0.0035473343176550907,
+      "original_denominator_value": 125102.20461534582,
+      "positive_motor_work_sampled_trapezoid_j": 3363052.4891079273,
+      "positive_motor_work_sampled_left_j": 3362004.283937431,
+      "positive_motor_work_sampled_right_j": 3364100.6942784237,
+      "absolute_residual_over_initial_energy": 0.0049986982020864944,
+      "absolute_residual_over_sampled_positive_motor_work": 0.00013195730518141297,
+      "sampled_net_work_j": 105263.76294771559,
+      "sampled_minus_solver_step_net_work_j": -19838.441667630235,
+      "note": "Net work and residual are original solver-step metadata. Positive motor work is a trapezoid estimate from saved 48 Hz snapshots, with left/right sampled estimates; it is not the unavailable exact per-step positive-work integral. The alternative ratios do not replace the original metric.",
+      "group_world_work_sampled_j": {
+        "buoyancy": -12.55839688691821,
+        "wave_pressure": 0.0,
+        "volume_drag": -289065.7918354564,
+        "panel_pressure": -610043.6542263053,
+        "skin_drag": -607836.9347320326,
+        "paddles": -1706350.2654441972,
+        "air_drag": -37544.93091469343
+      },
+      "source_sha256": "4ee1a5ba360123179ab01ed0578f06d075c99d324b4ad87ca06208b16300d641",
+      "trajectory_sha256": "bec9710a4764b1c8a334a412bb25626f8e9f204701b9807b15a3e61bf14b08a2"
+    },
+    {
+      "name": "pln_four_skis_v15_p176_roll1_30s",
+      "duration_s": 30.00000000001368,
+      "dt_s": 0.001,
+      "output_hz": 48.0,
+      "initial_energy_j": 184439.58506960038,
+      "mechanical_energy_change_j": 34430.050555576185,
+      "integrated_non_gravity_work_j": 33659.746119760035,
+      "signed_energy_residual_j": 770.3044358161496,
+      "absolute_energy_residual_j": 770.3044358161496,
+      "original_energy_balance_relative_error": 0.02288503404260499,
+      "original_denominator_value": 33659.746119760035,
+      "positive_motor_work_sampled_trapezoid_j": 3722412.295223424,
+      "positive_motor_work_sampled_left_j": 3722440.17058497,
+      "positive_motor_work_sampled_right_j": 3722384.4198618773,
+      "absolute_residual_over_initial_energy": 0.004176459383843585,
+      "absolute_residual_over_sampled_positive_motor_work": 0.00020693689326262957,
+      "sampled_net_work_j": 38835.385333725724,
+      "sampled_minus_solver_step_net_work_j": 5175.639213965689,
+      "note": "Net work and residual are original solver-step metadata. Positive motor work is a trapezoid estimate from saved 48 Hz snapshots, with left/right sampled estimates; it is not the unavailable exact per-step positive-work integral. The alternative ratios do not replace the original metric.",
+      "group_world_work_sampled_j": {
+        "buoyancy": -14.240593435655182,
+        "wave_pressure": 0.0,
+        "volume_drag": -322288.65794693213,
+        "panel_pressure": -616767.3733240564,
+        "skin_drag": -668876.9630859618,
+        "paddles": -2014242.4758974346,
+        "air_drag": -50967.038008297066
+      },
+      "source_sha256": "4ee1a5ba360123179ab01ed0578f06d075c99d324b4ad87ca06208b16300d641",
+      "trajectory_sha256": "401feb635e2712148c7232ff0b6347c460a24d8d2f62abd40f55a629eb72f0f9"
+    },
+    {
+      "name": "pln_four_skis_v15_p176_head",
+      "duration_s": 11.999999999998789,
+      "dt_s": 0.001,
+      "output_hz": 48.0,
+      "initial_energy_j": 184439.49166578925,
+      "mechanical_energy_change_j": 46143.39054398725,
+      "integrated_non_gravity_work_j": 40229.55363022172,
+      "signed_energy_residual_j": 5913.8369137655245,
+      "absolute_energy_residual_j": 5913.8369137655245,
+      "original_energy_balance_relative_error": 0.1470023000534329,
+      "original_denominator_value": 40229.55363022172,
+      "positive_motor_work_sampled_trapezoid_j": 1615976.5117273843,
+      "positive_motor_work_sampled_left_j": 1615664.0397956825,
+      "positive_motor_work_sampled_right_j": 1616288.9836590858,
+      "absolute_residual_over_initial_energy": 0.0320638322105203,
+      "absolute_residual_over_sampled_positive_motor_work": 0.003659605737365563,
+      "sampled_net_work_j": 42528.19901459279,
+      "sampled_minus_solver_step_net_work_j": 2298.6453843710697,
+      "note": "Net work and residual are original solver-step metadata. Positive motor work is a trapezoid estimate from saved 48 Hz snapshots, with left/right sampled estimates; it is not the unavailable exact per-step positive-work integral. The alternative ratios do not replace the original metric.",
+      "group_world_work_sampled_j": {
+        "buoyancy": 346.9229086956974,
+        "wave_pressure": -336.5564189280895,
+        "volume_drag": -162205.48559600423,
+        "panel_pressure": -289047.2242709026,
+        "skin_drag": -354158.275383233,
+        "paddles": -743983.9041470677,
+        "air_drag": -20900.58170872216
+      },
+      "source_sha256": "4ee1a5ba360123179ab01ed0578f06d075c99d324b4ad87ca06208b16300d641",
+      "trajectory_sha256": "460367eebbed17e48387c2746fa59bd4a32c47d332b4788152cf0f2b433dda03"
+    },
+    {
+      "name": "pln_four_skis_v15_t0_p176",
+      "duration_s": 9.999999999999897,
+      "dt_s": 0.001,
+      "output_hz": 48.0,
+      "initial_energy_j": 184439.49166578925,
+      "mechanical_energy_change_j": 37425.85426938624,
+      "integrated_non_gravity_work_j": 37129.40669837054,
+      "signed_energy_residual_j": 296.4475710156985,
+      "absolute_energy_residual_j": 296.4475710156985,
+      "original_energy_balance_relative_error": 0.007984172045192103,
+      "original_denominator_value": 37129.40669837054,
+      "positive_motor_work_sampled_trapezoid_j": 1266416.2806984293,
+      "positive_motor_work_sampled_left_j": 1266833.9290674469,
+      "positive_motor_work_sampled_right_j": 1265998.6323294118,
+      "absolute_residual_over_initial_energy": 0.0016072890265435764,
+      "absolute_residual_over_sampled_positive_motor_work": 0.0002340838281486775,
+      "sampled_net_work_j": 46186.22833906341,
+      "sampled_minus_solver_step_net_work_j": 9056.82164069287,
+      "note": "Net work and residual are original solver-step metadata. Positive motor work is a trapezoid estimate from saved 48 Hz snapshots, with left/right sampled estimates; it is not the unavailable exact per-step positive-work integral. The alternative ratios do not replace the original metric.",
+      "group_world_work_sampled_j": {
+        "buoyancy": -6.631292188634567,
+        "wave_pressure": 0.0,
+        "volume_drag": -106439.83075462552,
+        "panel_pressure": -206908.58126837184,
+        "skin_drag": -220407.68388462995,
+        "paddles": -666230.3405300556,
+        "air_drag": -16620.091496617002
+      },
+      "source_sha256": "4ee1a5ba360123179ab01ed0578f06d075c99d324b4ad87ca06208b16300d641",
+      "trajectory_sha256": "2c3588fcd08e1e8651109e694122e82071510470a947d8ee656bd68b492dfc4b"
+    },
+    {
+      "name": "pln_four_skis_v15_p176_dt05",
+      "duration_s": 10.00000000000073,
+      "dt_s": 0.0005,
+      "output_hz": 48.0,
+      "initial_energy_j": 184439.49166578925,
+      "mechanical_energy_change_j": 37374.45310001579,
+      "integrated_non_gravity_work_j": 37226.19589667569,
+      "signed_energy_residual_j": 148.2572033401011,
+      "absolute_energy_residual_j": 148.2572033401011,
+      "original_energy_balance_relative_error": 0.003982604178831513,
+      "original_denominator_value": 37226.19589667569,
+      "positive_motor_work_sampled_trapezoid_j": 1266843.9653170402,
+      "positive_motor_work_sampled_left_j": 1267199.2136412137,
+      "positive_motor_work_sampled_right_j": 1266488.716992867,
+      "absolute_residual_over_initial_energy": 0.0008038256991552997,
+      "absolute_residual_over_sampled_positive_motor_work": 0.00011702877970689806,
+      "sampled_net_work_j": 45344.896508206046,
+      "sampled_minus_solver_step_net_work_j": 8118.700611530359,
+      "note": "Net work and residual are original solver-step metadata. Positive motor work is a trapezoid estimate from saved 48 Hz snapshots, with left/right sampled estimates; it is not the unavailable exact per-step positive-work integral. The alternative ratios do not replace the original metric.",
+      "group_world_work_sampled_j": {
+        "buoyancy": -6.012645648160347,
+        "wave_pressure": 0.0,
+        "volume_drag": -106496.70661795232,
+        "panel_pressure": -206907.43648319825,
+        "skin_drag": -220536.1626478677,
+        "paddles": -667323.3693419846,
+        "air_drag": -16614.696166128506
+      },
+      "source_sha256": "4ee1a5ba360123179ab01ed0578f06d075c99d324b4ad87ca06208b16300d641",
+      "trajectory_sha256": "9498c1da8be0dd5b7c61672ffb766f80c0b55e96a4728d046db033e61ef29512"
+    }
+  ]
+}

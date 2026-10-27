@@ -1,0 +1,52 @@
+{
+  "stage": "wave_check",
+  "scope": "Uncalibrated hybrid model: dynamic planing correlation + geometric static buoyancy. Domain load fractions reported separately.",
+  "cases": [
+    {
+      "name": "pln_four_skis_v15_p176_head_dt05",
+      "geometry": "planing_four_skis",
+      "minimum_lateral_board_blade_envelope_gap_m": 0.02500000000000005,
+      "mechanical_envelope_overlap": false,
+      "initial_speed_m_s": 15.0,
+      "initial_trim_deg": 0.0,
+      "total_power_kw": 176.0,
+      "duration_s": 12.000000000003174,
+      "mass_kg": 1468.1408,
+      "end_forward_speed_m_s": 16.821064557997488,
+      "tail_mean_forward_speed_m_s": 16.475140322498426,
+      "tail_speed_relative_drift": 0.04572006533416294,
+      "tail_angle_amplitudes_not_growing": true,
+      "final_z_m": 0.8162843539755201,
+      "tail_z_range_m": 0.012319311558729562,
+      "tail_mean_vertical_speed_m_s": 0.0010917767767521828,
+      "tail_mean_pitch_deg": 0.07286593397031058,
+      "tail_pitch_range_deg": 0.7316765150469018,
+      "tail_mean_roll_deg": 4.815440753239377e-17,
+      "tail_support_weight_ratios": {
+        "buoyancy": 0.03274857603446637,
+        "wave_pressure": -0.0024952941892333507,
+        "volume_drag": -0.0062288233051055525,
+        "panel_pressure": 0.9674605782122806,
+        "skin_drag": -0.013558341258252298,
+        "paddles": 0.016164375878424557,
+        "air_drag": -5.124222770494553e-07
+      },
+      "tail_valid_fraction_of_tagged_dynamic_lift": 0.9370358292206152,
+      "tail_mean_motor_power_kw": 135.97417786539907,
+      "tail_mean_paddle_x_n": 4437.7393779883705,
+      "tail_mean_resistance_x_n": {
+        "buoyancy": 0.0,
+        "wave_pressure": -1.2771098304526673,
+        "volume_drag": -845.2996902397681,
+        "panel_pressure": -1484.6678081430848,
+        "skin_drag": -1840.513925083327,
+        "air_drag": -116.39370613941801
+      },
+      "energy_balance_relative_error": 0.06783294825019949,
+      "max_dissipative_relative_power_w": 0.0,
+      "finite_states": true,
+      "trajectory_sha256": "59b7080fe3f12db62450a4dda46ad2b2a86dc63327707cd98c77b92cc3f6afd8",
+      "outcome": "transient_or_unconfirmed"
+    }
+  ]
+}

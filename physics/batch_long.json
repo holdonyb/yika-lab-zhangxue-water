@@ -1,0 +1,46 @@
+{
+  "car_stop_large_floats_long": {
+    "solver": "MuJoCo 3.17.0",
+    "body_names": [
+      "chassis",
+      "rear_left_wheel",
+      "rear_right_wheel",
+      "front_left_wheel",
+      "front_right_wheel"
+    ],
+    "force_groups": [
+      "buoyancy",
+      "wave_pressure",
+      "volume_drag",
+      "panel_pressure",
+      "skin_drag",
+      "paddles",
+      "air_drag"
+    ],
+    "elapsed_wall_s": 1264.275359399995,
+    "simulated_s": 39.99999999999748,
+    "stop": "duration",
+    "grid_scale": 1,
+    "total_mass_kg": 1544.0,
+    "max_displacement_m3": 2.88622078631887,
+    "capacity_ratio": 1.86931398077647,
+    "final_speed_m_s": 0.012181471158953473,
+    "final_z_m": 0.35839396442904,
+    "max_abs_roll_deg": 3.0000000000000004,
+    "max_abs_pitch_deg": 0.9029420249890729,
+    "final_mean_buoyancy_weight_ratio": 1.0002991226259739,
+    "final_mean_dynamic_vertical_weight_ratio": 2.5262297539515184e-08,
+    "max_dissipative_relative_power_w": 0.0,
+    "initial_energy_j": 11674.922839609504,
+    "trajectory_sha256": "ae518e3e1b6f21788d4f477b66684734f6b7c2f2ad76d5f14063a7a3f00ff770",
+    "source_sha256": "20357f4c7d29238af982a7a1d9416462776ae0e1d8c0f97f9d1de6b017610693",
+    "clip_source_sha256": "5fded7c4d51c5d30b3988cac357b9fb1b9ce4268ef463667457e51fa0a3dd1c4",
+    "integrated_non_gravity_work_j": -7016.680862905976,
+    "mechanical_energy_change_j": -6995.161159916636,
+    "energy_balance_residual_j": 21.51970298933975,
+    "energy_balance_relative_error": 0.0014207575402425717,
+    "final_vertical_speed_m_s": -0.0010233357885660508,
+    "final_mean_vertical_speed_m_s": 0.0027307763405346897,
+    "total_drive_power_budget_w": 44000.0
+  }
+}

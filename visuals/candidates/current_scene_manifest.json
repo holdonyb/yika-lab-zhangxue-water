@@ -1,0 +1,40 @@
+{
+  "scope": "Current editable static scenes from corrected paddle sources; historical candidate blends excluded.",
+  "source_sha256": {
+    "paddle_geometry.py": "f94b52c58fb685101a20b044ad3429c2b8fdca864217b1afe88ed46d8ec794b0",
+    "motorcycle_geometry.py": "d912faa8d684a4b399d91083af11b2e52d18c5c92b0dc533345153f73d6f2dcf",
+    "render_scene.py": "66a3d01a9239ff559fa7b2843add687f278ecd72bc27b4610fe04b4603acff41"
+  },
+  "scenes": [
+    {
+      "path": "visuals/candidates/motorcycle_cutout.blend",
+      "sha256": "d9545ec585cbf21a3cfb26ac3e2929f6552daeaa9a2d7a238286951d30fbd56b",
+      "render_receipt": "visuals/candidates/motorcycle_cutout.render.json"
+    },
+    {
+      "path": "visuals/candidates/car_cutout.blend",
+      "sha256": "5ee4b65c54f4c93f2cab6868ec8e2bdd8575795b9488dc24babca64a2413487f",
+      "render_receipt": "visuals/candidates/car_cutout.render.json"
+    }
+  ],
+  "saved_scene_reopen_check": {
+    "passed": true,
+    "scope": "Saved static cup mesh and count, not animation or physical validation.",
+    "scenes": [
+      {
+        "path": "visuals/candidates/motorcycle_cutout.blend",
+        "sha256": "d9545ec585cbf21a3cfb26ac3e2929f6552daeaa9a2d7a238286951d30fbd56b",
+        "actual_saved_cup_count": 12,
+        "minimum_aperture_dot_positive_tangent": 0.9999999403953552,
+        "passed": true
+      },
+      {
+        "path": "visuals/candidates/car_cutout.blend",
+        "sha256": "5ee4b65c54f4c93f2cab6868ec8e2bdd8575795b9488dc24babca64a2413487f",
+        "actual_saved_cup_count": 24,
+        "minimum_aperture_dot_positive_tangent": 0.9999999105930328,
+        "passed": true
+      }
+    ]
+  }
+}

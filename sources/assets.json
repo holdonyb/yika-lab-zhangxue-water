@@ -1,0 +1,141 @@
+{
+  "checked_at": "2026-10-26",
+  "assets": [
+    {
+      "path": "sources/cctv_bilibili.mp4",
+      "publisher": "央视财经",
+      "date": "2026-10-24",
+      "url": "https://www.bilibili.com/video/BV18fHN69EDG/",
+      "duration": 140.736,
+      "width": 1080,
+      "height": 1920,
+      "observed": "Contact sheet every 4s and listed detail frames viewed",
+      "caution": "28s foreign record illustration; 10.24 pre-event reporting",
+      "shots": [
+        {
+          "start": 32,
+          "end": 38,
+          "content": "rear paddle and fixed ski structure"
+        },
+        {
+          "start": 43,
+          "end": 49,
+          "content": "narrow rear ski and bracket"
+        },
+        {
+          "start": 59,
+          "end": 63,
+          "content": "front upturned ski and wheel slot"
+        },
+        {
+          "start": 78,
+          "end": 83,
+          "content": "rear cupped paddles"
+        }
+      ],
+      "bytes": 38781782,
+      "sha256": "10943dc2fc75d111e80e5c959189e9fa83f1bd559efa9cce90b69403ca411af5",
+      "rights": "Third-party news material; retain attribution and watermark; no publication performed or rights clearance claimed."
+    },
+    {
+      "path": "sources/changsha_trial_20261024.mp4",
+      "publisher": "长沙晚报/辣视频",
+      "date": "2026-10-24",
+      "url": "https://arts.icswb.com/h/151/20261024/1001358.html",
+      "media_url": "https://cswb-media.icswb.com:8089/wangshanqi//20261024mayang.mp4",
+      "duration": 28.444,
+      "width": 1080,
+      "height": 1920,
+      "observed": "Contact sheet every 2s plus 5s full frame viewed",
+      "caution": "Trial, not final 40.74km run",
+      "shots": [
+        {
+          "start": 4,
+          "end": 7,
+          "content": "clear moving side view"
+        },
+        {
+          "start": 8,
+          "end": 11,
+          "content": "aerial with escort boats"
+        },
+        {
+          "start": 18,
+          "end": 21,
+          "content": "front moving view"
+        }
+      ],
+      "bytes": 36440911,
+      "sha256": "7432a672a2873a4ac7c79f384993f15d834b79200455136df871911324ae70dc",
+      "rights": "Third-party news material; retain attribution and watermark; no publication performed or rights clearance claimed."
+    },
+    {
+      "path": "sources/xinhua_1.jpg",
+      "publisher": "新华社/陈思汗",
+      "date": "2026-10-25",
+      "url": "https://www.xinhuanet.com/photo/20261025/e24ce7e2168f4f0dac3c33bb2f8cda08/c.html",
+      "observed": true,
+      "content": "official event still",
+      "caution": "No speed or wave height measurement from photograph",
+      "bytes": 1315423,
+      "sha256": "6d1d6c2822ee1fa3a9b6a8336e475b7890b12539ec76d90047cd464eb1af1d4e",
+      "rights": "Third-party news material; retain attribution and watermark; no publication performed or rights clearance claimed."
+    },
+    {
+      "path": "sources/xinhua_2.jpg",
+      "publisher": "新华社/陈思汗",
+      "date": "2026-10-25",
+      "url": "https://www.xinhuanet.com/photo/20261025/e24ce7e2168f4f0dac3c33bb2f8cda08/c.html",
+      "observed": true,
+      "content": "official event still",
+      "caution": "No speed or wave height measurement from photograph",
+      "bytes": 1126823,
+      "sha256": "c48512e60db1dadfecf804ea8c0679b5d300a3be5497ba15b5467e6f4f37b375",
+      "rights": "Third-party news material; retain attribution and watermark; no publication performed or rights clearance claimed."
+    },
+    {
+      "path": "sources/xinhua_3.jpg",
+      "publisher": "新华社/陈思汗",
+      "date": "2026-10-25",
+      "url": "https://www.xinhuanet.com/photo/20261025/e24ce7e2168f4f0dac3c33bb2f8cda08/c.html",
+      "observed": true,
+      "content": "official event still",
+      "caution": "No speed or wave height measurement from photograph",
+      "bytes": 1095707,
+      "sha256": "a285aefa3e17b19e49c83a282b25671307dcabd79e8f38541882e8c87d63d60e",
+      "rights": "Third-party news material; retain attribution and watermark; no publication performed or rights clearance claimed."
+    },
+    {
+      "path": "sources/xinhua_event_20261025.mp4",
+      "publisher": "新华社",
+      "date": "2026-10-25",
+      "url": "https://www.xinhuanet.com/20261025/db3de9ebf9ab426bbaea915e46091574/c.html",
+      "media_url": "https://vodpub6.v.news.cn/yqfbzx-original/20261025/1de52f4e9177433c9bba8c8110829e39.mp4",
+      "duration": 50.026667,
+      "width": 1080,
+      "height": 1440,
+      "observed": "Every-3s contact sheet viewed; 20s/33s detail frames extracted",
+      "shots": [
+        {
+          "start": 6,
+          "end": 9,
+          "content": "front moving and aerial"
+        },
+        {
+          "start": 18,
+          "end": 23,
+          "content": "close rear side view"
+        },
+        {
+          "start": 30,
+          "end": 37,
+          "content": "front approach"
+        }
+      ],
+      "caution": "104 kg interview statement is not verified loaded modified total mass",
+      "rights": "Third-party news material; retain attribution and watermark; no publication or rights clearance claimed.",
+      "bytes": 10297479,
+      "sha256": "87aed8f501558f23f641c8b3f202562648fcb9ca99e4debb0e0b488193331bc2"
+    }
+  ]
+}

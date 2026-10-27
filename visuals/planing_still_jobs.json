@@ -1,0 +1,14 @@
+[
+  {
+    "id": "pln_wide_low_clear_v15_t3_p44_high_t0_structure",
+    "run": "pln_wide_low_clear_v15_t3_p44",
+    "camera": "high",
+    "time": 0
+  },
+  {
+    "id": "pln_four_skis_v15_t0_p44_high_t0_structure",
+    "run": "pln_four_skis_v15_t0_p44",
+    "camera": "high",
+    "time": 0
+  }
+]

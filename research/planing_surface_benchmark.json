@@ -1,0 +1,314 @@
+{
+  "reference": "Savitsky 1964 flat-surface dynamic term and dynamic center of pressure; geometric static buoyancy deliberately excluded from this bench",
+  "source_pdf": "research/savitsky1964_review.pdf",
+  "surface": "3.3 m x 1.4 m, zero deadrise, 512 x 2 integration cells, finite-thickness top/bottom treatment",
+  "scope": "Agreement of integrated dynamic force and moment with published correlation; not experimental validation of the hybrid vehicle model or waves",
+  "passed": true,
+  "cases": [
+    {
+      "speed_m_s": 15.0,
+      "trim_deg": 3.0,
+      "lambda": 0.75,
+      "Cv": 4.047554801227329,
+      "reference_dynamic_lift_n": 7672.799536334165,
+      "reference_dynamic_cp_m": 0.7875,
+      "frozen_local_closure": {
+        "lift_n": 12972.03077883997,
+        "dynamic_cp_from_transom_m": 0.5252929687499928,
+        "relative_power_w": -10197.529888654006,
+        "wet_length_m": 1.0505859374999997,
+        "reported_cp_error_m": null
+      },
+      "planing_branch": {
+        "lift_n": 7674.940085834965,
+        "dynamic_cp_from_transom_m": 0.7879320389687718,
+        "relative_power_w": -6033.398490435061,
+        "wet_length_m": 1.0505859374999997,
+        "reported_cp_error_m": 7.414156227736335e-06
+      },
+      "lift_relative_error": 0.0002789789425181599,
+      "cp_absolute_error_m": 0.000432038968771864,
+      "passed": true
+    },
+    {
+      "speed_m_s": 15.0,
+      "trim_deg": 3.0,
+      "lambda": 1.5,
+      "Cv": 4.047554801227329,
+      "reference_dynamic_lift_n": 10850.977165653772,
+      "reference_dynamic_cp_m": 1.575,
+      "frozen_local_closure": {
+        "lift_n": 25944.061557679754,
+        "dynamic_cp_from_transom_m": 1.0505859374999917,
+        "relative_power_w": -20395.05977730801,
+        "wet_length_m": 2.1011718749999995,
+        "reported_cp_error_m": null
+      },
+      "planing_branch": {
+        "lift_n": 10854.004359788723,
+        "dynamic_cp_from_transom_m": 1.575875199198047,
+        "relative_power_w": -8532.513972374622,
+        "wet_length_m": 2.1011718749999995,
+        "reported_cp_error_m": 3.7070519522952594e-06
+      },
+      "lift_relative_error": 0.0002789789425170497,
+      "cp_absolute_error_m": 0.0008751991980471274,
+      "passed": true
+    },
+    {
+      "speed_m_s": 15.0,
+      "trim_deg": 3.0,
+      "lambda": 2.357142857142857,
+      "Cv": 4.047554801227329,
+      "reference_dynamic_lift_n": 13602.419742430995,
+      "reference_dynamic_cp_m": 2.4749999999999996,
+      "frozen_local_closure": {
+        "lift_n": 40746.5015875222,
+        "dynamic_cp_from_transom_m": 1.65,
+        "relative_power_w": -32031.50492632424,
+        "wet_length_m": 3.3,
+        "reported_cp_error_m": null
+      },
+      "planing_branch": {
+        "lift_n": 13602.419742431004,
+        "dynamic_cp_from_transom_m": 2.474997639653815,
+        "relative_power_w": -10693.089173649088,
+        "wet_length_m": 3.3,
+        "reported_cp_error_m": 2.3603461842824913e-06
+      },
+      "lift_relative_error": 6.661338147750939e-16,
+      "cp_absolute_error_m": 2.3603461847265805e-06,
+      "passed": true
+    },
+    {
+      "speed_m_s": 15.0,
+      "trim_deg": 6.0,
+      "lambda": 0.75,
+      "Cv": 4.047554801227329,
+      "reference_dynamic_lift_n": 16447.005852807466,
+      "reference_dynamic_cp_m": 0.7875,
+      "frozen_local_closure": {
+        "lift_n": 25801.937273895044,
+        "dynamic_cp_from_transom_m": 0.5252929687499963,
+        "relative_power_w": -40678.39328318561,
+        "wet_length_m": 1.0505859374999997,
+        "reported_cp_error_m": null
+      },
+      "planing_branch": {
+        "lift_n": 16451.594221107865,
+        "dynamic_cp_from_transom_m": 0.7879320389687724,
+        "relative_power_w": -25936.98344266147,
+        "wet_length_m": 1.0505859374999997,
+        "reported_cp_error_m": 7.414156227736335e-06
+      },
+      "lift_relative_error": 0.0002789789425177158,
+      "cp_absolute_error_m": 0.0004320389687724191,
+      "passed": true
+    },
+    {
+      "speed_m_s": 15.0,
+      "trim_deg": 6.0,
+      "lambda": 1.5,
+      "Cv": 4.047554801227329,
+      "reference_dynamic_lift_n": 23259.57873746999,
+      "reference_dynamic_cp_m": 1.575,
+      "frozen_local_closure": {
+        "lift_n": 51603.87454779086,
+        "dynamic_cp_from_transom_m": 1.0505859375000064,
+        "relative_power_w": -81356.78656637121,
+        "wet_length_m": 2.1011718749999995,
+        "reported_cp_error_m": null
+      },
+      "planing_branch": {
+        "lift_n": 23266.067670149554,
+        "dynamic_cp_from_transom_m": 1.575875199198047,
+        "relative_power_w": -36680.43375165825,
+        "wet_length_m": 2.1011718749999995,
+        "reported_cp_error_m": 3.707051952517304e-06
+      },
+      "lift_relative_error": 0.00027897894251682764,
+      "cp_absolute_error_m": 0.0008751991980471274,
+      "passed": true
+    },
+    {
+      "speed_m_s": 15.0,
+      "trim_deg": 6.0,
+      "lambda": 2.357142857142857,
+      "Cv": 4.047554801227329,
+      "reference_dynamic_lift_n": 29157.4250124346,
+      "reference_dynamic_cp_m": 2.4749999999999996,
+      "frozen_local_closure": {
+        "lift_n": 81046.57597689792,
+        "dynamic_cp_from_transom_m": 1.65,
+        "relative_power_w": -127775.0758343008,
+        "wet_length_m": 3.3,
+        "reported_cp_error_m": null
+      },
+      "planing_branch": {
+        "lift_n": 29157.425012434593,
+        "dynamic_cp_from_transom_m": 2.474997639653815,
+        "relative_power_w": -45968.532873723685,
+        "wet_length_m": 3.3,
+        "reported_cp_error_m": 2.360346183838402e-06
+      },
+      "lift_relative_error": 2.220446049250313e-16,
+      "cp_absolute_error_m": 2.3603461847265805e-06,
+      "passed": true
+    },
+    {
+      "speed_m_s": 15.0,
+      "trim_deg": 9.0,
+      "lambda": 0.75,
+      "Cv": 4.047554801227329,
+      "reference_dynamic_lift_n": 25691.36811665748,
+      "reference_dynamic_cp_m": 0.7875,
+      "frozen_local_closure": {
+        "lift_n": 38349.15234477511,
+        "dynamic_cp_from_transom_m": 0.5252929687500023,
+        "relative_power_w": -91108.6354657136,
+        "wet_length_m": 1.0505859374999997,
+        "reported_cp_error_m": null
+      },
+      "planing_branch": {
+        "lift_n": 25698.5354673665,
+        "dynamic_cp_from_transom_m": 0.7879320389687715,
+        "relative_power_w": -61053.72235738633,
+        "wet_length_m": 1.0505859374999997,
+        "reported_cp_error_m": 7.414156227847357e-06
+      },
+      "lift_relative_error": 0.0002789789425177158,
+      "cp_absolute_error_m": 0.0004320389687715309,
+      "passed": true
+    },
+    {
+      "speed_m_s": 15.0,
+      "trim_deg": 9.0,
+      "lambda": 1.5,
+      "Cv": 4.047554801227329,
+      "reference_dynamic_lift_n": 36333.08122649673,
+      "reference_dynamic_cp_m": 1.575,
+      "frozen_local_closure": {
+        "lift_n": 76698.30468954945,
+        "dynamic_cp_from_transom_m": 1.0505859374999953,
+        "relative_power_w": -182217.2709314272,
+        "wet_length_m": 2.1011718749999995,
+        "reported_cp_error_m": null
+      },
+      "planing_branch": {
+        "lift_n": 36343.2173910757,
+        "dynamic_cp_from_transom_m": 1.575875199198047,
+        "relative_power_w": -86343.00219117718,
+        "wet_length_m": 2.1011718749999995,
+        "reported_cp_error_m": 3.7070519522952594e-06
+      },
+      "lift_relative_error": 0.00027897894251727173,
+      "cp_absolute_error_m": 0.0008751991980471274,
+      "passed": true
+    },
+    {
+      "speed_m_s": 15.0,
+      "trim_deg": 9.0,
+      "lambda": 2.357142857142857,
+      "Cv": 4.047554801227329,
+      "reference_dynamic_lift_n": 45545.927692390585,
+      "reference_dynamic_cp_m": 2.4749999999999996,
+      "frozen_local_closure": {
+        "lift_n": 120458.68711978274,
+        "dynamic_cp_from_transom_m": 1.6500000000000001,
+        "relative_power_w": -286181.72612543165,
+        "wet_length_m": 3.3,
+        "reported_cp_error_m": null
+      },
+      "planing_branch": {
+        "lift_n": 45545.927692390556,
+        "dynamic_cp_from_transom_m": 2.4749976396538163,
+        "relative_power_w": -108206.49399931621,
+        "wet_length_m": 3.3,
+        "reported_cp_error_m": 2.360346183838402e-06
+      },
+      "lift_relative_error": 6.661338147750939e-16,
+      "cp_absolute_error_m": 2.360346183394313e-06,
+      "passed": true
+    },
+    {
+      "speed_m_s": 5.0,
+      "trim_deg": 6.0,
+      "lambda": 1.5,
+      "Cv": 1.3491849337424429,
+      "reference_dynamic_lift_n": 2584.3976374966655,
+      "reference_dynamic_cp_m": 1.575,
+      "frozen_local_closure": {
+        "lift_n": 5733.7638386434155,
+        "dynamic_cp_from_transom_m": 1.0505859375000064,
+        "relative_power_w": -3013.214317273009,
+        "wet_length_m": 2.1011718749999995,
+        "reported_cp_error_m": null
+      },
+      "planing_branch": {
+        "lift_n": 2585.1186300166187,
+        "dynamic_cp_from_transom_m": 1.5758751991980469,
+        "relative_power_w": -1358.5345833947504,
+        "wet_length_m": 2.1011718749999995,
+        "reported_cp_error_m": 3.7070519522952594e-06
+      },
+      "lift_relative_error": 0.00027897894251727173,
+      "cp_absolute_error_m": 0.0008751991980469054,
+      "passed": true
+    },
+    {
+      "speed_m_s": 10.0,
+      "trim_deg": 6.0,
+      "lambda": 1.5,
+      "Cv": 2.6983698674848857,
+      "reference_dynamic_lift_n": 10337.590549986662,
+      "reference_dynamic_cp_m": 1.575,
+      "frozen_local_closure": {
+        "lift_n": 22935.055354573662,
+        "dynamic_cp_from_transom_m": 1.0505859375000064,
+        "relative_power_w": -24105.71453818407,
+        "wet_length_m": 2.1011718749999995,
+        "reported_cp_error_m": null
+      },
+      "planing_branch": {
+        "lift_n": 10340.474520066475,
+        "dynamic_cp_from_transom_m": 1.5758751991980469,
+        "relative_power_w": -10868.276667158003,
+        "wet_length_m": 2.1011718749999995,
+        "reported_cp_error_m": 3.7070519522952594e-06
+      },
+      "lift_relative_error": 0.00027897894251727173,
+      "cp_absolute_error_m": 0.0008751991980469054,
+      "passed": true
+    },
+    {
+      "speed_m_s": 20.0,
+      "trim_deg": 6.0,
+      "lambda": 1.5,
+      "Cv": 5.396739734969771,
+      "reference_dynamic_lift_n": 41350.36219994665,
+      "reference_dynamic_cp_m": 1.575,
+      "frozen_local_closure": {
+        "lift_n": 91740.22141829465,
+        "dynamic_cp_from_transom_m": 1.0505859375000064,
+        "relative_power_w": -192845.71630547257,
+        "wet_length_m": 2.1011718749999995,
+        "reported_cp_error_m": null
+      },
+      "planing_branch": {
+        "lift_n": 41361.8980802659,
+        "dynamic_cp_from_transom_m": 1.5758751991980469,
+        "relative_power_w": -86946.21333726402,
+        "wet_length_m": 2.1011718749999995,
+        "reported_cp_error_m": 3.7070519522952594e-06
+      },
+      "lift_relative_error": 0.00027897894251727173,
+      "cp_absolute_error_m": 0.0008751991980469054,
+      "passed": true
+    }
+  ],
+  "source_hashes": {
+    "hydro.py": "20357f4c7d29238af982a7a1d9416462776ae0e1d8c0f97f9d1de6b017610693",
+    "hydro_planing.py": "4ee1a5ba360123179ab01ed0578f06d075c99d324b4ad87ca06208b16300d641",
+    "planing_surface.py": "0f550ff57f3669992849179b2b62c532141f183f1404c3bd49cfff01580d9e90"
+  }
+}

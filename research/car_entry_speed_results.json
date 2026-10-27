@@ -1,0 +1,350 @@
+{
+  "question": "Can the car enter at 15 m/s rather than the chosen 5 m/s?",
+  "scope": "Same frozen quasi-steady water-force model; only initial speed changes in primary comparison. Separate control sensitivity raises wheel-speed target while keeping torque and power budgets unchanged.",
+  "source_sha256": "20357f4c7d29238af982a7a1d9416462776ae0e1d8c0f97f9d1de6b017610693",
+  "changed_parameters": [
+    {
+      "name": "car_no_mod_entry15",
+      "baseline": "car_no_mod_final",
+      "changed_parameters": {
+        "initial_speed": {
+          "baseline": 5.0,
+          "new": 15.0
+        }
+      }
+    },
+    {
+      "name": "car_paddles_entry15",
+      "baseline": "car_paddles_final",
+      "changed_parameters": {
+        "initial_speed": {
+          "baseline": 5.0,
+          "new": 15.0
+        }
+      }
+    },
+    {
+      "name": "car_paddles_entry15_target60",
+      "baseline": "car_paddles_final",
+      "changed_parameters": {
+        "initial_speed": {
+          "baseline": 5.0,
+          "new": 15.0
+        },
+        "wheel_target_rad_s": {
+          "baseline": 29.0,
+          "new": 60.0
+        }
+      }
+    },
+    {
+      "name": "car_small_floats_entry15",
+      "baseline": "car_small_floats_final",
+      "changed_parameters": {
+        "initial_speed": {
+          "baseline": 5.0,
+          "new": 15.0
+        }
+      }
+    },
+    {
+      "name": "car_small_floats_entry15_target60",
+      "baseline": "car_small_floats_final",
+      "changed_parameters": {
+        "initial_speed": {
+          "baseline": 5.0,
+          "new": 15.0
+        },
+        "wheel_target_rad_s": {
+          "baseline": 29.0,
+          "new": 60.0
+        }
+      }
+    },
+    {
+      "name": "car_large_floats_entry15",
+      "baseline": "car_large_floats_final",
+      "changed_parameters": {
+        "initial_speed": {
+          "baseline": 5.0,
+          "new": 15.0
+        }
+      }
+    },
+    {
+      "name": "car_large_floats_entry15_target60",
+      "baseline": "car_large_floats_final",
+      "changed_parameters": {
+        "initial_speed": {
+          "baseline": 5.0,
+          "new": 15.0
+        },
+        "wheel_target_rad_s": {
+          "baseline": 29.0,
+          "new": 60.0
+        }
+      }
+    }
+  ],
+  "baselines": [
+    {
+      "name": "car_no_mod_final",
+      "variant": "no_mod",
+      "initial_speed_m_s": 5.0,
+      "wheel_target_rad_s": 29.0,
+      "duration_s": 3.249999999999753,
+      "stop": "body reference origin below -3.5 m; experiment stopped",
+      "end_horizontal_speed_m_s": 2.473246423228567,
+      "final_z_m": -3.5292847419053732,
+      "final_vertical_speed_m_s": -1.6572641777637307,
+      "tail_mean_horizontal_speed_m_s": 2.41583830825807,
+      "tail_buoyancy_weight_ratio": 0.1925577045134779,
+      "tail_panel_support_weight_ratio": 0.7093831216561047,
+      "initial_motor_power_w": 0.0,
+      "tail_mean_paddle_x_n": 0.0,
+      "max_abs_pitch_deg": 14.610687711483369,
+      "energy_balance_relative_error": 0.00021659933440427306,
+      "max_dissipative_relative_power_w": 0.0,
+      "trajectory_sha256": "9584c946d57f11cc6c6923ceaf42acfc0129adf4eb57f27b1540eb629ad9f632",
+      "source_sha256": "20357f4c7d29238af982a7a1d9416462776ae0e1d8c0f97f9d1de6b017610693",
+      "finite_states": true,
+      "observed_outcome": "submerged"
+    },
+    {
+      "name": "car_paddles_final",
+      "variant": "paddles",
+      "initial_speed_m_s": 5.0,
+      "wheel_target_rad_s": 29.0,
+      "duration_s": 3.124999999999767,
+      "stop": "body reference origin below -3.5 m; experiment stopped",
+      "end_horizontal_speed_m_s": 1.835524475627531,
+      "final_z_m": -3.504784996212419,
+      "final_vertical_speed_m_s": -1.801255855463268,
+      "tail_mean_horizontal_speed_m_s": 1.7902213564388978,
+      "tail_buoyancy_weight_ratio": 0.189312349943026,
+      "tail_panel_support_weight_ratio": 0.6265260845192049,
+      "initial_motor_power_w": 7647.058823529412,
+      "tail_mean_paddle_x_n": -1276.3434172922405,
+      "max_abs_pitch_deg": 20.578312849281456,
+      "energy_balance_relative_error": 0.00026938742895062405,
+      "max_dissipative_relative_power_w": 0.0,
+      "trajectory_sha256": "9cd7bd130cd4e5d37942eed322b593ab3b9c7dbb915988c3142d31762c25985b",
+      "source_sha256": "20357f4c7d29238af982a7a1d9416462776ae0e1d8c0f97f9d1de6b017610693",
+      "finite_states": true,
+      "observed_outcome": "submerged"
+    },
+    {
+      "name": "car_small_floats_final",
+      "variant": "small_floats",
+      "initial_speed_m_s": 5.0,
+      "wheel_target_rad_s": 29.0,
+      "duration_s": 4.4999999999998375,
+      "stop": "body reference origin below -3.5 m; experiment stopped",
+      "end_horizontal_speed_m_s": 1.4495372049652486,
+      "final_z_m": -3.503134549975231,
+      "final_vertical_speed_m_s": -1.2741536759633854,
+      "tail_mean_horizontal_speed_m_s": 1.2866599656896287,
+      "tail_buoyancy_weight_ratio": 0.49286355227320017,
+      "tail_panel_support_weight_ratio": 0.40613725671851475,
+      "initial_motor_power_w": 7647.058823529412,
+      "tail_mean_paddle_x_n": -824.4158968692342,
+      "max_abs_pitch_deg": 20.856218676384447,
+      "energy_balance_relative_error": 0.00035527151742613416,
+      "max_dissipative_relative_power_w": 0.0,
+      "trajectory_sha256": "87518fb13a1d41ff2805d61a78ac4333192613ea61660abd535d0a32c1cc9e15",
+      "source_sha256": "20357f4c7d29238af982a7a1d9416462776ae0e1d8c0f97f9d1de6b017610693",
+      "finite_states": true,
+      "observed_outcome": "submerged"
+    },
+    {
+      "name": "car_large_floats_final",
+      "variant": "large_floats",
+      "initial_speed_m_s": 5.0,
+      "wheel_target_rad_s": 29.0,
+      "duration_s": 11.999999999998789,
+      "stop": "duration",
+      "end_horizontal_speed_m_s": 1.6762823486825027,
+      "final_z_m": 0.36511974058378016,
+      "final_vertical_speed_m_s": 0.00034560625493330156,
+      "tail_mean_horizontal_speed_m_s": 1.687373331175151,
+      "tail_buoyancy_weight_ratio": 0.9748124881357785,
+      "tail_panel_support_weight_ratio": 0.02563110512724192,
+      "initial_motor_power_w": 7647.058823529412,
+      "tail_mean_paddle_x_n": 424.56961801046316,
+      "max_abs_pitch_deg": 1.1965916647028525,
+      "energy_balance_relative_error": 0.0008494143001736549,
+      "max_dissipative_relative_power_w": 0.0,
+      "trajectory_sha256": "dce05bc4e2aed34f09f5f2eab6f13b7b0dc9da3b65ee25f6f617fe49adbf0156",
+      "source_sha256": "20357f4c7d29238af982a7a1d9416462776ae0e1d8c0f97f9d1de6b017610693",
+      "finite_states": true,
+      "observed_outcome": "afloat_at_end"
+    }
+  ],
+  "new_cases": [
+    {
+      "name": "car_no_mod_entry15",
+      "variant": "no_mod",
+      "initial_speed_m_s": 15.0,
+      "wheel_target_rad_s": 29.0,
+      "duration_s": 2.749999999999808,
+      "stop": "body reference origin below -3.5 m; experiment stopped",
+      "end_horizontal_speed_m_s": 3.3333429779605934,
+      "final_z_m": -3.513395436211025,
+      "final_vertical_speed_m_s": -2.302996204544046,
+      "tail_mean_horizontal_speed_m_s": 4.482018849753065,
+      "tail_buoyancy_weight_ratio": 0.1885651759955201,
+      "tail_panel_support_weight_ratio": 0.5828342781010794,
+      "initial_motor_power_w": 0.0,
+      "tail_mean_paddle_x_n": 0.0,
+      "max_abs_pitch_deg": 25.757749164082355,
+      "energy_balance_relative_error": 0.0006751046947263369,
+      "max_dissipative_relative_power_w": 0.0,
+      "trajectory_sha256": "f9cd2beeaedb4f943e54b0934b59bc8f842ffd4ccadf0522a36156f4a5132d0b",
+      "source_sha256": "20357f4c7d29238af982a7a1d9416462776ae0e1d8c0f97f9d1de6b017610693",
+      "finite_states": true,
+      "observed_outcome": "submerged"
+    },
+    {
+      "name": "car_paddles_entry15",
+      "variant": "paddles",
+      "initial_speed_m_s": 15.0,
+      "wheel_target_rad_s": 29.0,
+      "duration_s": 2.9999999999997806,
+      "stop": "body reference origin below -3.5 m; experiment stopped",
+      "end_horizontal_speed_m_s": 2.1265893035896837,
+      "final_z_m": -3.5183253918614765,
+      "final_vertical_speed_m_s": -2.0374618808552696,
+      "tail_mean_horizontal_speed_m_s": 2.6844176616694906,
+      "tail_buoyancy_weight_ratio": 0.189312349943026,
+      "tail_panel_support_weight_ratio": 0.5519667479333268,
+      "initial_motor_power_w": -22941.176470588234,
+      "tail_mean_paddle_x_n": -2572.8409903425118,
+      "max_abs_pitch_deg": 27.40279019660961,
+      "energy_balance_relative_error": 0.0007226247077527848,
+      "max_dissipative_relative_power_w": 0.0,
+      "trajectory_sha256": "a9a69ad4f85d3cf7baf8e87a5402b6e4dcfc225e238f7569ed54d8006b1595bd",
+      "source_sha256": "20357f4c7d29238af982a7a1d9416462776ae0e1d8c0f97f9d1de6b017610693",
+      "finite_states": true,
+      "observed_outcome": "submerged"
+    },
+    {
+      "name": "car_paddles_entry15_target60",
+      "variant": "paddles",
+      "initial_speed_m_s": 15.0,
+      "wheel_target_rad_s": 60.0,
+      "duration_s": 3.0209999999997783,
+      "stop": "body reference origin below -3.5 m; experiment stopped",
+      "end_horizontal_speed_m_s": 2.1498094453449266,
+      "final_z_m": -3.530911183108856,
+      "final_vertical_speed_m_s": -2.1164928056525043,
+      "tail_mean_horizontal_speed_m_s": 2.6719237162087484,
+      "tail_buoyancy_weight_ratio": 0.189312349943026,
+      "tail_panel_support_weight_ratio": 0.555485206374804,
+      "initial_motor_power_w": 22941.176470588234,
+      "tail_mean_paddle_x_n": -2527.5832225179156,
+      "max_abs_pitch_deg": 28.965078695271025,
+      "energy_balance_relative_error": 0.0007836753737142949,
+      "max_dissipative_relative_power_w": 0.0,
+      "trajectory_sha256": "ed739b4df4fbfec52c09047f882557efa50a5e3994ceb60d227acf81844f10a0",
+      "source_sha256": "20357f4c7d29238af982a7a1d9416462776ae0e1d8c0f97f9d1de6b017610693",
+      "finite_states": true,
+      "observed_outcome": "submerged"
+    },
+    {
+      "name": "car_small_floats_entry15",
+      "variant": "small_floats",
+      "initial_speed_m_s": 15.0,
+      "wheel_target_rad_s": 29.0,
+      "duration_s": 3.9169999999996796,
+      "stop": "body reference origin below -3.5 m; experiment stopped",
+      "end_horizontal_speed_m_s": 1.7448513121158509,
+      "final_z_m": -3.5326349025548023,
+      "final_vertical_speed_m_s": -1.6071244190265284,
+      "tail_mean_horizontal_speed_m_s": 1.7635152884207417,
+      "tail_buoyancy_weight_ratio": 0.49286355227320017,
+      "tail_panel_support_weight_ratio": 0.37110948884994016,
+      "initial_motor_power_w": -22941.176470588234,
+      "tail_mean_paddle_x_n": -1233.7504866166946,
+      "max_abs_pitch_deg": 30.4330233229846,
+      "energy_balance_relative_error": 0.0006248001637422224,
+      "max_dissipative_relative_power_w": 0.0,
+      "trajectory_sha256": "df32b6732d6874ca59842bc2c94d581f575cd4493293ad26309bea6faba055b6",
+      "source_sha256": "20357f4c7d29238af982a7a1d9416462776ae0e1d8c0f97f9d1de6b017610693",
+      "finite_states": true,
+      "observed_outcome": "submerged"
+    },
+    {
+      "name": "car_small_floats_entry15_target60",
+      "variant": "small_floats",
+      "initial_speed_m_s": 15.0,
+      "wheel_target_rad_s": 60.0,
+      "duration_s": 3.9999999999996705,
+      "stop": "body reference origin below -3.5 m; experiment stopped",
+      "end_horizontal_speed_m_s": 1.7420722037824092,
+      "final_z_m": -3.5306397158362115,
+      "final_vertical_speed_m_s": -1.6028075788019165,
+      "tail_mean_horizontal_speed_m_s": 1.7456586489876227,
+      "tail_buoyancy_weight_ratio": 0.49286355227320017,
+      "tail_panel_support_weight_ratio": 0.3725150027553104,
+      "initial_motor_power_w": 22941.176470588234,
+      "tail_mean_paddle_x_n": -1215.2328686393805,
+      "max_abs_pitch_deg": 30.27366165404921,
+      "energy_balance_relative_error": 0.0006596242068690199,
+      "max_dissipative_relative_power_w": 0.0,
+      "trajectory_sha256": "be5abbac5568c0e956309d8d4fb2bb21c9451142341ecd02cf2e884494b6d7e1",
+      "source_sha256": "20357f4c7d29238af982a7a1d9416462776ae0e1d8c0f97f9d1de6b017610693",
+      "finite_states": true,
+      "observed_outcome": "submerged"
+    },
+    {
+      "name": "car_large_floats_entry15",
+      "variant": "large_floats",
+      "initial_speed_m_s": 15.0,
+      "wheel_target_rad_s": 29.0,
+      "duration_s": 11.999999999998789,
+      "stop": "duration",
+      "end_horizontal_speed_m_s": 1.6570203250740116,
+      "final_z_m": 0.3649115799966697,
+      "final_vertical_speed_m_s": -0.00017818623703364913,
+      "tail_mean_horizontal_speed_m_s": 1.6578688626906164,
+      "tail_buoyancy_weight_ratio": 0.975488299517688,
+      "tail_panel_support_weight_ratio": 0.024970034861143218,
+      "initial_motor_power_w": -22941.176470588234,
+      "tail_mean_paddle_x_n": 428.64055898153083,
+      "max_abs_pitch_deg": 10.425274999482413,
+      "energy_balance_relative_error": 0.000564534316293529,
+      "max_dissipative_relative_power_w": 0.0,
+      "trajectory_sha256": "daf825a31ff86d64c7db2548030b74805aad83063d596cdf7ed6d1de4040d437",
+      "source_sha256": "20357f4c7d29238af982a7a1d9416462776ae0e1d8c0f97f9d1de6b017610693",
+      "finite_states": true,
+      "observed_outcome": "afloat_at_end"
+    },
+    {
+      "name": "car_large_floats_entry15_target60",
+      "variant": "large_floats",
+      "initial_speed_m_s": 15.0,
+      "wheel_target_rad_s": 60.0,
+      "duration_s": 11.999999999998789,
+      "stop": "duration",
+      "end_horizontal_speed_m_s": 1.6599814305212641,
+      "final_z_m": 0.36497390848924566,
+      "final_vertical_speed_m_s": 0.0004038532486841566,
+      "tail_mean_horizontal_speed_m_s": 1.6623583319191981,
+      "tail_buoyancy_weight_ratio": 0.9753860398926291,
+      "tail_panel_support_weight_ratio": 0.02504966423145579,
+      "initial_motor_power_w": 22941.176470588234,
+      "tail_mean_paddle_x_n": 427.13905559713305,
+      "max_abs_pitch_deg": 9.58098574298593,
+      "energy_balance_relative_error": 0.0005715749885339505,
+      "max_dissipative_relative_power_w": 0.0,
+      "trajectory_sha256": "95f6c8bc6fb42c5cdaae5a2e7fa21639700c5d004eb61ce162aa8f9ee61c6a8f",
+      "source_sha256": "20357f4c7d29238af982a7a1d9416462776ae0e1d8c0f97f9d1de6b017610693",
+      "finite_states": true,
+      "observed_outcome": "afloat_at_end"
+    }
+  ],
+  "controller_note": "Baseline wheel target is 29 rad/s, blade radius 0.405 m. A 15 m/s launch initializes the wheels at 15/0.34=44.12 rad/s, above that target, so the baseline motor controller initially brakes. Target60 cases distinguish this controller choice from initial-speed sensitivity. Torque remains 260 Nm and power 22 kW per driven wheel.",
+  "physical_limits": "These are uncalibrated parameter experiments, not an optimized planing-car design or real-car performance predictions.",
+  "new_resolution_comparison": "not yet performed",
+  "all_states_finite": true
+}

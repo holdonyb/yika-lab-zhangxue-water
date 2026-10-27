@@ -1,0 +1,130 @@
+{
+  "pass": true,
+  "scope": "Current film-used direction-repaired source clips and declared stills; old unused sources remain historical.",
+  "usable_videos": 19,
+  "total_video_duration_s": 114,
+  "total_video_frames": 2736,
+  "stills": 6,
+  "still_checks": [
+    {
+      "id": "bike_light_final_front_t6_still",
+      "pass": true,
+      "sha256": "c7b3052e758b8348a901bc7ec7f71820471f5554287c480292582c60671c704f"
+    },
+    {
+      "id": "bike_wide_final_front_t6_still",
+      "pass": true,
+      "sha256": "9a110c7fdd15f06562816fc10e518f211d4214d7ae32c8f60a935e0b4bdf63d6"
+    },
+    {
+      "id": "car_no_mod_final_front_t0_still",
+      "pass": true,
+      "sha256": "411ead93666e6f9e4d7b5a47387003c3665992e217a7481472d3812d95353f78"
+    },
+    {
+      "id": "car_paddles_final_front_t0_still",
+      "pass": true,
+      "sha256": "299217eb02daeeb7d252ea4dc80be872390cfa47105663775d7e572868265128"
+    },
+    {
+      "id": "car_small_floats_final_front_t0_still",
+      "pass": true,
+      "sha256": "14e10ec9774617edb2382cd1cb08e7390280a5398f903ed115c19533ef018d32"
+    },
+    {
+      "id": "car_large_floats_final_front_t0_still",
+      "pass": true,
+      "sha256": "1ddaa686826b9d9fdc4b954ab93f8a300c94ad0aa34ab22478d83afde1ab948c"
+    }
+  ],
+  "max_position_error_m": 1.9068792983263355e-06,
+  "max_orientation_error_rad": 1.7881393432617193e-07,
+  "checks": [
+    {
+      "id": "bike_flat_final_paddle_t2_s01",
+      "pass": true
+    },
+    {
+      "id": "bike_stop_base_final_cutaway_t0_s1",
+      "pass": true
+    },
+    {
+      "id": "bike_flat_final_front_t0_s1",
+      "pass": true
+    },
+    {
+      "id": "bike_low_torque_final_cutaway_t2_s1",
+      "pass": true
+    },
+    {
+      "id": "bike_cut_power_final_cutaway_t3_s1",
+      "pass": true
+    },
+    {
+      "id": "bike_stop_buoyant_final_side_t9_s1",
+      "pass": true
+    },
+    {
+      "id": "bike_head_final_side_t1_s1",
+      "pass": true
+    },
+    {
+      "id": "bike_swell_final_side_t1_s1",
+      "pass": true
+    },
+    {
+      "id": "bike_cross_final_bow_t1_s1",
+      "pass": true
+    },
+    {
+      "id": "bike_irregular_final_front_t1_s1",
+      "pass": true
+    },
+    {
+      "id": "car_no_mod_final_cutaway_t0_s05_deepwater",
+      "pass": true
+    },
+    {
+      "id": "car_paddles_final_cutaway_t0_s05_deepwater",
+      "pass": true
+    },
+    {
+      "id": "car_small_floats_final_cutaway_t0_s05",
+      "pass": true
+    },
+    {
+      "id": "car_stop_large_floats_long_bow_t0_s1",
+      "pass": true
+    },
+    {
+      "id": "car_large_floats_final_front_t0_s1",
+      "pass": true
+    },
+    {
+      "id": "car_large_head_final_side_t1_s1",
+      "pass": true
+    },
+    {
+      "id": "car_large_cross_final_bow_t1_s1",
+      "pass": true
+    },
+    {
+      "id": "car_large_swell_final_side_t1_s1",
+      "pass": true
+    },
+    {
+      "id": "car_large_irregular_final_front_t1_s1",
+      "pass": true
+    }
+  ],
+  "paddle_geometry_sha256": "f94b52c58fb685101a20b044ad3429c2b8fdca864217b1afe88ed46d8ec794b0",
+  "source_contact_sheets": [
+    "visuals/rotation_repair_20261027/source_review_01.jpg",
+    "visuals/rotation_repair_20261027/source_review_02.jpg",
+    "visuals/rotation_repair_20261027/source_review_03.jpg",
+    "visuals/rotation_repair_20261027/source_review_04.jpg",
+    "visuals/rotation_repair_20261027/still_review.jpg"
+  ],
+  "actual_review": "representative_frames_viewed",
+  "continuous_human_watch": false
+}

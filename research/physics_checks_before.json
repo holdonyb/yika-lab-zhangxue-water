@@ -1,0 +1,207 @@
+{
+  "source_sha256": "e21dcf1f05a9c1f164daa2e54e93754a8d745f8c05f04d47c20d16618a108c10",
+  "mujoco_version": "3.17.0",
+  "checks": {
+    "point_velocity_and_power_mapping": [
+      {
+        "body": "chassis",
+        "velocity_abs_error": 0.0,
+        "power_abs_error": 0.0
+      },
+      {
+        "body": "rear_wheel",
+        "velocity_abs_error": 1.1102230246251565e-16,
+        "power_abs_error": 2.6645352591003757e-15
+      },
+      {
+        "body": "front_fork",
+        "velocity_abs_error": 2.220446049250313e-16,
+        "power_abs_error": 3.552713678800501e-15
+      },
+      {
+        "body": "front_wheel",
+        "velocity_abs_error": 2.220446049250313e-16,
+        "power_abs_error": 1.0658141036401503e-14
+      }
+    ],
+    "repeated_force_abs_error": 0.0,
+    "horizontal_box": [
+      {
+        "draft_m": 0.0,
+        "Fz_N": 0.0,
+        "expected_N": 0.0,
+        "torque_Nm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "draft_m": 0.25,
+        "Fz_N": 2452.5,
+        "expected_N": 2452.5,
+        "torque_Nm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "draft_m": 0.5,
+        "Fz_N": 4905.0,
+        "expected_N": 4905.0,
+        "torque_Nm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "draft_m": 1.0,
+        "Fz_N": 9810.0,
+        "expected_N": 9810.0,
+        "torque_Nm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "barge_restore": [
+      {
+        "grid_scale": 1,
+        "roll_deg": 1.0,
+        "Mx_Nm": -199.62281693309785,
+        "linear_reference_Nm": -164.0827663031169,
+        "relative_to_small_angle_reference": 0.21659831456233705
+      },
+      {
+        "grid_scale": 1,
+        "roll_deg": 3.0,
+        "Mx_Nm": -577.7215000104834,
+        "linear_reference_Nm": -492.24829890935075,
+        "relative_to_small_angle_reference": 0.173638387964999
+      },
+      {
+        "grid_scale": 1,
+        "roll_deg": 5.0,
+        "Mx_Nm": -929.6842342075031,
+        "linear_reference_Nm": -820.4138315155845,
+        "relative_to_small_angle_reference": 0.13318937162487715
+      },
+      {
+        "grid_scale": 1,
+        "roll_deg": 15.0,
+        "Mx_Nm": -2392.229893172869,
+        "linear_reference_Nm": -2461.2414945467535,
+        "relative_to_small_angle_reference": 0.028039345804460797
+      },
+      {
+        "grid_scale": 2,
+        "roll_deg": 1.0,
+        "Mx_Nm": -180.7298643088317,
+        "linear_reference_Nm": -164.0827663031169,
+        "relative_to_small_angle_reference": 0.10145549335121481
+      },
+      {
+        "grid_scale": 2,
+        "roll_deg": 3.0,
+        "Mx_Nm": -520.1001106226563,
+        "linear_reference_Nm": -492.24829890935075,
+        "relative_to_small_angle_reference": 0.05658081861332051
+      },
+      {
+        "grid_scale": 2,
+        "roll_deg": 5.0,
+        "Mx_Nm": -832.1899483335471,
+        "linear_reference_Nm": -820.4138315155845,
+        "relative_to_small_angle_reference": 0.014353874064029465
+      },
+      {
+        "grid_scale": 2,
+        "roll_deg": 15.0,
+        "Mx_Nm": -2516.2511811023883,
+        "linear_reference_Nm": -2461.2414945467535,
+        "relative_to_small_angle_reference": 0.02235038157674364
+      },
+      {
+        "grid_scale": 4,
+        "roll_deg": 1.0,
+        "Mx_Nm": -170.6562726778507,
+        "linear_reference_Nm": -164.0827663031169,
+        "relative_to_small_angle_reference": 0.04006213768111567
+      },
+      {
+        "grid_scale": 4,
+        "roll_deg": 3.0,
+        "Mx_Nm": -489.6479064666745,
+        "linear_reference_Nm": -492.24829890935075,
+        "relative_to_small_angle_reference": 0.005282684467245104
+      },
+      {
+        "grid_scale": 4,
+        "roll_deg": 5.0,
+        "Mx_Nm": -830.1779321563959,
+        "linear_reference_Nm": -820.4138315155845,
+        "relative_to_small_angle_reference": 0.011901433478728263
+      },
+      {
+        "grid_scale": 4,
+        "roll_deg": 15.0,
+        "Mx_Nm": -2542.2691070125206,
+        "linear_reference_Nm": -2461.2414945467535,
+        "relative_to_small_angle_reference": 0.0329214393001645
+      }
+    ],
+    "bottom_wet_top_dry_upward_motion": {
+      "assumed_thickness_m": 0.028,
+      "bottom_z_m": -0.006,
+      "top_z_m": 0.022,
+      "velocity_z_m_s": 1.0,
+      "normal_force_z_N": -500.0,
+      "expected_for_one_sided_no_suction_model_N": 0.0
+    },
+    "tire_rotation_displacement": [
+      {
+        "spin_deg": 0.0,
+        "wet_volume_m3": 0.0076,
+        "Fz_N": 74.55599999999995
+      },
+      {
+        "spin_deg": 15.0,
+        "wet_volume_m3": 0.007356747322786128,
+        "Fz_N": 72.16969123653192
+      },
+      {
+        "spin_deg": 30.0,
+        "wet_volume_m3": 0.006752131152850584,
+        "Fz_N": 66.2384066094642
+      },
+      {
+        "spin_deg": 45.0,
+        "wet_volume_m3": 0.006589237020855019,
+        "Fz_N": 64.64041517458773
+      },
+      {
+        "spin_deg": 60.0,
+        "wet_volume_m3": 0.0067521311528505835,
+        "Fz_N": 66.23840660946422
+      },
+      {
+        "spin_deg": 75.0,
+        "wet_volume_m3": 0.007356747322786128,
+        "Fz_N": 72.16969123653192
+      },
+      {
+        "spin_deg": 90.0,
+        "wet_volume_m3": 0.007600000000000001,
+        "Fz_N": 74.556
+      }
+    ],
+    "airy_temporal_derivative": {
+      "acceleration_abs_error_m_s2": 2.329536563649981e-10,
+      "kinematic_surface_abs_error_m_s": 5.961867111103913e-11
+    },
+    "random_state_max_passive_relative_power_W": 0.0
+  }
+}

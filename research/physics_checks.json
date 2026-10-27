@@ -1,0 +1,291 @@
+{
+  "source_sha256": "20357f4c7d29238af982a7a1d9416462776ae0e1d8c0f97f9d1de6b017610693",
+  "clipped_box_sha256": "5fded7c4d51c5d30b3988cac357b9fb1b9ce4268ef463667457e51fa0a3dd1c4",
+  "mujoco_version": "3.17.0",
+  "checks": {
+    "point_velocity_and_power_mapping": [
+      {
+        "body": "chassis",
+        "velocity_abs_error": 0.0,
+        "power_abs_error": 0.0
+      },
+      {
+        "body": "rear_wheel",
+        "velocity_abs_error": 1.1102230246251565e-16,
+        "power_abs_error": 2.6645352591003757e-15
+      },
+      {
+        "body": "front_fork",
+        "velocity_abs_error": 2.220446049250313e-16,
+        "power_abs_error": 3.552713678800501e-15
+      },
+      {
+        "body": "front_wheel",
+        "velocity_abs_error": 2.220446049250313e-16,
+        "power_abs_error": 1.0658141036401503e-14
+      }
+    ],
+    "repeated_force_abs_error": 0.0,
+    "horizontal_box": [
+      {
+        "draft_m": 0.0,
+        "Fz_N": 0.0,
+        "expected_N": 0.0,
+        "torque_Nm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "draft_m": 0.25,
+        "Fz_N": 2452.5,
+        "expected_N": 2452.5,
+        "torque_Nm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "draft_m": 0.5,
+        "Fz_N": 4905.0,
+        "expected_N": 4905.0,
+        "torque_Nm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "draft_m": 1.0,
+        "Fz_N": 9810.0,
+        "expected_N": 9810.0,
+        "torque_Nm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "barge_restore": [
+      {
+        "grid_scale": 1,
+        "roll_deg": 1.0,
+        "Mx_Nm": -164.1157321739868,
+        "linear_reference_Nm": -164.0827663031169,
+        "exact_polygon_reference_Nm": -164.11573217398737,
+        "relative_to_exact_polygon": 3.4636179059631795e-15,
+        "relative_to_small_angle_reference": 0.00020091001396820807
+      },
+      {
+        "grid_scale": 1,
+        "roll_deg": 3.0,
+        "Mx_Nm": -493.1397654879651,
+        "linear_reference_Nm": -492.24829890935075,
+        "exact_polygon_reference_Nm": -493.1397654879643,
+        "relative_to_exact_polygon": 1.6137572342474882e-15,
+        "relative_to_small_angle_reference": 0.0018110099731975646
+      },
+      {
+        "grid_scale": 1,
+        "roll_deg": 5.0,
+        "Mx_Nm": -824.553894860495,
+        "linear_reference_Nm": -820.4138315155845,
+        "exact_polygon_reference_Nm": -824.5538948604933,
+        "relative_to_exact_polygon": 2.0681517320499245e-15,
+        "relative_to_small_angle_reference": 0.00504631100290246
+      },
+      {
+        "grid_scale": 1,
+        "roll_deg": 15.0,
+        "Mx_Nm": -2549.5866475365324,
+        "linear_reference_Nm": -2461.2414945467535,
+        "exact_polygon_reference_Nm": -2549.586647536534,
+        "relative_to_exact_polygon": 7.134448265578279e-16,
+        "relative_to_small_angle_reference": 0.0358945488224218
+      },
+      {
+        "grid_scale": 2,
+        "roll_deg": 1.0,
+        "Mx_Nm": -164.11573217398575,
+        "linear_reference_Nm": -164.0827663031169,
+        "exact_polygon_reference_Nm": -164.11573217398737,
+        "relative_to_exact_polygon": 9.871311031995061e-15,
+        "relative_to_small_angle_reference": 0.00020091001396179908
+      },
+      {
+        "grid_scale": 2,
+        "roll_deg": 3.0,
+        "Mx_Nm": -493.1397654879649,
+        "linear_reference_Nm": -492.24829890935075,
+        "exact_polygon_reference_Nm": -493.1397654879643,
+        "relative_to_exact_polygon": 1.1526837387482059e-15,
+        "relative_to_small_angle_reference": 0.0018110099731971027
+      },
+      {
+        "grid_scale": 2,
+        "roll_deg": 5.0,
+        "Mx_Nm": -824.5538948604926,
+        "linear_reference_Nm": -820.4138315155845,
+        "exact_polygon_reference_Nm": -824.5538948604933,
+        "relative_to_exact_polygon": 8.272606928199697e-16,
+        "relative_to_small_angle_reference": 0.00504631100289955
+      },
+      {
+        "grid_scale": 2,
+        "roll_deg": 15.0,
+        "Mx_Nm": -2549.586647536531,
+        "linear_reference_Nm": -2461.2414945467535,
+        "exact_polygon_reference_Nm": -2549.586647536534,
+        "relative_to_exact_polygon": 1.2485284464761988e-15,
+        "relative_to_small_angle_reference": 0.03589454882242125
+      },
+      {
+        "grid_scale": 4,
+        "roll_deg": 1.0,
+        "Mx_Nm": -164.1157321739911,
+        "linear_reference_Nm": -164.0827663031169,
+        "exact_polygon_reference_Nm": -164.11573217398737,
+        "relative_to_exact_polygon": 2.2686697284058826e-14,
+        "relative_to_small_angle_reference": 0.00020091001399436364
+      },
+      {
+        "grid_scale": 4,
+        "roll_deg": 3.0,
+        "Mx_Nm": -493.1397654879659,
+        "linear_reference_Nm": -492.24829890935075,
+        "exact_polygon_reference_Nm": -493.1397654879643,
+        "relative_to_exact_polygon": 3.2275144684949763e-15,
+        "relative_to_small_angle_reference": 0.0018110099731991813
+      },
+      {
+        "grid_scale": 4,
+        "roll_deg": 5.0,
+        "Mx_Nm": -824.5538948604893,
+        "linear_reference_Nm": -820.4138315155845,
+        "exact_polygon_reference_Nm": -824.5538948604933,
+        "relative_to_exact_polygon": 4.8256873747831565e-15,
+        "relative_to_small_angle_reference": 0.0050463110028955305
+      },
+      {
+        "grid_scale": 4,
+        "roll_deg": 15.0,
+        "Mx_Nm": -2549.5866475365324,
+        "linear_reference_Nm": -2461.2414945467535,
+        "exact_polygon_reference_Nm": -2549.586647536534,
+        "relative_to_exact_polygon": 7.134448265578279e-16,
+        "relative_to_small_angle_reference": 0.0358945488224218
+      }
+    ],
+    "bottom_wet_top_dry_upward_motion": {
+      "assumed_thickness_m": 0.028,
+      "bottom_z_m": -0.006,
+      "top_z_m": 0.022,
+      "velocity_z_m_s": 1.0,
+      "normal_force_z_N": 0.0,
+      "expected_for_one_sided_no_suction_model_N": 0.0
+    },
+    "tire_rotation_displacement": [
+      {
+        "spin_deg": 0.0,
+        "wet_volume_m3": 0.014766771069857224,
+        "Fz_N": 144.86202419529923
+      },
+      {
+        "spin_deg": 15.0,
+        "wet_volume_m3": 0.014765511374822982,
+        "Fz_N": 144.8496665870133
+      },
+      {
+        "spin_deg": 30.0,
+        "wet_volume_m3": 0.01476551137482298,
+        "Fz_N": 144.84966658701327
+      },
+      {
+        "spin_deg": 45.0,
+        "wet_volume_m3": 0.014766771069857222,
+        "Fz_N": 144.8620241952992
+      },
+      {
+        "spin_deg": 60.0,
+        "wet_volume_m3": 0.014765511374822984,
+        "Fz_N": 144.8496665870133
+      },
+      {
+        "spin_deg": 75.0,
+        "wet_volume_m3": 0.01476551137482298,
+        "Fz_N": 144.8496665870133
+      },
+      {
+        "spin_deg": 90.0,
+        "wet_volume_m3": 0.014766771069857224,
+        "Fz_N": 144.86202419529926
+      }
+    ],
+    "airy_temporal_derivative": {
+      "acceleration_abs_error_m_s2": 2.329536563649981e-10,
+      "kinematic_surface_abs_error_m_s": 5.961867111103913e-11
+    },
+    "random_state_max_passive_relative_power_W": 0.0,
+    "single_plate": [
+      {
+        "speed_m_s": 4.0,
+        "area_m2": 1.0,
+        "Fx_N": -174.81919412955492,
+        "Fz_N": 1663.2935265420745,
+        "expected_lift_N": 1663.2935265420745,
+        "normal_drag_lift": 0.10510423526567649,
+        "expected_normal_drag_lift": 0.10510423526567647
+      },
+      {
+        "speed_m_s": 8.0,
+        "area_m2": 1.0,
+        "Fx_N": -699.2767765182197,
+        "Fz_N": 6653.174106168298,
+        "expected_lift_N": 6653.174106168298,
+        "normal_drag_lift": 0.10510423526567649,
+        "expected_normal_drag_lift": 0.10510423526567647
+      },
+      {
+        "speed_m_s": 8.0,
+        "area_m2": 0.5,
+        "Fx_N": -349.63838825910983,
+        "Fz_N": 3326.587053084149,
+        "expected_lift_N": 3326.587053084149,
+        "normal_drag_lift": 0.10510423526567649,
+        "expected_normal_drag_lift": 0.10510423526567647
+      }
+    ],
+    "internal_rotor_torque": {
+      "duration_s": 1.0000000000000007,
+      "torque_Nm": 1.0,
+      "whole_system_angular_momentum_kg_m2_s": [
+        0.0,
+        -1.1787446019262404e-15,
+        0.0
+      ],
+      "momentum_norm": 1.1787446019262404e-15,
+      "root_angular_velocity_rad_s": [
+        0.0,
+        -0.0076321324761587945,
+        0.0
+      ],
+      "wheel_relative_velocity_rad_s": 0.9167230415670838
+    }
+  },
+  "short_benchmark_status": {
+    "point_velocity_and_power_mapping": true,
+    "force_evaluation_not_accumulated": true,
+    "archimedes_horizontal_box": true,
+    "restore_torque_exact_polygon": true,
+    "dry_top_no_downward_pressure": true,
+    "tire_phase_variation_below_0_1_percent": true,
+    "airy_time_derivative": true,
+    "passive_relative_power": true,
+    "plate_force_analytic": true,
+    "internal_rotor_angular_momentum": true
+  },
+  "all_short_benchmarks_passed": true,
+  "scope": "Short implementation diagnostics only; full scenario stability, time-step convergence and wave-space convergence are separate."
+}

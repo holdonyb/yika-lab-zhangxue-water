@@ -1,0 +1,8 @@
+[
+  {"id":"bike_light_final_front_t6_still","run":"bike_light_final","camera":"front","time":6},
+  {"id":"bike_wide_final_front_t6_still","run":"bike_wide_final","camera":"front","time":6},
+  {"id":"car_no_mod_final_front_t0_still","run":"car_no_mod_final","camera":"front","time":0},
+  {"id":"car_paddles_final_front_t0_still","run":"car_paddles_final","camera":"front","time":0},
+  {"id":"car_small_floats_final_front_t0_still","run":"car_small_floats_final","camera":"front","time":0},
+  {"id":"car_large_floats_final_front_t0_still","run":"car_large_floats_final","camera":"front","time":0}
+]

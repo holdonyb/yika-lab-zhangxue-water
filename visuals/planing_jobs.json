@@ -1,0 +1,42 @@
+[
+  {
+    "id": "pln_paddles_v15_t3_p44_cutaway_t0_s04",
+    "run": "pln_paddles_v15_t3_p44",
+    "camera": "cutaway",
+    "start": 0,
+    "scale": 0.4,
+    "duration": 6,
+    "width": 1920,
+    "samples": 24
+  },
+  {
+    "id": "pln_wide_low_clear_v15_t3_p44_cutaway_t0_s05",
+    "run": "pln_wide_low_clear_v15_t3_p44",
+    "camera": "cutaway",
+    "start": 0,
+    "scale": 0.5,
+    "duration": 6,
+    "width": 1920,
+    "samples": 24
+  },
+  {
+    "id": "pln_four_skis_v15_p176_30s_front_t20_s1",
+    "run": "pln_four_skis_v15_p176_30s",
+    "camera": "front",
+    "start": 20,
+    "scale": 1,
+    "duration": 6,
+    "width": 1920,
+    "samples": 24
+  },
+  {
+    "id": "pln_four_skis_v15_p176_off12_cutaway_t12p35_s1",
+    "run": "pln_four_skis_v15_p176_off12",
+    "camera": "cutaway",
+    "start": 12.35,
+    "scale": 1,
+    "duration": 6,
+    "width": 1920,
+    "samples": 24
+  }
+]

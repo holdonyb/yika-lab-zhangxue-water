@@ -1,0 +1,5 @@
+[
+  {"id":"car_no_mod_final_cutaway_t0_s05_deepwater","run":"car_no_mod_final","camera":"cutaway","start":0,"scale":0.5,"duration":6,"width":1280,"samples":16},
+  {"id":"car_paddles_final_cutaway_t0_s05_deepwater","run":"car_paddles_final","camera":"cutaway","start":0,"scale":0.5,"duration":6,"width":1280,"samples":16},
+  {"id":"bike_low_torque_final_cutaway_t2_s1","run":"bike_low_torque_final","camera":"cutaway","start":2,"scale":1,"duration":6,"width":1280,"samples":16}
+]

@@ -1,0 +1,15 @@
+[
+  {"id":"bike_flat_final_paddle_t2_s01","run":"bike_flat_final","camera":"paddle","start":2,"scale":0.1,"duration":6,"width":1920,"samples":24},
+  {"id":"bike_stop_base_final_cutaway_t0_s1","run":"bike_stop_base_final","camera":"cutaway","start":0,"scale":1,"duration":6,"width":1280,"samples":16},
+  {"id":"bike_cut_power_final_cutaway_t3_s1","run":"bike_cut_power_final","camera":"cutaway","start":3,"scale":1,"duration":6,"width":1280,"samples":16},
+  {"id":"bike_stop_buoyant_final_side_t9_s1","run":"bike_stop_buoyant_final","camera":"side","start":9,"scale":1,"duration":6,"width":1280,"samples":16},
+  {"id":"car_no_mod_final_cutaway_t0_s05","run":"car_no_mod_final","camera":"cutaway","start":0,"scale":0.5,"duration":6,"width":1280,"samples":16},
+  {"id":"car_paddles_final_cutaway_t0_s05","run":"car_paddles_final","camera":"cutaway","start":0,"scale":0.5,"duration":6,"width":1280,"samples":16},
+  {"id":"car_small_floats_final_cutaway_t0_s05","run":"car_small_floats_final","camera":"cutaway","start":0,"scale":0.5,"duration":6,"width":1280,"samples":16},
+  {"id":"car_large_floats_final_front_t0_s1","run":"car_large_floats_final","camera":"front","start":0,"scale":1,"duration":6,"width":1920,"samples":24},
+  {"id":"car_stop_large_floats_final_bow_t9_s1","run":"car_stop_large_floats_final","camera":"bow","start":9,"scale":1,"duration":6,"width":1280,"samples":16},
+  {"id":"car_large_head_final_side_t1_s1","run":"car_large_head_final","camera":"side","start":1,"scale":1,"duration":6,"width":1280,"samples":16},
+  {"id":"car_large_cross_final_bow_t1_s1","run":"car_large_cross_final","camera":"bow","start":1,"scale":1,"duration":6,"width":1280,"samples":16},
+  {"id":"car_large_swell_final_side_t1_s1","run":"car_large_swell_final","camera":"side","start":1,"scale":1,"duration":6,"width":1280,"samples":16},
+  {"id":"car_large_irregular_final_front_t1_s1","run":"car_large_irregular_final","camera":"front","start":1,"scale":1,"duration":6,"width":1280,"samples":16}
+]

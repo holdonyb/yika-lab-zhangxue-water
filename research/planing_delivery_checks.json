@@ -1,0 +1,802 @@
+{
+  "scope": "Traceability, implementation checks and narrowly stated model-film claims. No full-vehicle empirical validation or proof of seaworthiness.",
+  "delivery_claims_supported": true,
+  "empirical_vehicle_validation": false,
+  "wave_capability_validated": false,
+  "case_count": 44,
+  "checks": {
+    "original_solver_frozen": true,
+    "all_registered_cases_preserved": true,
+    "all_case_data_consistent": true,
+    "surface_formula_benchmark": true,
+    "domain_guards_benchmark": true,
+    "stated_film_claims_match_runs": true,
+    "new_geometry_pose_water_checks": true
+  },
+  "claim_checks": {
+    "four_entry_speeds_paddles_fail_in_tested_setup": true,
+    "two_lower_power_four_skis_fail": true,
+    "clear_wide_structure_still_fails": true,
+    "symmetric_calm_30s_candidate": true,
+    "tail_speed_about_57_kmh": true,
+    "dynamic_support_dominates": true,
+    "power_off_then_submerges_about18_4s": true,
+    "calm_numeric_and_wet_band_comparisons_reported": true,
+    "roll_perturbation_not_misclassified": true,
+    "saved_domain_replay_matches": true,
+    "wave_results_remain_exploratory": true,
+    "same_wave_halfstep_completed": true
+  },
+  "cases": [
+    {
+      "name": "pln_wide_low_clear_v15_t3_p44",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "submerged",
+      "mechanical_envelope_overlap": false
+    },
+    {
+      "name": "pln_wide_low_clear_v15_t3_p176",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "submerged",
+      "mechanical_envelope_overlap": false
+    },
+    {
+      "name": "pln_paddles_v5_t3_p44",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "submerged",
+      "mechanical_envelope_overlap": false
+    },
+    {
+      "name": "pln_paddles_v10_t3_p44",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "submerged",
+      "mechanical_envelope_overlap": false
+    },
+    {
+      "name": "pln_paddles_v15_t0_p44",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "submerged",
+      "mechanical_envelope_overlap": false
+    },
+    {
+      "name": "pln_paddles_v15_t3_p44",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "submerged",
+      "mechanical_envelope_overlap": false
+    },
+    {
+      "name": "pln_paddles_v15_t6_p44",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "submerged",
+      "mechanical_envelope_overlap": false
+    },
+    {
+      "name": "pln_paddles_v20_t3_p44",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "submerged",
+      "mechanical_envelope_overlap": false
+    },
+    {
+      "name": "pln_wide_low_v5_t3_p44",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "submerged",
+      "mechanical_envelope_overlap": true
+    },
+    {
+      "name": "pln_wide_low_v10_t3_p44",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "submerged",
+      "mechanical_envelope_overlap": true
+    },
+    {
+      "name": "pln_wide_low_v15_t0_p44",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "submerged",
+      "mechanical_envelope_overlap": true
+    },
+    {
+      "name": "pln_wide_low_v15_t3_p44",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "submerged",
+      "mechanical_envelope_overlap": true
+    },
+    {
+      "name": "pln_wide_low_v15_t6_p44",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "submerged",
+      "mechanical_envelope_overlap": true
+    },
+    {
+      "name": "pln_wide_low_v20_t3_p44",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "submerged",
+      "mechanical_envelope_overlap": true
+    },
+    {
+      "name": "pln_four_skis_v15_p176_30s",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "sustained_planing_in_declared_model",
+      "mechanical_envelope_overlap": false
+    },
+    {
+      "name": "pln_four_skis_v15_p176_dt05",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "transient_or_unconfirmed",
+      "mechanical_envelope_overlap": false
+    },
+    {
+      "name": "pln_four_skis_v15_p176_grid80",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "transient_or_unconfirmed",
+      "mechanical_envelope_overlap": false
+    },
+    {
+      "name": "pln_four_skis_v15_p176_grid80_wet6",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "transient_or_unconfirmed",
+      "mechanical_envelope_overlap": false
+    },
+    {
+      "name": "pln_four_skis_v15_t0_p44",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "submerged",
+      "mechanical_envelope_overlap": false
+    },
+    {
+      "name": "pln_four_skis_v15_t0_p88",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "submerged",
+      "mechanical_envelope_overlap": false
+    },
+    {
+      "name": "pln_four_skis_v15_t0_p176",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "transient_or_unconfirmed",
+      "mechanical_envelope_overlap": false
+    },
+    {
+      "name": "pln_four_skis_v10_t0_p44",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "submerged",
+      "mechanical_envelope_overlap": false
+    },
+    {
+      "name": "pln_four_skis_v10_t0_p176",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "transient_or_unconfirmed",
+      "mechanical_envelope_overlap": false
+    },
+    {
+      "name": "pln_four_skis_v20_t0_p44",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "submerged",
+      "mechanical_envelope_overlap": false
+    },
+    {
+      "name": "pln_four_skis_v20_t0_p176",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "transient_or_unconfirmed",
+      "mechanical_envelope_overlap": false
+    },
+    {
+      "name": "pln_four_skis_v15_t0_p44_local",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "transient_or_unconfirmed",
+      "mechanical_envelope_overlap": false
+    },
+    {
+      "name": "pln_four_skis_v15_t0_p176_local",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "transient_or_unconfirmed",
+      "mechanical_envelope_overlap": false
+    },
+    {
+      "name": "pln_wide_low_v15_t3_p88",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "submerged",
+      "mechanical_envelope_overlap": true
+    },
+    {
+      "name": "pln_wide_low_v15_t3_p176",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "submerged",
+      "mechanical_envelope_overlap": true
+    },
+    {
+      "name": "pln_wide_high_v15_t3_p44",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "submerged",
+      "mechanical_envelope_overlap": true
+    },
+    {
+      "name": "pln_wide_high_v15_t3_p88",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "submerged",
+      "mechanical_envelope_overlap": true
+    },
+    {
+      "name": "pln_wide_high_v15_t3_p176",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "submerged",
+      "mechanical_envelope_overlap": true
+    },
+    {
+      "name": "pln_narrow_low_v15_t3_p44",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "submerged",
+      "mechanical_envelope_overlap": false
+    },
+    {
+      "name": "pln_narrow_low_v15_t3_p88",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "submerged",
+      "mechanical_envelope_overlap": false
+    },
+    {
+      "name": "pln_narrow_low_v15_t3_p176",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "transient_or_unconfirmed",
+      "mechanical_envelope_overlap": false
+    },
+    {
+      "name": "pln_four_skis_v10_p176_30s",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "sustained_planing_in_declared_model",
+      "mechanical_envelope_overlap": false
+    },
+    {
+      "name": "pln_four_skis_v15_p176_roll1_30s",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "transient_or_unconfirmed",
+      "mechanical_envelope_overlap": false
+    },
+    {
+      "name": "pln_four_skis_v15_p176_off12",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "submerged",
+      "mechanical_envelope_overlap": false
+    },
+    {
+      "name": "pln_wide_low_v15_t3_p44_refined",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "submerged",
+      "mechanical_envelope_overlap": true
+    },
+    {
+      "name": "pln_four_skis_v15_p176_head",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "transient_or_unconfirmed",
+      "mechanical_envelope_overlap": false
+    },
+    {
+      "name": "pln_four_skis_v15_p176_cross",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "transient_or_unconfirmed",
+      "mechanical_envelope_overlap": false
+    },
+    {
+      "name": "pln_four_skis_v15_p176_swell",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "transient_or_unconfirmed",
+      "mechanical_envelope_overlap": false
+    },
+    {
+      "name": "pln_four_skis_v15_p176_irregular",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "transient_or_unconfirmed",
+      "mechanical_envelope_overlap": false
+    },
+    {
+      "name": "pln_four_skis_v15_p176_head_dt05",
+      "checks": {
+        "registered_parameters": true,
+        "source_hashes": true,
+        "trajectory_hash": true,
+        "finite_recorded_arrays": true,
+        "time_increasing": true,
+        "duration_metadata": true,
+        "passive_relative_power": true,
+        "recorded_power_within_budget": true,
+        "positive_drive_no_active_braking": true
+      },
+      "passed": true,
+      "outcome": "transient_or_unconfirmed",
+      "mechanical_envelope_overlap": false
+    }
+  ],
+  "allowed_result": "Symmetric calm-water candidate sustains model motion for 30 seconds under the declared four-board geometry and 176 kW power budget; speed is a model prediction.",
+  "limitations": [
+    "Fore/aft board wake interaction, spray, added mass, impact and free-surface feedback unresolved.",
+    "Power-rating sweep holds vehicle mass fixed and is not a finished powertrain design.",
+    "1 degree initial roll leads to yaw/sideslip outside declared straight-flow screen.",
+    "Wave runs have extrapolated loads and only 12-second duration.",
+    "Residuals are preserved, including the head-wave half-step comparison; no alternative denominator is substituted for the original metric."
+  ],
+  "source_hashes": {
+    "hydro.py": "20357f4c7d29238af982a7a1d9416462776ae0e1d8c0f97f9d1de6b017610693",
+    "hydro_planing.py": "4ee1a5ba360123179ab01ed0578f06d075c99d324b4ad87ca06208b16300d641",
+    "planing_surface.py": "0f550ff57f3669992849179b2b62c532141f183f1404c3bd49cfff01580d9e90",
+    "clipped_box.py": "5fded7c4d51c5d30b3988cac357b9fb1b9ce4268ef463667457e51fa0a3dd1c4"
+  },
+  "evidence_sha256": {
+    "research/car_planing_results.json": "d0a6c4df2f6b836586be7fee217cb1da99bb18e440116a2b3abdeca8695609ab",
+    "research/planing_final_result_checks.json": "fd2355719022ffc07c3edffe16ad649489d71c7be15317254e110f3c20625276",
+    "research/planing_surface_benchmark.json": "c6e47aaf5d5a8addece7f58e95feee51399dd1d0e2d7646e90481da24bc87183",
+    "research/planing_review_checks.json": "bb1c83c56a90ef644a58b71eba18b03ade399c2e917ca152e1a637d39c698c43",
+    "visuals/planing/delivery_validation.json": "7a51c1c21b52c234a2af9db6adf1b29f126e99c058ea12a457ca8a8a35789924",
+    "script_final.txt": "6a3d1adba51a6f1b936713a4e5539d1b219dd59c122db2e55a90b2e54571662c"
+  }
+}

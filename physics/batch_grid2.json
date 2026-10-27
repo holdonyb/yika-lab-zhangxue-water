@@ -1,0 +1,45 @@
+{
+  "bike_cross_grid2": {
+    "solver": "MuJoCo 3.17.0",
+    "body_names": [
+      "chassis",
+      "rear_wheel",
+      "front_fork",
+      "front_wheel"
+    ],
+    "force_groups": [
+      "buoyancy",
+      "wave_pressure",
+      "volume_drag",
+      "panel_pressure",
+      "skin_drag",
+      "paddles",
+      "air_drag"
+    ],
+    "elapsed_wall_s": 267.1070147999999,
+    "simulated_s": 6.000000000000338,
+    "stop": "duration",
+    "grid_scale": 2,
+    "total_mass_kg": 242.0,
+    "max_displacement_m3": 0.21744741399289128,
+    "capacity_ratio": 0.8985430330284764,
+    "final_speed_m_s": 8.424266986580061,
+    "final_z_m": 0.8100458275501112,
+    "max_abs_roll_deg": 9.542287448104021,
+    "max_abs_pitch_deg": 0.9397577748252245,
+    "final_mean_buoyancy_weight_ratio": 0.033097022442895994,
+    "final_mean_dynamic_vertical_weight_ratio": 0.9485695844478474,
+    "max_dissipative_relative_power_w": -239.00234900527246,
+    "initial_energy_j": 12235.713572835903,
+    "trajectory_sha256": "f2d6b77a96bd3047fbfb558d70ae4b67318440dc1c352984be7dcf1b75f1c75c",
+    "source_sha256": "20357f4c7d29238af982a7a1d9416462776ae0e1d8c0f97f9d1de6b017610693",
+    "clip_source_sha256": "5fded7c4d51c5d30b3988cac357b9fb1b9ce4268ef463667457e51fa0a3dd1c4",
+    "integrated_non_gravity_work_j": -1370.423196326802,
+    "mechanical_energy_change_j": -1362.6654284234382,
+    "energy_balance_residual_j": 7.757767903363856,
+    "energy_balance_relative_error": 0.0032677769788644812,
+    "final_vertical_speed_m_s": -0.3547534080221646,
+    "final_mean_vertical_speed_m_s": -0.03394079613055717,
+    "total_drive_power_budget_w": 15000.0
+  }
+}

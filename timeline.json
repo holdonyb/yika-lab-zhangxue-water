@@ -1,0 +1,3491 @@
+{
+  "title": "张雪的摩托能跑水上，那我的汽车呢？",
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "duration_s": 595.7916666666666,
+  "audio_duration_s": 593.7987916666667,
+  "audio_sha256": "73d68add5884f11d8bc46d361f53180f24942fd72b31b9e5e2e0a1a7b26379c3",
+  "chapters": [
+    {
+      "title": "张雪的40.74公里",
+      "start_s": 0
+    },
+    {
+      "title": "看懂后轮桨叶与滑板",
+      "start_s": 27.3
+    },
+    {
+      "title": "第一关：停在水上",
+      "start_s": 52.1
+    },
+    {
+      "title": "让它跑起来",
+      "start_s": 75.85
+    },
+    {
+      "title": "降低后轮扭矩",
+      "start_s": 101.7
+    },
+    {
+      "title": "收掉动力，再加浮体",
+      "start_s": 127.577875
+    },
+    {
+      "title": "减重与加宽",
+      "start_s": 153.077875
+    },
+    {
+      "title": "迎浪和长涌",
+      "start_s": 175.498792
+    },
+    {
+      "title": "横浪与组合波浪",
+      "start_s": 200.483625
+    },
+    {
+      "title": "汽车：原车与桨叶",
+      "start_s": 233.599833
+    },
+    {
+      "title": "两边挂小浮筒",
+      "start_s": 268.29625
+    },
+    {
+      "title": "初速能不能提高到15m/s？",
+      "start_s": 296.603083
+    },
+    {
+      "title": "汽车试前后滑板",
+      "start_s": 329.113583
+    },
+    {
+      "title": "三十秒、断动力与模型边界",
+      "start_s": 365.115875
+    },
+    {
+      "title": "这次换大浮筒",
+      "start_s": 403.148625
+    },
+    {
+      "title": "仰望 U8：应急浮水",
+      "start_s": 450.086041
+    },
+    {
+      "title": "WaterCar Panther：喷水推进",
+      "start_s": 474.610916
+    },
+    {
+      "title": "Amphicar 770：双桨与前轮水舵",
+      "start_s": 496.254208
+    },
+    {
+      "title": "汽车再过四道浪",
+      "start_s": 522.896875
+    },
+    {
+      "title": "下一次，改哪台车？",
+      "start_s": 554.713708
+    }
+  ],
+  "shots": [
+    {
+      "kind": "news",
+      "title": "张雪的水上摩托",
+      "note": "来源：新华社 · 2026-10-25",
+      "media": [
+        {
+          "path": "sources/xinhua_event_20261025.mp4",
+          "source_start_s": 5,
+          "source_length_s": 5,
+          "playback_rate": 1,
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "fit": "cover",
+          "effect": "soft_background"
+        },
+        {
+          "path": "sources/xinhua_event_20261025.mp4",
+          "source_start_s": 5,
+          "source_length_s": 5,
+          "playback_rate": 1,
+          "rect": [
+            664,
+            185,
+            592,
+            790
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U01_00_0",
+      "start_s": 0.0,
+      "end_s": 3.625,
+      "duration_s": 3.625,
+      "semantic_unit": "U01",
+      "cue": ""
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/experiments/news_distance.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U01_00_1",
+      "start_s": 3.625,
+      "end_s": 7.208333333333333,
+      "duration_s": 3.5833333333333335,
+      "semantic_unit": "U01",
+      "cue": ""
+    },
+    {
+      "kind": "news",
+      "title": "张雪的水上摩托",
+      "note": "来源：新华社 · 2026-10-25",
+      "media": [
+        {
+          "path": "sources/xinhua_event_20261025.mp4",
+          "source_start_s": 18,
+          "source_length_s": 5,
+          "playback_rate": 1,
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "fit": "cover",
+          "effect": "soft_background"
+        },
+        {
+          "path": "sources/xinhua_event_20261025.mp4",
+          "source_start_s": 18,
+          "source_length_s": 5,
+          "playback_rate": 1,
+          "rect": [
+            664,
+            185,
+            592,
+            790
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U01_01_0",
+      "start_s": 7.208333333333333,
+      "end_s": 12.208333333333334,
+      "duration_s": 5.0,
+      "semantic_unit": "U01",
+      "cue": "看着这辆摩托"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/experiments/prediction_car.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U01_01_1",
+      "start_s": 12.208333333333334,
+      "end_s": 20.208333333333332,
+      "duration_s": 8.0,
+      "semantic_unit": "U01",
+      "cue": "看着这辆摩托"
+    },
+    {
+      "kind": "chapter",
+      "title": "摩托都行，汽车呢？",
+      "note": "一卡实验室 · 离谱改装",
+      "chapter_number": 1,
+      "media": [],
+      "id": "U01_02_0",
+      "start_s": 20.208333333333332,
+      "end_s": 23.041666666666668,
+      "duration_s": 2.8333333333333335,
+      "semantic_unit": "U01",
+      "cue": "这里是一卡实验室"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "covers/root_water_variant/cover_1920x1080.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U01_02_1",
+      "start_s": 23.041666666666668,
+      "end_s": 27.291666666666668,
+      "duration_s": 4.25,
+      "semantic_unit": "U01",
+      "cue": "这里是一卡实验室"
+    },
+    {
+      "kind": "news",
+      "title": "先看后轮，谁在拨水？",
+      "note": "来源：央视财经 · 2026-10-24 赛前报道",
+      "media": [
+        {
+          "path": "sources/cctv_bilibili.mp4",
+          "source_start_s": 32,
+          "source_length_s": 6,
+          "playback_rate": 1,
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "fit": "cover",
+          "effect": "soft_background"
+        },
+        {
+          "path": "sources/cctv_bilibili.mp4",
+          "source_start_s": 32,
+          "source_length_s": 6,
+          "playback_rate": 1,
+          "rect": [
+            738,
+            185,
+            444,
+            790
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U02_03_0",
+      "start_s": 27.291666666666668,
+      "end_s": 31.75,
+      "duration_s": 4.458333333333333,
+      "semantic_unit": "U02",
+      "cue": ""
+    },
+    {
+      "kind": "full",
+      "title": "",
+      "note": "",
+      "media": [
+        {
+          "path": "visuals/instrumented/bike_flat_final_paddle_t2_s01.mp4",
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "source_start_s": 0,
+          "source_length_s": 6,
+          "playback_rate": 1,
+          "fit": "contain"
+        }
+      ],
+      "id": "U02_03_1",
+      "start_s": 31.75,
+      "end_s": 36.166666666666664,
+      "duration_s": 4.416666666666667,
+      "semantic_unit": "U02",
+      "cue": ""
+    },
+    {
+      "kind": "news",
+      "title": "前转向橇，跟着车头转",
+      "note": "来源：央视财经 · 2026-10-24 赛前报道",
+      "media": [
+        {
+          "path": "sources/cctv_bilibili.mp4",
+          "source_start_s": 59,
+          "source_length_s": 4.5,
+          "playback_rate": 1,
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "fit": "cover",
+          "effect": "soft_background"
+        },
+        {
+          "path": "sources/cctv_bilibili.mp4",
+          "source_start_s": 59,
+          "source_length_s": 4.5,
+          "playback_rate": 1,
+          "rect": [
+            738,
+            185,
+            444,
+            790
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U02_04_0",
+      "start_s": 36.166666666666664,
+      "end_s": 40.333333333333336,
+      "duration_s": 4.166666666666667,
+      "semantic_unit": "U02",
+      "cue": "车轮下面还有"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/experiments/bike_setup.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U02_05_0",
+      "start_s": 40.333333333333336,
+      "end_s": 47.708333333333336,
+      "duration_s": 7.375,
+      "semantic_unit": "U02",
+      "cue": "按这套分工"
+    },
+    {
+      "kind": "photo",
+      "title": "按这套分工，搭一辆实验摩托",
+      "note": "后轮推进 · 板面接水",
+      "media": [
+        {
+          "path": "visuals/candidates/motorcycle_cutout.png",
+          "rect": [
+            70,
+            190,
+            1780,
+            790
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U02_05_1",
+      "start_s": 47.708333333333336,
+      "end_s": 52.083333333333336,
+      "duration_s": 4.375,
+      "semantic_unit": "U02",
+      "cue": "按这套分工"
+    },
+    {
+      "kind": "chapter",
+      "title": "第一关：停在水上",
+      "note": "先猜一下，这几块板够吗？",
+      "chapter_number": 2,
+      "media": [],
+      "id": "U03_06_0",
+      "start_s": 52.083333333333336,
+      "end_s": 54.083333333333336,
+      "duration_s": 2.0,
+      "semantic_unit": "U03",
+      "cue": ""
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/experiments/prediction_motorcycle.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U03_06_1",
+      "start_s": 54.083333333333336,
+      "end_s": 55.916666666666664,
+      "duration_s": 1.8333333333333333,
+      "semantic_unit": "U03",
+      "cue": ""
+    },
+    {
+      "kind": "full",
+      "title": "",
+      "note": "",
+      "media": [
+        {
+          "path": "visuals/instrumented/bike_stop_base_final_cutaway_t0_s1.mp4",
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "source_start_s": 0,
+          "source_length_s": 6,
+          "playback_rate": 1,
+          "fit": "contain"
+        }
+      ],
+      "id": "U03_07_0",
+      "start_s": 55.916666666666664,
+      "end_s": 59.666666666666664,
+      "duration_s": 3.75,
+      "semantic_unit": "U03",
+      "cue": "放手"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/experiments/bike_capacity.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U03_07_1",
+      "start_s": 59.666666666666664,
+      "end_s": 61.541666666666664,
+      "duration_s": 1.875,
+      "semantic_unit": "U03",
+      "cue": "放手"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/experiments/bike_capacity.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U03_08_0",
+      "start_s": 61.541666666666664,
+      "end_s": 64.66666666666667,
+      "duration_s": 3.125,
+      "semantic_unit": "U03",
+      "cue": "问题藏在板的厚度里"
+    },
+    {
+      "kind": "photo",
+      "title": "薄板铺得开，体积仍然小",
+      "note": "实验摩托 · 242 kg",
+      "media": [
+        {
+          "path": "visuals/candidates/motorcycle_cutout.png",
+          "rect": [
+            70,
+            190,
+            1780,
+            790
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U03_08_1",
+      "start_s": 64.66666666666667,
+      "end_s": 66.54166666666667,
+      "duration_s": 1.875,
+      "semantic_unit": "U03",
+      "cue": "问题藏在板的厚度里"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/experiments/bike_capacity.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U03_09_0",
+      "start_s": 66.54166666666667,
+      "end_s": 75.83333333333333,
+      "duration_s": 9.291666666666666,
+      "semantic_unit": "U03",
+      "cue": "这辆实验车所有"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/experiments/bike_setup.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U04_10_0",
+      "start_s": 75.83333333333333,
+      "end_s": 77.83333333333333,
+      "duration_s": 2.0,
+      "semantic_unit": "U04",
+      "cue": ""
+    },
+    {
+      "kind": "full",
+      "title": "",
+      "note": "",
+      "media": [
+        {
+          "path": "visuals/instrumented/bike_flat_final_front_t0_s1.mp4",
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "source_start_s": 0,
+          "source_length_s": 6,
+          "playback_rate": 1,
+          "fit": "contain"
+        }
+      ],
+      "id": "U04_10_1",
+      "start_s": 77.83333333333333,
+      "end_s": 81.75,
+      "duration_s": 3.9166666666666665,
+      "semantic_unit": "U04",
+      "cue": ""
+    },
+    {
+      "kind": "full",
+      "title": "",
+      "note": "",
+      "media": [
+        {
+          "path": "visuals/clips/bike_flat_final_front_t0_s1.mp4",
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "source_start_s": 0,
+          "source_length_s": 6,
+          "playback_rate": 1,
+          "fit": "contain"
+        }
+      ],
+      "hud": {
+        "path": "graphics/hud/bike_flat_front_forces/frame_%04d.png",
+        "start_number": 1,
+        "fps": 24
+      },
+      "id": "U04_11_0",
+      "start_s": 81.75,
+      "end_s": 87.75,
+      "duration_s": 6.0,
+      "semantic_unit": "U04",
+      "cue": "把镜头降到水面"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/experiments/bike_flat_result.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U04_11_1",
+      "start_s": 87.75,
+      "end_s": 91.08333333333333,
+      "duration_s": 3.3333333333333335,
+      "semantic_unit": "U04",
+      "cue": "把镜头降到水面"
+    },
+    {
+      "kind": "full",
+      "title": "",
+      "note": "",
+      "media": [
+        {
+          "path": "visuals/instrumented/bike_flat_final_front_t0_s1.mp4",
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "source_start_s": 0,
+          "source_length_s": 6,
+          "playback_rate": 1,
+          "fit": "contain"
+        }
+      ],
+      "id": "U04_12_0",
+      "start_s": 91.08333333333333,
+      "end_s": 93.66666666666667,
+      "duration_s": 2.5833333333333335,
+      "semantic_unit": "U04",
+      "cue": "仪表上"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/experiments/bike_flat_result.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U04_12_1",
+      "start_s": 93.66666666666667,
+      "end_s": 95.79166666666667,
+      "duration_s": 2.125,
+      "semantic_unit": "U04",
+      "cue": "仪表上"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/experiments/bike_flat_result.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U04_13_0",
+      "start_s": 95.79166666666667,
+      "end_s": 101.70833333333333,
+      "duration_s": 5.916666666666667,
+      "semantic_unit": "U04",
+      "cue": "到了第十二秒"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/experiments/torque_compare.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U05_14_0",
+      "start_s": 101.70833333333333,
+      "end_s": 108.41666666666667,
+      "duration_s": 6.708333333333333,
+      "semantic_unit": "U05",
+      "cue": ""
+    },
+    {
+      "kind": "full",
+      "title": "",
+      "note": "",
+      "media": [
+        {
+          "path": "visuals/instrumented/bike_low_torque_final_cutaway_t2_s1.mp4",
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "source_start_s": 0,
+          "source_length_s": 6,
+          "playback_rate": 1,
+          "fit": "contain"
+        }
+      ],
+      "id": "U05_15_0",
+      "start_s": 108.41666666666667,
+      "end_s": 113.20833333333333,
+      "duration_s": 4.791666666666667,
+      "semantic_unit": "U05",
+      "cue": "刚开始"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/experiments/speed_support.mp4",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain",
+          "source_length_s": 12,
+          "source_start_s": 0,
+          "playback_rate": 1
+        }
+      ],
+      "id": "U05_15_1",
+      "start_s": 113.20833333333333,
+      "end_s": 125.20833333333333,
+      "duration_s": 12.0,
+      "semantic_unit": "U05",
+      "cue": "刚开始"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/experiments/torque_compare.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U05_15_2",
+      "start_s": 125.20833333333333,
+      "end_s": 127.58333333333333,
+      "duration_s": 2.375,
+      "semantic_unit": "U05",
+      "cue": "刚开始"
+    },
+    {
+      "kind": "full",
+      "title": "",
+      "note": "",
+      "media": [
+        {
+          "path": "visuals/instrumented/bike_flat_final_front_t0_s1.mp4",
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "source_start_s": 0,
+          "source_length_s": 6,
+          "playback_rate": 1,
+          "fit": "contain"
+        }
+      ],
+      "id": "U06_16_0",
+      "start_s": 127.58333333333333,
+      "end_s": 129.875,
+      "duration_s": 2.2916666666666665,
+      "semantic_unit": "U06",
+      "cue": ""
+    },
+    {
+      "kind": "full",
+      "title": "",
+      "note": "",
+      "media": [
+        {
+          "path": "visuals/instrumented/bike_cut_power_final_cutaway_t3_s1.mp4",
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "source_start_s": 0,
+          "source_length_s": 6,
+          "playback_rate": 1,
+          "fit": "contain"
+        }
+      ],
+      "id": "U06_17_0",
+      "start_s": 129.875,
+      "end_s": 135.625,
+      "duration_s": 5.75,
+      "semantic_unit": "U06",
+      "cue": "现在盯住"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/experiments/bike_cut_power_result.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U06_17_1",
+      "start_s": 135.625,
+      "end_s": 139.45833333333334,
+      "duration_s": 3.8333333333333335,
+      "semantic_unit": "U06",
+      "cue": "现在盯住"
+    },
+    {
+      "kind": "photo",
+      "title": "补上真正有体积的浮体",
+      "note": "实验摩托 · 增加两只储备浮体",
+      "media": [
+        {
+          "path": "visuals/film_stills/bike_buoyant.png",
+          "rect": [
+            70,
+            190,
+            1780,
+            790
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U06_18_0",
+      "start_s": 139.45833333333334,
+      "end_s": 142.04166666666666,
+      "duration_s": 2.5833333333333335,
+      "semantic_unit": "U06",
+      "cue": "如果给车补上"
+    },
+    {
+      "kind": "full",
+      "title": "",
+      "note": "",
+      "media": [
+        {
+          "path": "visuals/instrumented/bike_stop_buoyant_final_side_t9_s1.mp4",
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "source_start_s": 0,
+          "source_length_s": 6,
+          "playback_rate": 1,
+          "fit": "contain"
+        }
+      ],
+      "id": "U06_19_0",
+      "start_s": 142.04166666666666,
+      "end_s": 148.04166666666666,
+      "duration_s": 6.0,
+      "semantic_unit": "U06",
+      "cue": "重新放手"
+    },
+    {
+      "kind": "photo",
+      "title": "补上浮体，再做一次停车试验",
+      "note": "实验持续 15 秒 · 末段起伏已经很小",
+      "media": [
+        {
+          "path": "visuals/film_stills/bike_buoyant.png",
+          "rect": [
+            70,
+            190,
+            1780,
+            790
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U06_19_1",
+      "start_s": 148.04166666666666,
+      "end_s": 153.08333333333334,
+      "duration_s": 5.041666666666667,
+      "semantic_unit": "U06",
+      "cue": "重新放手"
+    },
+    {
+      "kind": "photo",
+      "title": "改重量，还是改板面？",
+      "note": "同样动力、同样初速度",
+      "media": [
+        {
+          "path": "visuals/candidates/motorcycle_cutout.png",
+          "rect": [
+            70,
+            190,
+            1780,
+            790
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U07_20_0",
+      "start_s": 153.08333333333334,
+      "end_s": 156.375,
+      "duration_s": 3.2916666666666665,
+      "semantic_unit": "U07",
+      "cue": ""
+    },
+    {
+      "kind": "photo",
+      "title": "减重：198 kg",
+      "note": "保留基准板面",
+      "media": [
+        {
+          "path": "visuals/stills/bike_light_final_front_t6_still.png",
+          "rect": [
+            70,
+            190,
+            1780,
+            790
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U07_21_0",
+      "start_s": 156.375,
+      "end_s": 160.33333333333334,
+      "duration_s": 3.9583333333333335,
+      "semantic_unit": "U07",
+      "cue": "先把总重"
+    },
+    {
+      "kind": "photo",
+      "title": "加宽：248 kg",
+      "note": "板宽 22 → 37.4 cm，包含新增装置重量",
+      "media": [
+        {
+          "path": "visuals/stills/bike_wide_final_front_t6_still.png",
+          "rect": [
+            70,
+            190,
+            1780,
+            790
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U07_21_1",
+      "start_s": 160.33333333333334,
+      "end_s": 164.29166666666666,
+      "duration_s": 3.9583333333333335,
+      "semantic_unit": "U07",
+      "cue": "先把总重"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/experiments/weight_board.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U07_22_0",
+      "start_s": 164.29166666666666,
+      "end_s": 171.45833333333334,
+      "duration_s": 7.166666666666667,
+      "semantic_unit": "U07",
+      "cue": "两组都"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/experiments/wave_lengths.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U07_23_0",
+      "start_s": 171.45833333333334,
+      "end_s": 175.5,
+      "duration_s": 4.041666666666667,
+      "semantic_unit": "U07",
+      "cue": "那要是离开"
+    },
+    {
+      "kind": "chapter",
+      "title": "第二关：换一池水",
+      "note": "回到基准摩托，先试迎浪",
+      "chapter_number": 3,
+      "media": [],
+      "id": "U08_24_0",
+      "start_s": 175.5,
+      "end_s": 179.33333333333334,
+      "duration_s": 3.8333333333333335,
+      "semantic_unit": "U08",
+      "cue": ""
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/experiments/wave_lengths.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U08_24_1",
+      "start_s": 179.33333333333334,
+      "end_s": 185.08333333333334,
+      "duration_s": 5.75,
+      "semantic_unit": "U08",
+      "cue": ""
+    },
+    {
+      "kind": "full",
+      "title": "",
+      "note": "",
+      "media": [
+        {
+          "path": "visuals/instrumented/bike_head_final_side_t1_s1.mp4",
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "source_start_s": 0,
+          "source_length_s": 6,
+          "playback_rate": 1,
+          "fit": "contain"
+        }
+      ],
+      "id": "U08_25_0",
+      "start_s": 185.08333333333334,
+      "end_s": 189.79166666666666,
+      "duration_s": 4.708333333333333,
+      "semantic_unit": "U08",
+      "cue": "车头一会儿"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/experiments/wave_lengths.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U08_26_0",
+      "start_s": 189.79166666666666,
+      "end_s": 193.29166666666666,
+      "duration_s": 3.5,
+      "semantic_unit": "U08",
+      "cue": "十二秒后"
+    },
+    {
+      "kind": "full",
+      "title": "",
+      "note": "",
+      "media": [
+        {
+          "path": "visuals/instrumented/bike_swell_final_side_t1_s1.mp4",
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "source_start_s": 0,
+          "source_length_s": 6,
+          "playback_rate": 1,
+          "fit": "contain"
+        }
+      ],
+      "id": "U08_27_0",
+      "start_s": 193.29166666666666,
+      "end_s": 195.58333333333334,
+      "duration_s": 2.2916666666666665,
+      "semantic_unit": "U08",
+      "cue": "再把浪拉长"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/experiments/wave_lengths.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U08_27_1",
+      "start_s": 195.58333333333334,
+      "end_s": 197.08333333333334,
+      "duration_s": 1.5,
+      "semantic_unit": "U08",
+      "cue": "再把浪拉长"
+    },
+    {
+      "kind": "split",
+      "title": "同样高的浪，跑起来差很多",
+      "note": "峰谷高均为 15 cm · 第 12 秒末速分别为 11.7、30.0 km/h",
+      "media": [
+        {
+          "path": "visuals/clips/bike_head_final_side_t1_s1.mp4",
+          "rect": [
+            55,
+            245,
+            870,
+            650
+          ],
+          "source_start_s": 0,
+          "source_length_s": 6,
+          "playback_rate": 1,
+          "fit": "contain",
+          "label": "迎浪 · 波长 4 m"
+        },
+        {
+          "path": "visuals/clips/bike_swell_final_side_t1_s1.mp4",
+          "rect": [
+            995,
+            245,
+            870,
+            650
+          ],
+          "source_start_s": 0,
+          "source_length_s": 6,
+          "playback_rate": 1,
+          "fit": "contain",
+          "label": "长涌 · 波长 22 m"
+        }
+      ],
+      "id": "U08_28_0",
+      "start_s": 197.08333333333334,
+      "end_s": 200.5,
+      "duration_s": 3.4166666666666665,
+      "semantic_unit": "U08",
+      "cue": "只看浪高"
+    },
+    {
+      "kind": "full",
+      "title": "浪，从侧面来",
+      "note": "基准摩托 · 峰谷高 15 cm，波长 4 m",
+      "media": [
+        {
+          "path": "visuals/clips/bike_cross_final_bow_t1_s1.mp4",
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "source_start_s": 0,
+          "source_length_s": 6,
+          "playback_rate": 1,
+          "fit": "contain"
+        }
+      ],
+      "id": "U09_29_0",
+      "start_s": 200.5,
+      "end_s": 205.125,
+      "duration_s": 4.625,
+      "semantic_unit": "U09",
+      "cue": ""
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/experiments/bike_wave_results.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U09_29_1",
+      "start_s": 205.125,
+      "end_s": 207.41666666666666,
+      "duration_s": 2.2916666666666665,
+      "semantic_unit": "U09",
+      "cue": ""
+    },
+    {
+      "kind": "full",
+      "title": "",
+      "note": "",
+      "media": [
+        {
+          "path": "visuals/instrumented/bike_cross_final_bow_t1_s1.mp4",
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "source_start_s": 0,
+          "source_length_s": 6,
+          "playback_rate": 1,
+          "fit": "contain"
+        }
+      ],
+      "id": "U09_30_0",
+      "start_s": 207.41666666666666,
+      "end_s": 212.66666666666666,
+      "duration_s": 5.25,
+      "semantic_unit": "U09",
+      "cue": "这组最大横摇"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/experiments/bike_wave_results.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U09_30_1",
+      "start_s": 212.66666666666666,
+      "end_s": 215.25,
+      "duration_s": 2.5833333333333335,
+      "semantic_unit": "U09",
+      "cue": "这组最大横摇"
+    },
+    {
+      "kind": "full",
+      "title": "",
+      "note": "",
+      "media": [
+        {
+          "path": "visuals/instrumented/bike_irregular_final_front_t1_s1.mp4",
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "source_start_s": 0,
+          "source_length_s": 6,
+          "playback_rate": 1,
+          "fit": "contain"
+        }
+      ],
+      "id": "U09_31_0",
+      "start_s": 215.25,
+      "end_s": 221.25,
+      "duration_s": 6.0,
+      "semantic_unit": "U09",
+      "cue": "最后换一组"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/experiments/bike_wave_results.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U09_31_1",
+      "start_s": 221.25,
+      "end_s": 225.0,
+      "duration_s": 3.75,
+      "semantic_unit": "U09",
+      "cue": "最后换一组"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/experiments/bike_wave_results.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U09_32_0",
+      "start_s": 225.0,
+      "end_s": 228.83333333333334,
+      "duration_s": 3.8333333333333335,
+      "semantic_unit": "U09",
+      "cue": "平水能跑"
+    },
+    {
+      "kind": "news",
+      "title": "张雪的水上摩托",
+      "note": "来源：新华社 · 2026-10-25",
+      "media": [
+        {
+          "path": "sources/xinhua_event_20261025.mp4",
+          "source_start_s": 18,
+          "source_length_s": 5,
+          "playback_rate": 1,
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "fit": "cover",
+          "effect": "soft_background"
+        },
+        {
+          "path": "sources/xinhua_event_20261025.mp4",
+          "source_start_s": 18,
+          "source_length_s": 5,
+          "playback_rate": 1,
+          "rect": [
+            664,
+            185,
+            592,
+            790
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U09_32_1",
+      "start_s": 228.83333333333334,
+      "end_s": 233.58333333333334,
+      "duration_s": 4.75,
+      "semantic_unit": "U09",
+      "cue": "平水能跑"
+    },
+    {
+      "kind": "chapter",
+      "title": "汽车，也来试一次",
+      "note": "先原车，再装后轮桨叶",
+      "chapter_number": 4,
+      "media": [],
+      "id": "U10_33_0",
+      "start_s": 233.58333333333334,
+      "end_s": 236.58333333333334,
+      "duration_s": 3.0,
+      "semantic_unit": "U10",
+      "cue": ""
+    },
+    {
+      "kind": "photo",
+      "title": "原车 · 1400 kg",
+      "note": "车厢按已经进水的状态计",
+      "media": [
+        {
+          "path": "visuals/stills/car_no_mod_final_front_t0_still.png",
+          "rect": [
+            70,
+            190,
+            1780,
+            790
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U10_33_1",
+      "start_s": 236.58333333333334,
+      "end_s": 244.08333333333334,
+      "duration_s": 7.5,
+      "semantic_unit": "U10",
+      "cue": ""
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/planing/initial_setup.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U10_34_0",
+      "start_s": 244.08333333333334,
+      "end_s": 248.58333333333334,
+      "duration_s": 4.5,
+      "semantic_unit": "U10",
+      "cue": "先给五米每秒"
+    },
+    {
+      "kind": "full",
+      "title": "",
+      "note": "",
+      "media": [
+        {
+          "path": "visuals/instrumented/car_no_mod_final_cutaway_t0_s05_deepwater.mp4",
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "source_start_s": 0,
+          "source_length_s": 6,
+          "playback_rate": 1,
+          "fit": "contain"
+        }
+      ],
+      "id": "U10_35_0",
+      "start_s": 248.58333333333334,
+      "end_s": 250.95833333333334,
+      "duration_s": 2.375,
+      "semantic_unit": "U10",
+      "cue": "放手"
+    },
+    {
+      "kind": "photo",
+      "title": "两个后轮，装上桨叶",
+      "note": "加装后 1424 kg",
+      "media": [
+        {
+          "path": "visuals/stills/car_paddles_final_front_t0_still.png",
+          "rect": [
+            70,
+            190,
+            1780,
+            790
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U10_36_0",
+      "start_s": 250.95833333333334,
+      "end_s": 254.66666666666666,
+      "duration_s": 3.7083333333333335,
+      "semantic_unit": "U10",
+      "cue": "那就在两个后轮"
+    },
+    {
+      "kind": "full",
+      "title": "",
+      "note": "",
+      "media": [
+        {
+          "path": "visuals/instrumented/car_paddles_final_cutaway_t0_s05_deepwater.mp4",
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "source_start_s": 0,
+          "source_length_s": 6,
+          "playback_rate": 1,
+          "fit": "contain"
+        }
+      ],
+      "id": "U10_36_1",
+      "start_s": 254.66666666666666,
+      "end_s": 259.0416666666667,
+      "duration_s": 4.375,
+      "semantic_unit": "U10",
+      "cue": "那就在两个后轮"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/planing/entry_speeds.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U10_37_0",
+      "start_s": 259.0416666666667,
+      "end_s": 264.8333333333333,
+      "duration_s": 5.791666666666667,
+      "semantic_unit": "U10",
+      "cue": "不过"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/experiments/prediction_car.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U10_37_1",
+      "start_s": 264.8333333333333,
+      "end_s": 268.2916666666667,
+      "duration_s": 3.4583333333333335,
+      "semantic_unit": "U10",
+      "cue": "不过"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/experiments/car_small_specs.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U11_38_0",
+      "start_s": 268.2916666666667,
+      "end_s": 274.5416666666667,
+      "duration_s": 6.25,
+      "semantic_unit": "U11",
+      "cue": ""
+    },
+    {
+      "kind": "photo",
+      "title": "两边，先挂小浮筒",
+      "note": "加装后 1460 kg",
+      "media": [
+        {
+          "path": "visuals/stills/car_small_floats_final_front_t0_still.png",
+          "rect": [
+            70,
+            190,
+            1780,
+            790
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U11_38_1",
+      "start_s": 274.5416666666667,
+      "end_s": 280.75,
+      "duration_s": 6.208333333333333,
+      "semantic_unit": "U11",
+      "cue": ""
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/experiments/car_capacity.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U11_39_0",
+      "start_s": 280.75,
+      "end_s": 283.5,
+      "duration_s": 2.75,
+      "semantic_unit": "U11",
+      "cue": "关掉动力"
+    },
+    {
+      "kind": "full",
+      "title": "",
+      "note": "",
+      "media": [
+        {
+          "path": "visuals/instrumented/car_small_floats_final_cutaway_t0_s05.mp4",
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "source_start_s": 0,
+          "source_length_s": 6,
+          "playback_rate": 1,
+          "fit": "contain"
+        }
+      ],
+      "id": "U11_40_0",
+      "start_s": 283.5,
+      "end_s": 287.1666666666667,
+      "duration_s": 3.6666666666666665,
+      "semantic_unit": "U11",
+      "cue": "在刚才那组行驶条件下"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/experiments/car_capacity.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U11_41_0",
+      "start_s": 287.1666666666667,
+      "end_s": 293.0833333333333,
+      "duration_s": 5.916666666666667,
+      "semantic_unit": "U11",
+      "cue": "可排水体积不足"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/experiments/prediction_car.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U11_41_1",
+      "start_s": 293.0833333333333,
+      "end_s": 296.5833333333333,
+      "duration_s": 3.5,
+      "semantic_unit": "U11",
+      "cue": "可排水体积不足"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/planing/entry_speeds.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U11A_42_0",
+      "start_s": 296.5833333333333,
+      "end_s": 311.125,
+      "duration_s": 14.541666666666666,
+      "semantic_unit": "U11A",
+      "cue": ""
+    },
+    {
+      "kind": "full",
+      "title": "",
+      "note": "",
+      "media": [
+        {
+          "path": "visuals/planing/instrumented/pln_paddles_v15_t3_p44_cutaway_t0_s04.mp4",
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "source_start_s": 0,
+          "source_length_s": 6,
+          "playback_rate": 1,
+          "fit": "contain"
+        }
+      ],
+      "id": "U11A_43_0",
+      "start_s": 311.125,
+      "end_s": 313.5,
+      "duration_s": 2.375,
+      "semantic_unit": "U11A",
+      "cue": "原车加桨"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/planing/geometry_comparison.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U11A_44_0",
+      "start_s": 313.5,
+      "end_s": 317.2083333333333,
+      "duration_s": 3.7083333333333335,
+      "semantic_unit": "U11A",
+      "cue": "接着把浮筒"
+    },
+    {
+      "kind": "full",
+      "title": "",
+      "note": "",
+      "media": [
+        {
+          "path": "visuals/planing/instrumented/pln_wide_low_clear_v15_t3_p44_cutaway_t0_s05.mp4",
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "source_start_s": 0,
+          "source_length_s": 6,
+          "playback_rate": 1,
+          "fit": "contain"
+        }
+      ],
+      "id": "U11A_44_1",
+      "start_s": 317.2083333333333,
+      "end_s": 322.75,
+      "duration_s": 5.541666666666667,
+      "semantic_unit": "U11A",
+      "cue": "接着把浮筒"
+    },
+    {
+      "kind": "full",
+      "title": "",
+      "note": "",
+      "media": [
+        {
+          "path": "visuals/planing/instrumented/pln_wide_low_clear_v15_t3_p44_cutaway_t0_s05.mp4",
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "source_start_s": 0,
+          "source_length_s": 6,
+          "playback_rate": 1,
+          "fit": "contain"
+        }
+      ],
+      "id": "U11A_45_0",
+      "start_s": 322.75,
+      "end_s": 326.2916666666667,
+      "duration_s": 3.5416666666666665,
+      "semantic_unit": "U11A",
+      "cue": "能托一下"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/planing/geometry_comparison.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U11A_45_1",
+      "start_s": 326.2916666666667,
+      "end_s": 329.125,
+      "duration_s": 2.8333333333333335,
+      "semantic_unit": "U11A",
+      "cue": "能托一下"
+    },
+    {
+      "kind": "chapter",
+      "title": "汽车，也试前后滑板",
+      "note": "把推进和承水面一起配起来",
+      "chapter_number": 5,
+      "media": [],
+      "id": "U11B_46_0",
+      "start_s": 329.125,
+      "end_s": 331.625,
+      "duration_s": 2.5,
+      "semantic_unit": "U11B",
+      "cue": ""
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/planing/four_skis_setup.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U11B_46_1",
+      "start_s": 331.625,
+      "end_s": 337.875,
+      "duration_s": 6.25,
+      "semantic_unit": "U11B",
+      "cue": ""
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/planing/four_skis_setup.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U11B_47_0",
+      "start_s": 337.875,
+      "end_s": 343.8333333333333,
+      "duration_s": 5.958333333333333,
+      "semantic_unit": "U11B",
+      "cue": "装置的重量"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/planing/power_comparison.mp4",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain",
+          "source_length_s": 10,
+          "source_start_s": 0,
+          "playback_rate": 1
+        }
+      ],
+      "id": "U11B_48_0",
+      "start_s": 343.8333333333333,
+      "end_s": 351.0,
+      "duration_s": 7.166666666666667,
+      "semantic_unit": "U11B",
+      "cue": "先用原来的轮端动力"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/planing/power_comparison.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U11B_48_1",
+      "start_s": 351.0,
+      "end_s": 353.125,
+      "duration_s": 2.125,
+      "semantic_unit": "U11B",
+      "cue": "先用原来的轮端动力"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/planing/power_comparison.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U11B_49_0",
+      "start_s": 353.125,
+      "end_s": 358.25,
+      "duration_s": 5.125,
+      "semantic_unit": "U11B",
+      "cue": "看这一条"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/planing/support_split.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U11B_50_0",
+      "start_s": 358.25,
+      "end_s": 365.125,
+      "duration_s": 6.875,
+      "semantic_unit": "U11B",
+      "cue": "仪表里"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/planing/thirty_seconds.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U11C_51_0",
+      "start_s": 365.125,
+      "end_s": 367.4583333333333,
+      "duration_s": 2.3333333333333335,
+      "semantic_unit": "U11C",
+      "cue": ""
+    },
+    {
+      "kind": "full",
+      "title": "",
+      "note": "",
+      "media": [
+        {
+          "path": "visuals/planing/instrumented/pln_four_skis_v15_p176_30s_front_t20_s1.mp4",
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "source_start_s": 0,
+          "source_length_s": 6,
+          "playback_rate": 1,
+          "fit": "contain"
+        }
+      ],
+      "id": "U11C_52_0",
+      "start_s": 367.4583333333333,
+      "end_s": 371.5416666666667,
+      "duration_s": 4.083333333333333,
+      "semantic_unit": "U11C",
+      "cue": "末段平均速度"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/planing/thirty_seconds.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U11C_52_1",
+      "start_s": 371.5416666666667,
+      "end_s": 373.5833333333333,
+      "duration_s": 2.0416666666666665,
+      "semantic_unit": "U11C",
+      "cue": "末段平均速度"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/planing/verification.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U11C_53_0",
+      "start_s": 373.5833333333333,
+      "end_s": 380.625,
+      "duration_s": 7.041666666666667,
+      "semantic_unit": "U11C",
+      "cue": "把计算步长"
+    },
+    {
+      "kind": "full",
+      "title": "",
+      "note": "",
+      "media": [
+        {
+          "path": "visuals/planing/instrumented/pln_four_skis_v15_p176_off12_cutaway_t12p35_s1.mp4",
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "source_start_s": 0,
+          "source_length_s": 6,
+          "playback_rate": 1,
+          "fit": "contain"
+        }
+      ],
+      "id": "U11C_54_0",
+      "start_s": 380.625,
+      "end_s": 386.625,
+      "duration_s": 6.0,
+      "semantic_unit": "U11C",
+      "cue": "再来一次"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/planing/power_off.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U11C_54_1",
+      "start_s": 386.625,
+      "end_s": 392.125,
+      "duration_s": 5.5,
+      "semantic_unit": "U11C",
+      "cue": "再来一次"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/planing/support_split.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U11C_55_0",
+      "start_s": 392.125,
+      "end_s": 395.375,
+      "duration_s": 3.25,
+      "semantic_unit": "U11C",
+      "cue": "这组滑板解决"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/planing/limits.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U11C_56_0",
+      "start_s": 395.375,
+      "end_s": 403.1666666666667,
+      "duration_s": 7.791666666666667,
+      "semantic_unit": "U11C",
+      "cue": "这里的速度"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/experiments/car_large_specs.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U12_57_0",
+      "start_s": 403.1666666666667,
+      "end_s": 411.25,
+      "duration_s": 8.083333333333334,
+      "semantic_unit": "U12",
+      "cue": ""
+    },
+    {
+      "kind": "photo",
+      "title": "这次，换大浮筒",
+      "note": "两只浮筒合计 2617 L · 整车 1544 kg",
+      "media": [
+        {
+          "path": "visuals/stills/car_large_floats_final_front_t0_still.png",
+          "rect": [
+            70,
+            190,
+            1780,
+            790
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U12_57_1",
+      "start_s": 411.25,
+      "end_s": 416.0833333333333,
+      "duration_s": 4.833333333333333,
+      "semantic_unit": "U12",
+      "cue": ""
+    },
+    {
+      "kind": "full",
+      "title": "",
+      "note": "",
+      "media": [
+        {
+          "path": "visuals/instrumented/car_stop_large_floats_long_bow_t0_s1.mp4",
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "source_start_s": 0,
+          "source_length_s": 6,
+          "playback_rate": 1,
+          "fit": "contain"
+        }
+      ],
+      "id": "U12_58_0",
+      "start_s": 416.0833333333333,
+      "end_s": 421.5,
+      "duration_s": 5.416666666666667,
+      "semantic_unit": "U12",
+      "cue": "先关掉动力"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/experiments/car_static_40s.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U12_58_1",
+      "start_s": 421.5,
+      "end_s": 424.2083333333333,
+      "duration_s": 2.7083333333333335,
+      "semantic_unit": "U12",
+      "cue": "先关掉动力"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/experiments/car_static_40s.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U12_59_0",
+      "start_s": 424.2083333333333,
+      "end_s": 430.0833333333333,
+      "duration_s": 5.875,
+      "semantic_unit": "U12",
+      "cue": "把时间延长"
+    },
+    {
+      "kind": "full",
+      "title": "",
+      "note": "",
+      "media": [
+        {
+          "path": "visuals/instrumented/car_large_floats_final_front_t0_s1.mp4",
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "source_start_s": 0,
+          "source_length_s": 6,
+          "playback_rate": 1,
+          "fit": "contain"
+        }
+      ],
+      "id": "U12_60_0",
+      "start_s": 430.0833333333333,
+      "end_s": 432.6666666666667,
+      "duration_s": 2.5833333333333335,
+      "semantic_unit": "U12",
+      "cue": "再让后轮"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/experiments/car_motion_result.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U12_61_0",
+      "start_s": 432.6666666666667,
+      "end_s": 440.0833333333333,
+      "duration_s": 7.416666666666667,
+      "semantic_unit": "U12",
+      "cue": "十二秒后"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/planing/support_split.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U12_62_0",
+      "start_s": 440.0833333333333,
+      "end_s": 443.0,
+      "duration_s": 2.9166666666666665,
+      "semantic_unit": "U12",
+      "cue": "同一台汽车"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/experiments/car_four_variants.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U12_62_1",
+      "start_s": 443.0,
+      "end_s": 445.1666666666667,
+      "duration_s": 2.1666666666666665,
+      "semantic_unit": "U12",
+      "cue": "同一台汽车"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/experiments/closing.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U12_63_0",
+      "start_s": 445.1666666666667,
+      "end_s": 450.0833333333333,
+      "duration_s": 4.916666666666667,
+      "semantic_unit": "U12",
+      "cue": "想看下一台车"
+    },
+    {
+      "kind": "chapter",
+      "title": "仰望 U8，靠什么浮起来？",
+      "note": "同样下水，先看分工",
+      "chapter_number": 6,
+      "media": [],
+      "id": "U13_64_0",
+      "start_s": 450.0833333333333,
+      "end_s": 452.5416666666667,
+      "duration_s": 2.4583333333333335,
+      "semantic_unit": "U13",
+      "cue": ""
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/amphibious/01_u8.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U13_64_1",
+      "start_s": 452.5416666666667,
+      "end_s": 458.6666666666667,
+      "duration_s": 6.125,
+      "semantic_unit": "U13",
+      "cue": ""
+    },
+    {
+      "kind": "photo",
+      "title": "应急浮水，多一条脱困路径",
+      "note": "图：仰望 UAE 官网",
+      "media": [
+        {
+          "path": "sources/amphibious/u8_float_official.jpg",
+          "rect": [
+            70,
+            190,
+            1780,
+            790
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U13_65_0",
+      "start_s": 458.6666666666667,
+      "end_s": 463.0,
+      "duration_s": 4.333333333333333,
+      "semantic_unit": "U13",
+      "cue": "仰望把这套本领"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/amphibious/01_u8.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U13_65_1",
+      "start_s": 463.0,
+      "end_s": 465.5416666666667,
+      "duration_s": 2.5416666666666665,
+      "semantic_unit": "U13",
+      "cue": "仰望把这套本领"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/amphibious/04_comparison.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U13_66_0",
+      "start_s": 465.5416666666667,
+      "end_s": 469.4583333333333,
+      "duration_s": 3.9166666666666665,
+      "semantic_unit": "U13",
+      "cue": "我们把浮体"
+    },
+    {
+      "kind": "full",
+      "title": "",
+      "note": "",
+      "media": [
+        {
+          "path": "visuals/instrumented/car_large_floats_final_front_t0_s1.mp4",
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "source_start_s": 0,
+          "source_length_s": 6,
+          "playback_rate": 1,
+          "fit": "contain"
+        }
+      ],
+      "id": "U13_66_1",
+      "start_s": 469.4583333333333,
+      "end_s": 474.625,
+      "duration_s": 5.166666666666667,
+      "semantic_unit": "U13",
+      "cue": "我们把浮体"
+    },
+    {
+      "kind": "photo",
+      "title": "WaterCar Panther",
+      "note": "图：WaterCar 原厂 · 原版 Panther 结构",
+      "media": [
+        {
+          "path": "sources/amphibious/watercar_panther_front_official.webp",
+          "rect": [
+            70,
+            190,
+            1780,
+            790
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U14_67_0",
+      "start_s": 474.625,
+      "end_s": 479.2083333333333,
+      "duration_s": 4.583333333333333,
+      "semantic_unit": "U14",
+      "cue": ""
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/amphibious/02_panther.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U14_67_1",
+      "start_s": 479.2083333333333,
+      "end_s": 481.9166666666667,
+      "duration_s": 2.7083333333333335,
+      "semantic_unit": "U14",
+      "cue": ""
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/amphibious/02_panther.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U14_68_0",
+      "start_s": 481.9166666666667,
+      "end_s": 489.2083333333333,
+      "duration_s": 7.291666666666667,
+      "semantic_unit": "U14",
+      "cue": "入水以后"
+    },
+    {
+      "kind": "photo",
+      "title": "船壳承浮，喷泵推进",
+      "note": "图：WaterCar 原厂",
+      "media": [
+        {
+          "path": "sources/amphibious/watercar_panther_rear_official.webp",
+          "rect": [
+            70,
+            190,
+            1780,
+            790
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U14_69_0",
+      "start_s": 489.2083333333333,
+      "end_s": 493.125,
+      "duration_s": 3.9166666666666665,
+      "semantic_unit": "U14",
+      "cue": "水流向后"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/amphibious/02_panther.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U14_69_1",
+      "start_s": 493.125,
+      "end_s": 496.25,
+      "duration_s": 3.125,
+      "semantic_unit": "U14",
+      "cue": "水流向后"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/amphibious/03_amphicar.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U15_70_0",
+      "start_s": 496.25,
+      "end_s": 504.3333333333333,
+      "duration_s": 8.083333333333334,
+      "semantic_unit": "U15",
+      "cue": ""
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/experiments/comparison_reveal.mp4",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain",
+          "source_length_s": 8,
+          "source_start_s": 0,
+          "playback_rate": 1
+        }
+      ],
+      "id": "U15_71_0",
+      "start_s": 504.3333333333333,
+      "end_s": 512.3333333333334,
+      "duration_s": 8.0,
+      "semantic_unit": "U15",
+      "cue": "把它们放在一起"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/amphibious/04_comparison.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U15_71_1",
+      "start_s": 512.3333333333334,
+      "end_s": 515.2916666666666,
+      "duration_s": 2.9583333333333335,
+      "semantic_unit": "U15",
+      "cue": "把它们放在一起"
+    },
+    {
+      "kind": "full",
+      "title": "",
+      "note": "",
+      "media": [
+        {
+          "path": "visuals/instrumented/car_large_floats_final_front_t0_s1.mp4",
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "source_start_s": 0,
+          "source_length_s": 6,
+          "playback_rate": 1,
+          "fit": "contain"
+        }
+      ],
+      "id": "U15_72_0",
+      "start_s": 515.2916666666666,
+      "end_s": 519.6666666666666,
+      "duration_s": 4.375,
+      "semantic_unit": "U15",
+      "cue": "我们的两只大浮筒"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/experiments/car_four_variants.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U15_72_1",
+      "start_s": 519.6666666666666,
+      "end_s": 522.9166666666666,
+      "duration_s": 3.25,
+      "semantic_unit": "U15",
+      "cue": "我们的两只大浮筒"
+    },
+    {
+      "kind": "chapter",
+      "title": "最后一关，汽车进浪",
+      "note": "迎浪、横浪、长涌、组合波浪",
+      "chapter_number": 7,
+      "media": [],
+      "id": "U16_73_0",
+      "start_s": 522.9166666666666,
+      "end_s": 525.3333333333334,
+      "duration_s": 2.4166666666666665,
+      "semantic_unit": "U16",
+      "cue": ""
+    },
+    {
+      "kind": "split",
+      "title": "先迎面来，再从侧面来",
+      "note": "大浮筒实验车 · 相同波高 15 cm",
+      "media": [
+        {
+          "path": "visuals/clips/car_large_head_final_side_t1_s1.mp4",
+          "rect": [
+            55,
+            245,
+            870,
+            650
+          ],
+          "source_start_s": 0,
+          "source_length_s": 6,
+          "playback_rate": 1,
+          "fit": "contain",
+          "label": "迎浪"
+        },
+        {
+          "path": "visuals/clips/car_large_cross_final_bow_t1_s1.mp4",
+          "rect": [
+            995,
+            245,
+            870,
+            650
+          ],
+          "source_start_s": 0,
+          "source_length_s": 6,
+          "playback_rate": 1,
+          "fit": "contain",
+          "label": "横浪"
+        }
+      ],
+      "id": "U16_73_1",
+      "start_s": 525.3333333333334,
+      "end_s": 531.3333333333334,
+      "duration_s": 6.0,
+      "semantic_unit": "U16",
+      "cue": ""
+    },
+    {
+      "kind": "split",
+      "title": "接着，长涌和组合波浪",
+      "note": "",
+      "media": [
+        {
+          "path": "visuals/clips/car_large_swell_final_side_t1_s1.mp4",
+          "rect": [
+            55,
+            245,
+            870,
+            650
+          ],
+          "source_start_s": 0,
+          "source_length_s": 6,
+          "playback_rate": 1,
+          "fit": "contain",
+          "label": "长涌"
+        },
+        {
+          "path": "visuals/clips/car_large_irregular_final_front_t1_s1.mp4",
+          "rect": [
+            995,
+            245,
+            870,
+            650
+          ],
+          "source_start_s": 0,
+          "source_length_s": 6,
+          "playback_rate": 1,
+          "fit": "contain",
+          "label": "组合波浪"
+        }
+      ],
+      "id": "U16_73_2",
+      "start_s": 531.3333333333334,
+      "end_s": 537.3333333333334,
+      "duration_s": 6.0,
+      "semantic_unit": "U16",
+      "cue": ""
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/experiments/car_wave_results.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U16_73_3",
+      "start_s": 537.3333333333334,
+      "end_s": 539.75,
+      "duration_s": 2.4166666666666665,
+      "semantic_unit": "U16",
+      "cue": ""
+    },
+    {
+      "kind": "full",
+      "title": "",
+      "note": "",
+      "media": [
+        {
+          "path": "visuals/instrumented/car_large_cross_final_bow_t1_s1.mp4",
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "source_start_s": 0,
+          "source_length_s": 6,
+          "playback_rate": 1,
+          "fit": "contain"
+        }
+      ],
+      "id": "U16_74_0",
+      "start_s": 539.75,
+      "end_s": 542.6666666666666,
+      "duration_s": 2.9166666666666665,
+      "semantic_unit": "U16",
+      "cue": "这时看浮筒"
+    },
+    {
+      "kind": "full",
+      "title": "",
+      "note": "",
+      "media": [
+        {
+          "path": "visuals/instrumented/car_large_irregular_final_front_t1_s1.mp4",
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "source_start_s": 0,
+          "source_length_s": 6,
+          "playback_rate": 1,
+          "fit": "contain"
+        }
+      ],
+      "id": "U16_74_1",
+      "start_s": 542.6666666666666,
+      "end_s": 545.5833333333334,
+      "duration_s": 2.9166666666666665,
+      "semantic_unit": "U16",
+      "cue": "这时看浮筒"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/experiments/car_wave_results.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U16_74_2",
+      "start_s": 545.5833333333334,
+      "end_s": 547.0833333333334,
+      "duration_s": 1.5,
+      "semantic_unit": "U16",
+      "cue": "这时看浮筒"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/experiments/car_four_variants.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U16_75_0",
+      "start_s": 547.0833333333334,
+      "end_s": 549.9583333333334,
+      "duration_s": 2.875,
+      "semantic_unit": "U16",
+      "cue": "把它能不能"
+    },
+    {
+      "kind": "full",
+      "title": "",
+      "note": "",
+      "media": [
+        {
+          "path": "visuals/instrumented/car_large_floats_final_front_t0_s1.mp4",
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "source_start_s": 0,
+          "source_length_s": 6,
+          "playback_rate": 1,
+          "fit": "contain"
+        }
+      ],
+      "id": "U16_75_1",
+      "start_s": 549.9583333333334,
+      "end_s": 554.7083333333334,
+      "duration_s": 4.75,
+      "semantic_unit": "U16",
+      "cue": "把它能不能"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "covers/root_water_variant/cover_1920x1080.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U17_76_0",
+      "start_s": 554.7083333333334,
+      "end_s": 558.2916666666666,
+      "duration_s": 3.5833333333333335,
+      "semantic_unit": "U17",
+      "cue": ""
+    },
+    {
+      "kind": "full",
+      "title": "",
+      "note": "",
+      "media": [
+        {
+          "path": "visuals/planing/instrumented/pln_four_skis_v15_p176_30s_front_t20_s1.mp4",
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "source_start_s": 0,
+          "source_length_s": 6,
+          "playback_rate": 1,
+          "fit": "contain"
+        }
+      ],
+      "id": "U17_76_1",
+      "start_s": 558.2916666666666,
+      "end_s": 564.2916666666666,
+      "duration_s": 6.0,
+      "semantic_unit": "U17",
+      "cue": ""
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/planing/support_split.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U17_76_2",
+      "start_s": 564.2916666666666,
+      "end_s": 567.8333333333334,
+      "duration_s": 3.5416666666666665,
+      "semantic_unit": "U17",
+      "cue": ""
+    },
+    {
+      "kind": "full",
+      "title": "",
+      "note": "",
+      "media": [
+        {
+          "path": "visuals/instrumented/car_large_floats_final_front_t0_s1.mp4",
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "source_start_s": 0,
+          "source_length_s": 6,
+          "playback_rate": 1,
+          "fit": "contain"
+        }
+      ],
+      "id": "U17_77_0",
+      "start_s": 567.8333333333334,
+      "end_s": 571.5,
+      "duration_s": 3.6666666666666665,
+      "semantic_unit": "U17",
+      "cue": "想停下来"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/planing/support_split.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U17_77_1",
+      "start_s": 571.5,
+      "end_s": 574.25,
+      "duration_s": 2.75,
+      "semantic_unit": "U17",
+      "cue": "想停下来"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/planing/power_comparison.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U17_78_0",
+      "start_s": 574.25,
+      "end_s": 577.0,
+      "duration_s": 2.75,
+      "semantic_unit": "U17",
+      "cue": "速度、推进和承水结构"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/planing/limits.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U17_78_1",
+      "start_s": 577.0,
+      "end_s": 579.75,
+      "duration_s": 2.75,
+      "semantic_unit": "U17",
+      "cue": "速度、推进和承水结构"
+    },
+    {
+      "kind": "news",
+      "title": "张雪的水上摩托",
+      "note": "来源：新华社 · 2026-10-25",
+      "media": [
+        {
+          "path": "sources/xinhua_event_20261025.mp4",
+          "source_start_s": 18,
+          "source_length_s": 5,
+          "playback_rate": 1,
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "fit": "cover",
+          "effect": "soft_background"
+        },
+        {
+          "path": "sources/xinhua_event_20261025.mp4",
+          "source_start_s": 18,
+          "source_length_s": 5,
+          "playback_rate": 1,
+          "rect": [
+            664,
+            185,
+            592,
+            790
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U17_79_0",
+      "start_s": 579.75,
+      "end_s": 582.0,
+      "duration_s": 2.25,
+      "semantic_unit": "U17",
+      "cue": "张雪把摩托"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/experiments/news_distance.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U17_79_1",
+      "start_s": 582.0,
+      "end_s": 583.5,
+      "duration_s": 1.5,
+      "semantic_unit": "U17",
+      "cue": "张雪把摩托"
+    },
+    {
+      "kind": "full",
+      "title": "",
+      "note": "",
+      "media": [
+        {
+          "path": "visuals/instrumented/car_large_floats_final_front_t0_s1.mp4",
+          "rect": [
+            0,
+            0,
+            1920,
+            1080
+          ],
+          "source_start_s": 0,
+          "source_length_s": 6,
+          "playback_rate": 1,
+          "fit": "contain"
+        }
+      ],
+      "id": "U17_79_2",
+      "start_s": 583.5,
+      "end_s": 585.375,
+      "duration_s": 1.875,
+      "semantic_unit": "U17",
+      "cue": "张雪把摩托"
+    },
+    {
+      "kind": "static",
+      "title": "",
+      "subtitle_position": "top",
+      "subtitle_top_y": 20,
+      "media": [
+        {
+          "path": "graphics/experiments/closing.png",
+          "rect": [
+            0,
+            90,
+            1920,
+            990
+          ],
+          "fit": "contain"
+        }
+      ],
+      "id": "U17_80_0",
+      "start_s": 585.375,
+      "end_s": 595.7916666666666,
+      "duration_s": 10.416666666666666,
+      "semantic_unit": "U17",
+      "cue": "这里是一卡实验室"
+    }
+  ]
+}

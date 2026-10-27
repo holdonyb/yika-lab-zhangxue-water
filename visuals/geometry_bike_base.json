@@ -1,0 +1,394 @@
+{
+  "vehicle": "bike",
+  "variant": "base",
+  "water": {
+    "kind": "calm",
+    "mean_z": 0.0,
+    "density": 1000.0,
+    "current": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "components": [],
+    "seed": 17,
+    "gravity": 9.81
+  },
+  "duration": 12.0,
+  "dt": 0.001,
+  "output_hz": 48.0,
+  "initial_speed": 9.0,
+  "initial_roll_deg": 0.0,
+  "initial_pitch_deg": 0.0,
+  "initial_z": 0.86,
+  "drive_off_s": null,
+  "steer_target_deg": 0.0,
+  "steer_start_s": 0.0,
+  "parameter_origin": "declared experimental model, not a measurement of the news vehicle",
+  "volumes": [
+    {
+      "name": "engine_and_structure",
+      "body": "chassis",
+      "center": [
+        -0.12,
+        0,
+        -0.16
+      ],
+      "size": [
+        0.65,
+        0.36,
+        0.28
+      ],
+      "cd": [
+        0.8,
+        1.0,
+        1.0
+      ],
+      "grid": [
+        8,
+        4,
+        4
+      ],
+      "pitch_deg": 0
+    },
+    {
+      "name": "rider_effective",
+      "body": "chassis",
+      "center": [
+        0,
+        0,
+        0.48
+      ],
+      "size": [
+        0.32,
+        0.34,
+        0.55
+      ],
+      "cd": [
+        0.8,
+        1.0,
+        1.0
+      ],
+      "grid": [
+        8,
+        4,
+        4
+      ],
+      "pitch_deg": 0
+    },
+    {
+      "name": "rear_wheel_sealed",
+      "body": "rear_wheel",
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        0.73,
+        0.22,
+        0.73
+      ],
+      "shape": "annular_cylinder",
+      "outer_radius": 0.365,
+      "inner_radius": 0.28500000000000003,
+      "width": 0.22,
+      "cd": [
+        0.8,
+        1.0,
+        0.8
+      ],
+      "grid": [
+        32,
+        2,
+        2
+      ],
+      "pitch_deg": 0.0
+    },
+    {
+      "name": "front_wheel_sealed",
+      "body": "front_wheel",
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        0.79,
+        0.16,
+        0.79
+      ],
+      "shape": "annular_cylinder",
+      "outer_radius": 0.395,
+      "inner_radius": 0.315,
+      "width": 0.16,
+      "cd": [
+        0.8,
+        1.0,
+        0.8
+      ],
+      "grid": [
+        32,
+        2,
+        2
+      ],
+      "pitch_deg": 0.0
+    },
+    {
+      "name": "chassis_ski_solid_-1",
+      "body": "chassis",
+      "center": [
+        -0.78,
+        -0.34,
+        -0.8059999999999999
+      ],
+      "size": [
+        1.12,
+        0.22,
+        0.028
+      ],
+      "cd": [
+        0.7,
+        0.9,
+        0.0
+      ],
+      "grid": [
+        12,
+        3,
+        2
+      ],
+      "pitch_deg": 6
+    },
+    {
+      "name": "chassis_ski_solid_1",
+      "body": "chassis",
+      "center": [
+        -0.78,
+        0.34,
+        -0.8059999999999999
+      ],
+      "size": [
+        1.12,
+        0.22,
+        0.028
+      ],
+      "cd": [
+        0.7,
+        0.9,
+        0.0
+      ],
+      "grid": [
+        12,
+        3,
+        2
+      ],
+      "pitch_deg": 6
+    },
+    {
+      "name": "front_fork_ski_solid_-1",
+      "body": "front_fork",
+      "center": [
+        0.0,
+        -0.2,
+        -0.391
+      ],
+      "size": [
+        1.12,
+        0.22,
+        0.028
+      ],
+      "cd": [
+        0.7,
+        0.9,
+        0.0
+      ],
+      "grid": [
+        12,
+        3,
+        2
+      ],
+      "pitch_deg": 6
+    },
+    {
+      "name": "front_fork_ski_solid_1",
+      "body": "front_fork",
+      "center": [
+        0.0,
+        0.2,
+        -0.391
+      ],
+      "size": [
+        1.12,
+        0.22,
+        0.028
+      ],
+      "cd": [
+        0.7,
+        0.9,
+        0.0
+      ],
+      "grid": [
+        12,
+        3,
+        2
+      ],
+      "pitch_deg": 6
+    }
+  ],
+  "panels": [
+    {
+      "name": "chassis_ski_-1",
+      "body": "chassis",
+      "center": [
+        -0.78,
+        -0.34,
+        -0.82
+      ],
+      "size": [
+        1.12,
+        0.22
+      ],
+      "pitch_deg": 6,
+      "grid": [
+        16,
+        4
+      ],
+      "cn": 2.0,
+      "cf": 0.008,
+      "wet_transition_m": 0.012,
+      "thickness": 0.028
+    },
+    {
+      "name": "chassis_ski_1",
+      "body": "chassis",
+      "center": [
+        -0.78,
+        0.34,
+        -0.82
+      ],
+      "size": [
+        1.12,
+        0.22
+      ],
+      "pitch_deg": 6,
+      "grid": [
+        16,
+        4
+      ],
+      "cn": 2.0,
+      "cf": 0.008,
+      "wet_transition_m": 0.012,
+      "thickness": 0.028
+    },
+    {
+      "name": "front_fork_ski_-1",
+      "body": "front_fork",
+      "center": [
+        0.0,
+        -0.2,
+        -0.405
+      ],
+      "size": [
+        1.12,
+        0.22
+      ],
+      "pitch_deg": 6,
+      "grid": [
+        16,
+        4
+      ],
+      "cn": 2.0,
+      "cf": 0.008,
+      "wet_transition_m": 0.012,
+      "thickness": 0.028
+    },
+    {
+      "name": "front_fork_ski_1",
+      "body": "front_fork",
+      "center": [
+        0.0,
+        0.2,
+        -0.405
+      ],
+      "size": [
+        1.12,
+        0.22
+      ],
+      "pitch_deg": 6,
+      "grid": [
+        16,
+        4
+      ],
+      "cn": 2.0,
+      "cf": 0.008,
+      "wet_transition_m": 0.012,
+      "thickness": 0.028
+    }
+  ],
+  "wheels": [
+    {
+      "name": "rear_wheel",
+      "parent": "chassis",
+      "center": [
+        -0.86,
+        0,
+        -0.455
+      ],
+      "radius": 0.395,
+      "width": 0.22,
+      "mass": 12.0,
+      "inertia": [
+        0.7,
+        1.1,
+        0.7
+      ],
+      "paddles": true,
+      "blade_area": 0.038,
+      "blade_count": 12,
+      "blade_radius": 0.46,
+      "blade_depth": 0.09
+    },
+    {
+      "name": "front_wheel",
+      "parent": "front_fork",
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "radius": 0.425,
+      "width": 0.16,
+      "mass": 8.0,
+      "inertia": [
+        0.5,
+        0.9,
+        0.5
+      ],
+      "paddles": false
+    }
+  ],
+  "chassis_mass": 220.0,
+  "chassis_inertia": [
+    65.0,
+    110.0,
+    85.0
+  ],
+  "visual_origin_to_com": [
+    0,
+    0,
+    0.86
+  ],
+  "drive_torque_nm": 145.0,
+  "drive_power_w": 15000.0,
+  "wheel_target_rad_s": 36.0,
+  "front_fork": {
+    "center": [
+      0.91,
+      0,
+      -0.415
+    ],
+    "mass": 2.0
+  },
+  "drive_rating_scope": "per driven wheel; total budget is per-wheel rating times driven wheel count",
+  "total_drive_power_w": 15000.0
+}

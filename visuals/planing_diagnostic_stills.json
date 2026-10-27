@@ -1,0 +1,10 @@
+[
+  {
+    "id": "pln_wide_low_v15_t3_p44_high_t0_structure",
+    "run": "pln_wide_low_v15_t3_p44",
+    "camera": "high",
+    "time": 0,
+    "use_in_film": false,
+    "exclusion_reason": "Paddle/float lateral envelopes overlap by 25 mm."
+  }
+]

@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.env*
+*.blend
+*.blend1
+*.mp4
+*.wav
+*.mp3
+*.zip
+physics/runs/
+preview/

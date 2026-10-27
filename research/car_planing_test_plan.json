@@ -1,0 +1,66 @@
+{
+  "status": "designed_pending_planing_closure_benchmark",
+  "objective": "Determine conditions for sustained hydrodynamic planing of the paddle-driven car, separately from transient entry and static flotation.",
+  "preserve": [
+    "physics/hydro.py frozen baseline",
+    "all existing 25 formal cases",
+    "current MP4 and staged archives"
+  ],
+  "stage_0": {
+    "tests": "Four variants at 15 m/s; driven variants additionally at target60 rad/s with original torque/power",
+    "purpose": "Identify initial-speed and controller effects; diagnostic only, not a feasibility envelope"
+  },
+  "stage_1": {
+    "tests": [
+      "Lift and longitudinal center of pressure against a primary planing-surface reference at multiple trim angles, speeds and wetted lengths",
+      "Hydrostatic limit and separate dynamic/static force accounting",
+      "Free pitch/heave response and propulsion reaction; inspect steady-support equilibrium rather than numerical convergence alone"
+    ],
+    "gate": "Resolve model applicability before a large parameter sweep"
+  },
+  "stage_2": {
+    "speed_m_s": [
+      5,
+      10,
+      15,
+      20
+    ],
+    "entry_trim_deg": [
+      0,
+      3,
+      6
+    ],
+    "propulsion": "Finite positive driving torque/power envelope; explicitly distinguish original braking speed servo",
+    "structure": "Preserve original/paddles/small-floats/large-floats controls; add declared planing-surface geometry variations with displacement, mass, COM and inertia recorded",
+    "design": "Staged coarse screening followed by local refinement near stable/unstable boundaries, not the full Cartesian product by default"
+  },
+  "stage_3": {
+    "duration_s": 30,
+    "tail_window_s": 5,
+    "candidate_checks": [
+      "End-of-run mean speed differs by <5% between the last two 5 s windows",
+      "Tail mean vertical speed magnitude <0.02 m/s and bounded heave range <0.10 m",
+      "No submergence and no growing pitch/roll oscillations",
+      "Mean dynamic support fraction >0.5 to classify sustained planing; otherwise classify mixed support or displacement flotation",
+      "Validate selected success and failure against timestep and wet-area resolution changes"
+    ],
+    "stress_tests": [
+      "Power reduction",
+      "Power off",
+      "Head waves",
+      "Cross waves",
+      "Long swell",
+      "Fixed-seed irregular waves"
+    ]
+  },
+  "classification": [
+    "sustained_planing",
+    "mixed_support",
+    "displacement_floating",
+    "transient_coast",
+    "submerged",
+    "unstable_attitude"
+  ],
+  "evidence_policy": "Record every tested outcome, parameter changes, forces, moments, speed, pose, mechanical power and source hashes. Never tune criteria after seeing a preferred result.",
+  "limits": "Numerical/model checks do not establish real-car performance; no CFD or physical-test claim."
+}

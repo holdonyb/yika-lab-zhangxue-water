@@ -1,0 +1,3205 @@
+{
+  "scope": "Five-equation constrained steady-state root; does not establish dynamic stability or sustained free motion.",
+  "source_hashes": {
+    "research\\car_planing_matrix.py": "6aa0e83af80912e858f46444a8ecbafc0bcd1040331ada51ab0ec5ef0d17b4c8",
+    "physics\\hydro_planing.py": "4ee1a5ba360123179ab01ed0578f06d075c99d324b4ad87ca06208b16300d641",
+    "physics\\planing_surface.py": "0f550ff57f3669992849179b2b62c532141f183f1404c3bd49cfff01580d9e90"
+  },
+  "wide_low_176kw_self_propulsion": {
+    "z_m": 0.7510627016336049,
+    "trim_deg": 5.226320285112937,
+    "rear_wheel_rad_s": 40.79549212753726,
+    "front_wheel_rad_s": 5.056009638687724e-56,
+    "residual": {
+      "vertical_n": -332.983983474287,
+      "pitch_nm": 366.76442904297977,
+      "rear_per_wheel_nm": -18.09996921435561,
+      "front_per_wheel_nm": -1.0112019277375447e-57
+    },
+    "normalized_max_residual": 0.023019834492514626,
+    "net_external_force_including_weight_n": [
+      -703.5243292125685,
+      0.0,
+      -332.983983474287
+    ],
+    "external_moment_about_whole_com_nm": [
+      4.671818487622659e-13,
+      366.76442904297977,
+      4.547473508864641e-13
+    ],
+    "force_by_group_n": {
+      "buoyancy": [
+        0.0,
+        0.0,
+        2214.501190591869
+      ],
+      "wave_pressure": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "volume_drag": [
+        -1286.284089656167,
+        0.0,
+        -125.12281765576773
+      ],
+      "panel_pressure": [
+        -1120.010576793658,
+        0.0,
+        12244.523325139337
+      ],
+      "skin_drag": [
+        -2261.37953837556,
+        0.0,
+        -206.8491303312179
+      ],
+      "paddles": [
+        4042.7219367195144,
+        0.0,
+        5.053698781494788
+      ],
+      "air_drag": [
+        -78.57206110669745,
+        0.0,
+        0.0
+      ]
+    },
+    "moment_by_group_nm": {
+      "buoyancy": [
+        -4.547473508864641e-13,
+        1483.1597446476344,
+        0.0
+      ],
+      "wave_pressure": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "volume_drag": [
+        -1.7763568394002505e-15,
+        879.1517839363743,
+        3.410605131648481e-13
+      ],
+      "panel_pressure": [
+        9.094947017729282e-13,
+        336.06762377258895,
+        1.1368683772161603e-13
+      ],
+      "skin_drag": [
+        1.4210854715202004e-14,
+        1646.0373667979848,
+        0.0
+      ],
+      "paddles": [
+        0.0,
+        -3976.113817192801,
+        0.0
+      ],
+      "air_drag": [
+        0.0,
+        -1.538272918800917,
+        0.0
+      ]
+    },
+    "motor_power_kw": 84.8546236252775,
+    "installed_power_limit_kw": 176.0,
+    "required_additional_horizontal_force_n": 703.5243292125685,
+    "external_tow_power_kw": 9.523818869499685,
+    "paddle_thrust_n": 4042.7219367195144,
+    "nonpaddle_horizontal_resistance_n": 4746.246265932083,
+    "fraction_outside_tagged_dynamic_domain": 0.0,
+    "tagged_dynamic_lift_n": 12244.523325139337,
+    "buoyancy_weight_fraction": 0.1530928015185988,
+    "panel_pressure_weight_fraction": 0.8464878623995682,
+    "phase_pitch_moment_peak_to_peak_nm": 2709.292696834565,
+    "phase_rear_net_torque_peak_to_peak_nm": 485.2704123666034,
+    "phase_samples": 16,
+    "surfaces": [
+      {
+        "name": "underbody",
+        "beam_m": 1.4,
+        "full_length_m": 3.3,
+        "bottom_z_range_m": [
+          0.12651709822439272,
+          0.41959935226880785
+        ],
+        "top_z_range_m": [
+          0.15440069268030132,
+          0.44748294672471645
+        ],
+        "top_sample_submerged_fraction": 0.0,
+        "whole_sampled_top_submerged": false,
+        "lift_n": 0.0,
+        "valid_force_z": 0.0,
+        "extrapolated_force_z": 0.0,
+        "cp_error_m": 0.0,
+        "lambda": 0.0,
+        "wet_length_m": 0.0,
+        "target_cp_m": 0.0,
+        "actual_cp_m": null
+      },
+      {
+        "name": "float_bottom_-1",
+        "beam_m": 0.75,
+        "full_length_m": 3.0,
+        "bottom_z_range_m": [
+          -0.17883063206189465,
+          0.08760778070575548
+        ],
+        "top_z_range_m": [
+          -0.07924636614793534,
+          0.18719204661971478
+        ],
+        "top_sample_submerged_fraction": 0.3,
+        "whole_sampled_top_submerged": false,
+        "lift_n": 6122.261662569668,
+        "valid_force_z": 6122.261662569668,
+        "extrapolated_force_z": 0.0,
+        "cp_error_m": 0.0019374416771487102,
+        "lambda": 2.577015010614877,
+        "wet_length_m": 1.9327612579611577,
+        "target_cp_m": 1.4495709434708683,
+        "actual_cp_m": 1.451508385148017,
+        "contiguous_transom_wet": true,
+        "full_width_wet": true,
+        "speed_relative_spread": 0.0,
+        "attack_spread_deg": 0.0,
+        "geometric_trim_deg": 5.226320285112936,
+        "mean_vertical_flow_angle_deg": 0.0
+      },
+      {
+        "name": "float_bottom_1",
+        "beam_m": 0.75,
+        "full_length_m": 3.0,
+        "bottom_z_range_m": [
+          -0.17883063206189465,
+          0.08760778070575548
+        ],
+        "top_z_range_m": [
+          -0.07924636614793534,
+          0.18719204661971478
+        ],
+        "top_sample_submerged_fraction": 0.3,
+        "whole_sampled_top_submerged": false,
+        "lift_n": 6122.261662569668,
+        "valid_force_z": 6122.261662569668,
+        "extrapolated_force_z": 0.0,
+        "cp_error_m": 0.0019374416771487102,
+        "lambda": 2.577015010614877,
+        "wet_length_m": 1.9327612579611577,
+        "target_cp_m": 1.4495709434708683,
+        "actual_cp_m": 1.451508385148017,
+        "contiguous_transom_wet": true,
+        "full_width_wet": true,
+        "speed_relative_spread": 0.0,
+        "attack_spread_deg": 0.0,
+        "geometric_trim_deg": 5.226320285112936,
+        "mean_vertical_flow_angle_deg": 0.0
+      }
+    ],
+    "speed_m_s": 13.537298532602817,
+    "accepted_constrained_self_propulsion_equilibrium": false,
+    "normalized_five_equation_max_residual": 0.04863601381350306,
+    "elapsed_s": 21.761765799994464,
+    "release_state": {
+      "z_m": 0.7510627016336049,
+      "trim_deg": 5.226320285112937,
+      "speed_m_s": 13.537298532602817,
+      "rear_wheel_rad_s": 40.79549212753726,
+      "front_wheel_rad_s": 5.056009638687724e-56,
+      "suggested_phase_rad": 0.0,
+      "note": "Use these only as initial conditions, then release every body DOF. Phase-averaged torque equilibrium permits instantaneous oscillations; examine a second initial wheel phase."
+    },
+    "candidate_parameters": {
+      "vehicle": "car",
+      "variant": "planing_wide_low",
+      "water": {
+        "kind": "calm",
+        "mean_z": 0.0,
+        "density": 1000.0,
+        "current": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "components": [],
+        "seed": 17,
+        "gravity": 9.81
+      },
+      "duration": 10.0,
+      "dt": 0.001,
+      "output_hz": 48.0,
+      "initial_speed": 15.0,
+      "initial_roll_deg": 0.0,
+      "initial_pitch_deg": 6.0,
+      "initial_z": 0.9724102111960989,
+      "drive_off_s": null,
+      "steer_target_deg": 0.0,
+      "steer_start_s": 0.0,
+      "parameter_origin": "declared experimental model, not a measurement of the news vehicle",
+      "volumes": [
+        {
+          "name": "rear_left_wheel_sealed",
+          "body": "rear_left_wheel",
+          "center": [
+            0,
+            0,
+            0
+          ],
+          "size": [
+            0.6200000000000001,
+            0.22,
+            0.6200000000000001
+          ],
+          "shape": "annular_cylinder",
+          "outer_radius": 0.31000000000000005,
+          "inner_radius": 0.23000000000000004,
+          "width": 0.22,
+          "cd": [
+            0.8,
+            1.0,
+            0.8
+          ],
+          "grid": [
+            32,
+            2,
+            2
+          ],
+          "pitch_deg": 0.0
+        },
+        {
+          "name": "rear_right_wheel_sealed",
+          "body": "rear_right_wheel",
+          "center": [
+            0,
+            0,
+            0
+          ],
+          "size": [
+            0.6200000000000001,
+            0.22,
+            0.6200000000000001
+          ],
+          "shape": "annular_cylinder",
+          "outer_radius": 0.31000000000000005,
+          "inner_radius": 0.23000000000000004,
+          "width": 0.22,
+          "cd": [
+            0.8,
+            1.0,
+            0.8
+          ],
+          "grid": [
+            32,
+            2,
+            2
+          ],
+          "pitch_deg": 0.0
+        },
+        {
+          "name": "front_left_wheel_sealed",
+          "body": "front_left_wheel",
+          "center": [
+            0,
+            0,
+            0
+          ],
+          "size": [
+            0.6200000000000001,
+            0.22,
+            0.6200000000000001
+          ],
+          "shape": "annular_cylinder",
+          "outer_radius": 0.31000000000000005,
+          "inner_radius": 0.23000000000000004,
+          "width": 0.22,
+          "cd": [
+            0.8,
+            1.0,
+            0.8
+          ],
+          "grid": [
+            32,
+            2,
+            2
+          ],
+          "pitch_deg": 0.0
+        },
+        {
+          "name": "front_right_wheel_sealed",
+          "body": "front_right_wheel",
+          "center": [
+            0,
+            0,
+            0
+          ],
+          "size": [
+            0.6200000000000001,
+            0.22,
+            0.6200000000000001
+          ],
+          "shape": "annular_cylinder",
+          "outer_radius": 0.31000000000000005,
+          "inner_radius": 0.23000000000000004,
+          "width": 0.22,
+          "cd": [
+            0.8,
+            1.0,
+            0.8
+          ],
+          "grid": [
+            32,
+            2,
+            2
+          ],
+          "pitch_deg": 0.0
+        },
+        {
+          "name": "drivetrain_solids",
+          "body": "chassis",
+          "center": [
+            0,
+            0,
+            -0.05
+          ],
+          "size": [
+            1.3,
+            0.55,
+            0.21
+          ],
+          "cd": [
+            0.85,
+            1.0,
+            1.0
+          ],
+          "grid": [
+            12,
+            5,
+            3
+          ],
+          "pitch_deg": 0
+        },
+        {
+          "name": "side_float_-1",
+          "body": "chassis",
+          "center": [
+            0,
+            -1.3,
+            -0.75
+          ],
+          "size": [
+            3.0,
+            0.75,
+            0.1
+          ],
+          "cd": [
+            0.18,
+            0.85,
+            0.0
+          ],
+          "grid": [
+            20,
+            5,
+            4
+          ],
+          "pitch_deg": 0
+        },
+        {
+          "name": "side_float_1",
+          "body": "chassis",
+          "center": [
+            0,
+            1.3,
+            -0.75
+          ],
+          "size": [
+            3.0,
+            0.75,
+            0.1
+          ],
+          "cd": [
+            0.18,
+            0.85,
+            0.0
+          ],
+          "grid": [
+            20,
+            5,
+            4
+          ],
+          "pitch_deg": 0
+        }
+      ],
+      "panels": [
+        {
+          "name": "underbody",
+          "body": "chassis",
+          "center": [
+            0,
+            0,
+            -0.48
+          ],
+          "size": [
+            3.3,
+            1.4
+          ],
+          "pitch_deg": 0,
+          "grid": [
+            40,
+            6
+          ],
+          "cn": 1.5,
+          "cf": 0.012,
+          "wet_transition_m": 0.012,
+          "thickness": 0.028,
+          "pressure_model": "savitsky_dynamic"
+        },
+        {
+          "name": "float_bottom_-1",
+          "body": "chassis",
+          "center": [
+            0,
+            -1.3,
+            -0.8
+          ],
+          "size": [
+            3.0,
+            0.75
+          ],
+          "pitch_deg": 0,
+          "grid": [
+            40,
+            6
+          ],
+          "cn": 2.0,
+          "cf": 0.006,
+          "wet_transition_m": 0.012,
+          "thickness": 0.1,
+          "pressure_model": "savitsky_dynamic"
+        },
+        {
+          "name": "float_bottom_1",
+          "body": "chassis",
+          "center": [
+            0,
+            1.3,
+            -0.8
+          ],
+          "size": [
+            3.0,
+            0.75
+          ],
+          "pitch_deg": 0,
+          "grid": [
+            40,
+            6
+          ],
+          "cn": 2.0,
+          "cf": 0.006,
+          "wet_transition_m": 0.012,
+          "thickness": 0.1,
+          "pressure_model": "savitsky_dynamic"
+        }
+      ],
+      "wheels": [
+        {
+          "name": "rear_left_wheel",
+          "parent": "chassis",
+          "center": [
+            -1.3,
+            0.78,
+            -0.39
+          ],
+          "radius": 0.34,
+          "width": 0.22,
+          "mass": 24.0,
+          "inertia": [
+            1.50415,
+            2.7883000000000004,
+            1.50415
+          ],
+          "paddles": true,
+          "blade_area": 0.034,
+          "blade_width": 0.34,
+          "blade_count": 12,
+          "blade_radius": 0.405,
+          "blade_depth": 0.1
+        },
+        {
+          "name": "rear_right_wheel",
+          "parent": "chassis",
+          "center": [
+            -1.3,
+            -0.78,
+            -0.39
+          ],
+          "radius": 0.34,
+          "width": 0.22,
+          "mass": 24.0,
+          "inertia": [
+            1.50415,
+            2.7883000000000004,
+            1.50415
+          ],
+          "paddles": true,
+          "blade_area": 0.034,
+          "blade_width": 0.34,
+          "blade_count": 12,
+          "blade_radius": 0.405,
+          "blade_depth": 0.1
+        },
+        {
+          "name": "front_left_wheel",
+          "parent": "chassis",
+          "center": [
+            1.3,
+            0.78,
+            -0.39
+          ],
+          "radius": 0.34,
+          "width": 0.22,
+          "mass": 12.0,
+          "inertia": [
+            0.52,
+            0.82,
+            0.52
+          ],
+          "paddles": false,
+          "blade_area": 0.034,
+          "blade_width": 0.34,
+          "blade_count": 12,
+          "blade_radius": 0.405,
+          "blade_depth": 0.1
+        },
+        {
+          "name": "front_right_wheel",
+          "parent": "chassis",
+          "center": [
+            1.3,
+            -0.78,
+            -0.39
+          ],
+          "radius": 0.34,
+          "width": 0.22,
+          "mass": 12.0,
+          "inertia": [
+            0.52,
+            0.82,
+            0.52
+          ],
+          "paddles": false,
+          "blade_area": 0.034,
+          "blade_width": 0.34,
+          "blade_count": 12,
+          "blade_radius": 0.405,
+          "blade_depth": 0.1
+        }
+      ],
+      "chassis_mass": 1402.525,
+      "chassis_inertia": [
+        765.1942038003074,
+        2165.3323444253074,
+        2375.649359375
+      ],
+      "visual_origin_to_com": [
+        0,
+        0,
+        0.78
+      ],
+      "drive_torque_nm": 1040.0,
+      "drive_power_w": 88000.0,
+      "wheel_target_rad_s": 100.0,
+      "cabin_condition": "open/flooded cabin; only listed solid/sealed components displace water",
+      "drive_rating_scope": "per driven wheel; total budget is per-wheel rating times driven wheel count",
+      "chassis_com": [
+        0.0,
+        0.0,
+        -0.027018234969073632
+      ],
+      "reference_frame_note": "Free body origin is a fixed geometry reference; chassis_com is its physical mass-center offset. Modifications include their mass and parallel-axis inertia.",
+      "total_drive_power_w": 176000.0,
+      "drive_control": "positive_power_envelope",
+      "power_sensitivity_note": "Power/torque factor is an isolated rating sensitivity at fixed mass, not an engineered engine upgrade.",
+      "float_mass_kg": 50.525,
+      "float_mass_estimate": {
+        "material_density_kg_m3": 2700.0,
+        "shell_thickness_m": 0.0015,
+        "brackets_kg": 8.0,
+        "total_kg": 50.525,
+        "note": "Mass assumption only; no structural certification."
+      },
+      "initial_clearance_note": "2 cm clearance above calm water for the lowest board or wheel/blade envelope; free entry thereafter."
+    }
+  },
+  "paddles_15m_s_power_continuation": [
+    {
+      "z_m": 0.3912331850192232,
+      "trim_deg": 3.1108765380467083,
+      "rear_wheel_rad_s": 22.812998073679015,
+      "front_wheel_rad_s": 37.68843844220037,
+      "residual": {
+        "vertical_n": 0.0,
+        "pitch_nm": 3.104958512523126e-09,
+        "rear_per_wheel_nm": -3.709033080667723e-12,
+        "front_per_wheel_nm": -8.659739592076221e-13
+      },
+      "normalized_max_residual": 1.4817862002214006e-13,
+      "net_external_force_including_weight_n": [
+        -26418.633134685686,
+        0.0,
+        0.0
+      ],
+      "external_moment_about_whole_com_nm": [
+        -6.905587213168474e-14,
+        3.104958512523126e-09,
+        9.053868765818152e-14
+      ],
+      "force_by_group_n": {
+        "buoyancy": [
+          0.0,
+          0.0,
+          583.2370195366665
+        ],
+        "wave_pressure": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "volume_drag": [
+          -11579.465253076543,
+          0.0,
+          130.04749563002702
+        ],
+        "panel_pressure": [
+          -752.9330039484847,
+          0.0,
+          13853.807149991304
+        ],
+        "skin_drag": [
+          -10924.10047815675,
+          0.0,
+          -593.7079749560992
+        ],
+        "paddles": [
+          -3065.6656495039106,
+          0.0,
+          -3.9436902018967714
+        ],
+        "air_drag": [
+          -96.46875,
+          0.0,
+          0.0
+        ]
+      },
+      "moment_by_group_nm": {
+        "buoyancy": [
+          2.4868995751603507e-14,
+          103.16476584388916,
+          0.0
+        ],
+        "wave_pressure": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "volume_drag": [
+          1.9317880628477724e-14,
+          5916.439042680005,
+          8.526512829121202e-14
+        ],
+        "panel_pressure": [
+          -1.1368683772161603e-13,
+          -10340.592736565615,
+          -9.43689570931383e-16
+        ],
+        "skin_drag": [
+          4.440892098500626e-16,
+          4896.005821046036,
+          6.217248937900877e-15
+        ],
+        "paddles": [
+          0.0,
+          -573.0027153350393,
+          0.0
+        ],
+        "air_drag": [
+          0.0,
+          -2.014177666169473,
+          0.0
+        ]
+      },
+      "motor_power_kw": 35.588276994939264,
+      "installed_power_limit_kw": 132.0,
+      "required_additional_horizontal_force_n": 26418.633134685686,
+      "external_tow_power_kw": 396.2794970202853,
+      "paddle_thrust_n": -3065.6656495039106,
+      "nonpaddle_horizontal_resistance_n": 23352.967485181776,
+      "fraction_outside_tagged_dynamic_domain": 0.0,
+      "tagged_dynamic_lift_n": 13853.807149991284,
+      "buoyancy_weight_fraction": 0.0417509234111508,
+      "panel_pressure_weight_fraction": 0.9917224419870305,
+      "phase_pitch_moment_peak_to_peak_nm": 6571.3173059487,
+      "phase_rear_net_torque_peak_to_peak_nm": 956.4765370581267,
+      "phase_samples": 16,
+      "surfaces": [
+        {
+          "name": "underbody",
+          "beam_m": 1.4,
+          "full_length_m": 3.3,
+          "bottom_z_range_m": [
+            -0.17536371368689463,
+            -0.0007552472934169163
+          ],
+          "top_z_range_m": [
+            -0.14740497486551418,
+            0.027203491527963527
+          ],
+          "top_sample_submerged_fraction": 0.825,
+          "whole_sampled_top_submerged": false,
+          "lift_n": 13853.807149991284,
+          "valid_force_z": 13853.807149991284,
+          "extrapolated_force_z": 0.0,
+          "cp_error_m": 0.0030844952102015988,
+          "lambda": 2.2574414223627786,
+          "wet_length_m": 3.16041799130789,
+          "target_cp_m": 2.3703134934809174,
+          "actual_cp_m": 2.373397988691119,
+          "contiguous_transom_wet": true,
+          "full_width_wet": true,
+          "speed_relative_spread": 0.0,
+          "attack_spread_deg": 4.440892098500626e-16,
+          "geometric_trim_deg": 3.1108765380467083,
+          "mean_vertical_flow_angle_deg": 0.0
+        }
+      ],
+      "power_factor": 3.0,
+      "accepted_constrained_equilibrium": true
+    },
+    {
+      "z_m": 0.38599835667124066,
+      "trim_deg": 3.0541373601675605,
+      "rear_wheel_rad_s": 21.793717978299156,
+      "front_wheel_rad_s": 37.30886901450937,
+      "residual": {
+        "vertical_n": 27.192147487836337,
+        "pitch_nm": 228.09231141175206,
+        "rear_per_wheel_nm": -0.5045170765074971,
+        "front_per_wheel_nm": -0.010177461924813613
+      },
+      "normalized_max_residual": 0.01088529969284152,
+      "net_external_force_including_weight_n": [
+        -28011.500580360724,
+        0.0,
+        27.192147487836337
+      ],
+      "external_moment_about_whole_com_nm": [
+        -3.670674875166924e-14,
+        228.09231141175206,
+        1.3322676295501878e-13
+      ],
+      "force_by_group_n": {
+        "buoyancy": [
+          0.0,
+          0.0,
+          590.6908033086971
+        ],
+        "wave_pressure": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "volume_drag": [
+          -12043.417898149424,
+          0.0,
+          206.95794844167952
+        ],
+        "panel_pressure": [
+          -736.7853893477258,
+          0.0,
+          13809.039270641313
+        ],
+        "skin_drag": [
+          -11355.637058171114,
+          0.0,
+          -605.8833860356934
+        ],
+        "paddles": [
+          -3779.19148469246,
+          0.0,
+          -4.172488868159405
+        ],
+        "air_drag": [
+          -96.46875,
+          0.0,
+          0.0
+        ]
+      },
+      "moment_by_group_nm": {
+        "buoyancy": [
+          -2.1316282072803006e-14,
+          100.74164614917015,
+          0.0
+        ],
+        "wave_pressure": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "volume_drag": [
+          -3.630429290524262e-14,
+          6241.860245628629,
+          1.2789769243681803e-13
+        ],
+        "panel_pressure": [
+          2.1316282072803006e-14,
+          -11407.900559911886,
+          8.881784197001252e-16
+        ],
+        "skin_drag": [
+          -4.0245584642661925e-16,
+          5088.353535482873,
+          4.440892098500626e-15
+        ],
+        "paddles": [
+          0.0,
+          207.04963294875836,
+          0.0
+        ],
+        "air_drag": [
+          0.0,
+          -2.0121888857918933,
+          0.0
+        ]
+      },
+      "motor_power_kw": 22.66546669743112,
+      "installed_power_limit_kw": 88.0,
+      "required_additional_horizontal_force_n": 28011.500580360724,
+      "external_tow_power_kw": 420.17250870541085,
+      "paddle_thrust_n": -3779.19148469246,
+      "nonpaddle_horizontal_resistance_n": 24232.309095668264,
+      "fraction_outside_tagged_dynamic_domain": 0.0,
+      "tagged_dynamic_lift_n": 13809.039270641324,
+      "buoyancy_weight_fraction": 0.0422845012619473,
+      "panel_pressure_weight_fraction": 0.9885177409145472,
+      "phase_pitch_moment_peak_to_peak_nm": 6829.060389232531,
+      "phase_rear_net_torque_peak_to_peak_nm": 821.6852268362735,
+      "phase_samples": 16,
+      "surfaces": [
+        {
+          "name": "underbody",
+          "beam_m": 1.4,
+          "full_length_m": 3.3,
+          "bottom_z_range_m": [
+            -0.17903328613090747,
+            -0.007606453038225214
+          ],
+          "top_z_range_m": [
+            -0.15107305626598538,
+            0.02035377682669686
+          ],
+          "top_sample_submerged_fraction": 0.875,
+          "whole_sampled_top_submerged": false,
+          "lift_n": 13809.039270641324,
+          "valid_force_z": 13809.039270641324,
+          "extrapolated_force_z": 0.0,
+          "cp_error_m": 0.0006890642464831842,
+          "lambda": 2.335567403312713,
+          "wet_length_m": 3.2697943646377983,
+          "target_cp_m": 2.4523457734783487,
+          "actual_cp_m": 2.453034837724832,
+          "contiguous_transom_wet": true,
+          "full_width_wet": true,
+          "speed_relative_spread": 0.0,
+          "attack_spread_deg": 0.0,
+          "geometric_trim_deg": 3.0541373601675605,
+          "mean_vertical_flow_angle_deg": 0.0
+        }
+      ],
+      "power_factor": 2.0,
+      "accepted_constrained_equilibrium": false
+    },
+    {
+      "z_m": 0.3857224928233477,
+      "trim_deg": 3.063868053621617,
+      "rear_wheel_rad_s": 20.976839922853813,
+      "front_wheel_rad_s": 37.30787999262804,
+      "residual": {
+        "vertical_n": 133.1297071191584,
+        "pitch_nm": 1094.6215525391515,
+        "rear_per_wheel_nm": -0.5799853524352372,
+        "front_per_wheel_nm": -0.0386710527854941
+      },
+      "normalized_max_residual": 0.05223886581658017,
+      "net_external_force_including_weight_n": [
+        -28724.715389514873,
+        0.0,
+        133.1297071191584
+      ],
+      "external_moment_about_whole_com_nm": [
+        -2.0261570199409107e-15,
+        1094.6215525391515,
+        4.578559753554146e-13
+      ],
+      "force_by_group_n": {
+        "buoyancy": [
+          0.0,
+          0.0,
+          591.085062757631
+        ],
+        "wave_pressure": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "volume_drag": [
+          -12184.876399487785,
+          0.0,
+          265.7358549017077
+        ],
+        "panel_pressure": [
+          -741.7271362463738,
+          0.0,
+          13857.424023320236
+        ],
+        "skin_drag": [
+          -11358.528011359138,
+          0.0,
+          -607.9721916325549
+        ],
+        "paddles": [
+          -4343.115092421577,
+          0.0,
+          -3.703042227861957
+        ],
+        "air_drag": [
+          -96.46875,
+          0.0,
+          0.0
+        ]
+      },
+      "moment_by_group_nm": {
+        "buoyancy": [
+          -1.4210854715202004e-14,
+          101.10210192568842,
+          0.0
+        ],
+        "wave_pressure": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "volume_drag": [
+          2.653433028854124e-14,
+          6429.743702518524,
+          4.689582056016661e-13
+        ],
+        "panel_pressure": [
+          -1.4210854715202004e-14,
+          -11447.883874824734,
+          2.6645352591003757e-15
+        ],
+        "skin_drag": [
+          -1.3877787807814457e-16,
+          5089.646034785315,
+          -1.3766765505351941e-14
+        ],
+        "paddles": [
+          0.0,
+          924.02611823358,
+          0.0
+        ],
+        "air_drag": [
+          0.0,
+          -2.0125300992214297,
+          0.0
+        ]
+      },
+      "motor_power_kw": 10.907956759883982,
+      "installed_power_limit_kw": 44.0,
+      "required_additional_horizontal_force_n": 28724.715389514873,
+      "external_tow_power_kw": 430.8707308427231,
+      "paddle_thrust_n": -4343.115092421577,
+      "nonpaddle_horizontal_resistance_n": 24381.600297093297,
+      "fraction_outside_tagged_dynamic_domain": 0.0,
+      "tagged_dynamic_lift_n": 13857.424023320227,
+      "buoyancy_weight_fraction": 0.042312724257925226,
+      "panel_pressure_weight_fraction": 0.9919813552526254,
+      "phase_pitch_moment_peak_to_peak_nm": 6601.479094147517,
+      "phase_rear_net_torque_peak_to_peak_nm": 776.3471944882652,
+      "phase_samples": 16,
+      "surfaces": [
+        {
+          "name": "underbody",
+          "beam_m": 1.4,
+          "full_length_m": 3.3,
+          "bottom_z_range_m": [
+            -0.17957762869033178,
+            -0.0076051376932924075
+          ],
+          "top_z_range_m": [
+            -0.15161765258944745,
+            0.020354838407591915
+          ],
+          "top_sample_submerged_fraction": 0.875,
+          "whole_sampled_top_submerged": false,
+          "lift_n": 13857.424023320227,
+          "valid_force_z": 13857.424023320227,
+          "extrapolated_force_z": 0.0,
+          "cp_error_m": 0.000689208504124128,
+          "lambda": 2.335560944029561,
+          "wet_length_m": 3.269785321641385,
+          "target_cp_m": 2.4523389912310387,
+          "actual_cp_m": 2.453028199735163,
+          "contiguous_transom_wet": true,
+          "full_width_wet": true,
+          "speed_relative_spread": 0.0,
+          "attack_spread_deg": 4.440892098500626e-16,
+          "geometric_trim_deg": 3.063868053621617,
+          "mean_vertical_flow_angle_deg": 0.0
+        }
+      ],
+      "power_factor": 1.0,
+      "accepted_constrained_equilibrium": false
+    }
+  ],
+  "wide_low_176kw_fixed_speed_branch": [
+    {
+      "z_m": 0.7511635861579891,
+      "trim_deg": 4.351774618663928,
+      "rear_wheel_rad_s": 44.8934751647812,
+      "front_wheel_rad_s": 1.2792989655592214e-31,
+      "residual": {
+        "vertical_n": -1.708940544631332e-08,
+        "pitch_nm": 4.891465821277308e-07,
+        "rear_per_wheel_nm": -4.18509671362699e-09,
+        "front_per_wheel_nm": -2.558597931118443e-33
+      },
+      "normalized_max_residual": 2.2543773718832286e-11,
+      "net_external_force_including_weight_n": [
+        -1215.897559498726,
+        0.0,
+        -1.708940544631332e-08
+      ],
+      "external_moment_about_whole_com_nm": [
+        1.6280310433103296e-12,
+        4.891465821277308e-07,
+        1.7053025658242404e-13
+      ],
+      "force_by_group_n": {
+        "buoyancy": [
+          0.0,
+          0.0,
+          2187.951312403177
+        ],
+        "wave_pressure": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "volume_drag": [
+          -1514.650807879028,
+          0.0,
+          -120.76687933444681
+        ],
+        "panel_pressure": [
+          -959.4189276459747,
+          0.0,
+          12607.479492559194
+        ],
+        "skin_drag": [
+          -2765.647412893971,
+          0.0,
+          -210.4635170488774
+        ],
+        "paddles": [
+          4120.288338920247,
+          0.0,
+          0.8898414038669671
+        ],
+        "air_drag": [
+          -96.46875,
+          0.0,
+          0.0
+        ]
+      },
+      "moment_by_group_nm": {
+        "buoyancy": [
+          -2.2737367544323206e-13,
+          1439.0372049851405,
+          0.0
+        ],
+        "wave_pressure": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "volume_drag": [
+          2.930988785010413e-14,
+          1062.2946243315873,
+          1.1368683772161603e-13
+        ],
+        "panel_pressure": [
+          1.8189894035458565e-12,
+          -620.2983375800092,
+          1.1368683772161603e-13
+        ],
+        "skin_drag": [
+          7.105427357601002e-15,
+          2022.1742075984291,
+          -5.684341886080802e-14
+        ],
+        "paddles": [
+          0.0,
+          -3901.3479156267917,
+          0.0
+        ],
+        "air_drag": [
+          0.0,
+          -1.859783219209153,
+          0.0
+        ]
+      },
+      "motor_power_kw": 93.3784283427449,
+      "installed_power_limit_kw": 176.0,
+      "required_additional_horizontal_force_n": 1215.897559498726,
+      "external_tow_power_kw": 18.238463392480888,
+      "paddle_thrust_n": 4120.288338920247,
+      "nonpaddle_horizontal_resistance_n": 5336.185898418973,
+      "fraction_outside_tagged_dynamic_domain": 0.0,
+      "tagged_dynamic_lift_n": 12607.47949255919,
+      "buoyancy_weight_fraction": 0.1512573564760978,
+      "panel_pressure_weight_fraction": 0.8715797326296801,
+      "phase_pitch_moment_peak_to_peak_nm": 2074.1879196982,
+      "phase_rear_net_torque_peak_to_peak_nm": 529.1544248091793,
+      "phase_samples": 16,
+      "surfaces": [
+        {
+          "name": "underbody",
+          "beam_m": 1.4,
+          "full_length_m": 3.3,
+          "bottom_z_range_m": [
+            0.1473457856487196,
+            0.3977490927705367
+          ],
+          "top_z_range_m": [
+            0.175265060887374,
+            0.4256683680091911
+          ],
+          "top_sample_submerged_fraction": 0.0,
+          "whole_sampled_top_submerged": false,
+          "whole_top_below_mean_water": false,
+          "lift_n": 0.0,
+          "valid_force_z": 0.0,
+          "extrapolated_force_z": 0.0,
+          "cp_error_m": 0.0,
+          "lambda": 0.0,
+          "wet_length_m": 0.0,
+          "target_cp_m": 0.0,
+          "actual_cp_m": null
+        },
+        {
+          "name": "float_bottom_-1",
+          "beam_m": 0.75,
+          "full_length_m": 3.0,
+          "bottom_z_range_m": [
+            -0.16034967714465062,
+            0.06728969296609219
+          ],
+          "top_z_range_m": [
+            -0.060637979863742086,
+            0.16700139024700072
+          ],
+          "top_sample_submerged_fraction": 0.275,
+          "whole_sampled_top_submerged": false,
+          "whole_top_below_mean_water": false,
+          "lift_n": 6303.739746279595,
+          "valid_force_z": 6303.739746279595,
+          "extrapolated_force_z": 0.0,
+          "cp_error_m": 0.0026517827115313253,
+          "lambda": 2.711551705331654,
+          "wet_length_m": 2.0336637789987404,
+          "target_cp_m": 1.5252478342490554,
+          "actual_cp_m": 1.5278996169605867,
+          "contiguous_transom_wet": true,
+          "full_width_wet": true,
+          "speed_relative_spread": 1.1842378929335e-16,
+          "attack_spread_deg": 0.0,
+          "geometric_trim_deg": 4.351774618663928,
+          "mean_vertical_flow_angle_deg": 0.0
+        },
+        {
+          "name": "float_bottom_1",
+          "beam_m": 0.75,
+          "full_length_m": 3.0,
+          "bottom_z_range_m": [
+            -0.16034967714465062,
+            0.06728969296609219
+          ],
+          "top_z_range_m": [
+            -0.060637979863742086,
+            0.16700139024700072
+          ],
+          "top_sample_submerged_fraction": 0.275,
+          "whole_sampled_top_submerged": false,
+          "whole_top_below_mean_water": false,
+          "lift_n": 6303.739746279595,
+          "valid_force_z": 6303.739746279595,
+          "extrapolated_force_z": 0.0,
+          "cp_error_m": 0.0026517827115313253,
+          "lambda": 2.711551705331654,
+          "wet_length_m": 2.0336637789987404,
+          "target_cp_m": 1.5252478342490554,
+          "actual_cp_m": 1.5278996169605867,
+          "contiguous_transom_wet": true,
+          "full_width_wet": true,
+          "speed_relative_spread": 1.1842378929335e-16,
+          "attack_spread_deg": 0.0,
+          "geometric_trim_deg": 4.351774618663928,
+          "mean_vertical_flow_angle_deg": 0.0
+        }
+      ],
+      "speed_m_s": 15.0,
+      "accepted_constrained_equilibrium": true
+    },
+    {
+      "z_m": 0.7472672712520211,
+      "trim_deg": 4.936373687964921,
+      "rear_wheel_rad_s": 41.77137582937649,
+      "front_wheel_rad_s": -1.1374600871360165e-92,
+      "residual": {
+        "vertical_n": -5.27688825968653e-09,
+        "pitch_nm": 1.313246622558495e-07,
+        "rear_per_wheel_nm": -6.778009264962748e-10,
+        "front_per_wheel_nm": 2.274920174272033e-94
+      },
+      "normalized_max_residual": 6.052487286571405e-12,
+      "net_external_force_including_weight_n": [
+        -1090.4751373321099,
+        0.0,
+        -5.27688825968653e-09
+      ],
+      "external_moment_about_whole_com_nm": [
+        -8.739675649849232e-13,
+        1.313246622558495e-07,
+        -3.410605131648481e-13
+      ],
+      "force_by_group_n": {
+        "buoyancy": [
+          0.0,
+          0.0,
+          2276.967254761274
+        ],
+        "wave_pressure": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "volume_drag": [
+          -1413.1168768800424,
+          0.0,
+          -129.55946575452435
+        ],
+        "panel_pressure": [
+          -1082.5635979471538,
+          0.0,
+          12534.054831990536
+        ],
+        "skin_drag": [
+          -2494.6549510036425,
+          0.0,
+          -215.46280717572924
+        ],
+        "paddles": [
+          3983.8952884987293,
+          0.0,
+          -0.9095638268309969
+        ],
+        "air_drag": [
+          -84.03500000000001,
+          0.0,
+          0.0
+        ]
+      },
+      "moment_by_group_nm": {
+        "buoyancy": [
+          0.0,
+          1473.5742719487218,
+          0.0
+        ],
+        "wave_pressure": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "volume_drag": [
+          4.263256414560601e-14,
+          970.6225315034319,
+          1.1368683772161603e-13
+        ],
+        "panel_pressure": [
+          -9.094947017729282e-13,
+          -361.55638663475645,
+          -1.1368683772161603e-13
+        ],
+        "skin_drag": [
+          -7.105427357601002e-15,
+          1816.4662813828354,
+          -3.410605131648481e-13
+        ],
+        "paddles": [
+          0.0,
+          -3897.469767780731,
+          0.0
+        ],
+        "air_drag": [
+          0.0,
+          -1.636930288176706,
+          0.0
+        ]
+      },
+      "motor_power_kw": 86.88446172510311,
+      "installed_power_limit_kw": 176.0,
+      "required_additional_horizontal_force_n": 1090.4751373321099,
+      "external_tow_power_kw": 15.266651922649539,
+      "paddle_thrust_n": 3983.8952884987293,
+      "nonpaddle_horizontal_resistance_n": 5074.370425830839,
+      "fraction_outside_tagged_dynamic_domain": 0.0,
+      "tagged_dynamic_lift_n": 12534.054831990527,
+      "buoyancy_weight_fraction": 0.15741120279296383,
+      "panel_pressure_weight_fraction": 0.8665037421381131,
+      "phase_pitch_moment_peak_to_peak_nm": 2567.8808105355893,
+      "phase_rear_net_torque_peak_to_peak_nm": 517.0833192785677,
+      "phase_samples": 16,
+      "surfaces": [
+        {
+          "name": "underbody",
+          "beam_m": 1.4,
+          "full_length_m": 3.3,
+          "bottom_z_range_m": [
+            0.1270661005262556,
+            0.4110292074616832
+          ],
+          "top_z_range_m": [
+            0.15496224486630863,
+            0.4389253518017362
+          ],
+          "top_sample_submerged_fraction": 0.0,
+          "whole_sampled_top_submerged": false,
+          "whole_top_below_mean_water": false,
+          "lift_n": 0.0,
+          "valid_force_z": 0.0,
+          "extrapolated_force_z": 0.0,
+          "cp_error_m": 0.0,
+          "lambda": 0.0,
+          "wet_length_m": 0.0,
+          "target_cp_m": 0.0,
+          "actual_cp_m": null
+        },
+        {
+          "name": "float_bottom_-1",
+          "beam_m": 0.75,
+          "full_length_m": 3.0,
+          "bottom_z_range_m": [
+            -0.1788395636941685,
+            0.07930871533803838
+          ],
+          "top_z_range_m": [
+            -0.07921047676540774,
+            0.17893780226679915
+          ],
+          "top_sample_submerged_fraction": 0.3,
+          "whole_sampled_top_submerged": false,
+          "whole_top_below_mean_water": false,
+          "lift_n": 6267.027415995263,
+          "valid_force_z": 6267.027415995263,
+          "extrapolated_force_z": 0.0,
+          "cp_error_m": 0.002053242398770916,
+          "lambda": 2.676491255790481,
+          "wet_length_m": 2.007368441842861,
+          "target_cp_m": 1.5055263313821459,
+          "actual_cp_m": 1.5075795737809168,
+          "contiguous_transom_wet": true,
+          "full_width_wet": true,
+          "speed_relative_spread": 0.0,
+          "attack_spread_deg": 8.881784197001252e-16,
+          "geometric_trim_deg": 4.93637368796492,
+          "mean_vertical_flow_angle_deg": 0.0
+        },
+        {
+          "name": "float_bottom_1",
+          "beam_m": 0.75,
+          "full_length_m": 3.0,
+          "bottom_z_range_m": [
+            -0.1788395636941685,
+            0.07930871533803838
+          ],
+          "top_z_range_m": [
+            -0.07921047676540774,
+            0.17893780226679915
+          ],
+          "top_sample_submerged_fraction": 0.3,
+          "whole_sampled_top_submerged": false,
+          "whole_top_below_mean_water": false,
+          "lift_n": 6267.027415995263,
+          "valid_force_z": 6267.027415995263,
+          "extrapolated_force_z": 0.0,
+          "cp_error_m": 0.002053242398770916,
+          "lambda": 2.676491255790481,
+          "wet_length_m": 2.007368441842861,
+          "target_cp_m": 1.5055263313821459,
+          "actual_cp_m": 1.5075795737809168,
+          "contiguous_transom_wet": true,
+          "full_width_wet": true,
+          "speed_relative_spread": 0.0,
+          "attack_spread_deg": 8.881784197001252e-16,
+          "geometric_trim_deg": 4.93637368796492,
+          "mean_vertical_flow_angle_deg": 0.0
+        }
+      ],
+      "speed_m_s": 14.0,
+      "accepted_constrained_equilibrium": true
+    },
+    {
+      "z_m": 0.742751662744075,
+      "trim_deg": 5.647728201049031,
+      "rear_wheel_rad_s": 38.600932747838826,
+      "front_wheel_rad_s": 7.001924509423157e-167,
+      "residual": {
+        "vertical_n": -5.315087037160993e-09,
+        "pitch_nm": 3.291418804174384e-08,
+        "rear_per_wheel_nm": -3.5472353943077906e-09,
+        "front_per_wheel_nm": -1.4003849018846315e-168
+      },
+      "normalized_max_residual": 3.410803263757491e-12,
+      "net_external_force_including_weight_n": [
+        -1048.4358564698002,
+        0.0,
+        -5.315087037160993e-09
+      ],
+      "external_moment_about_whole_com_nm": [
+        -6.634692795159935e-13,
+        3.291418804174384e-08,
+        -2.8421709430404007e-13
+      ],
+      "force_by_group_n": {
+        "buoyancy": [
+          0.0,
+          0.0,
+          2365.8257494466566
+        ],
+        "wave_pressure": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "volume_drag": [
+          -1346.115104893123,
+          0.0,
+          -140.32414856355982
+        ],
+        "panel_pressure": [
+          -1232.020668512824,
+          0.0,
+          12458.25045331602
+        ],
+        "skin_drag": [
+          -2212.9408831370774,
+          0.0,
+          -218.84203696484653
+        ],
+        "paddles": [
+          3815.099550073224,
+          0.0,
+          0.18023276041500935
+        ],
+        "air_drag": [
+          -72.45875000000001,
+          0.0,
+          0.0
+        ]
+      },
+      "moment_by_group_nm": {
+        "buoyancy": [
+          -6.821210263296962e-13,
+          1507.85778867,
+          0.0
+        ],
+        "wave_pressure": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "volume_drag": [
+          1.1546319456101628e-14,
+          894.5864692979281,
+          -3.410605131648481e-13
+        ],
+        "panel_pressure": [
+          0.0,
+          -124.85178116218646,
+          0.0
+        ],
+        "skin_drag": [
+          7.105427357601002e-15,
+          1606.5175604483886,
+          5.684341886080802e-14
+        ],
+        "paddles": [
+          0.0,
+          -3882.68111914112,
+          0.0
+        ],
+        "air_drag": [
+          0.0,
+          -1.4289180800965073,
+          0.0
+        ]
+      },
+      "motor_power_kw": 80.28994011550475,
+      "installed_power_limit_kw": 176.0,
+      "required_additional_horizontal_force_n": 1048.4358564698002,
+      "external_tow_power_kw": 13.629666134107403,
+      "paddle_thrust_n": 3815.099550073224,
+      "nonpaddle_horizontal_resistance_n": 4863.535406543024,
+      "fraction_outside_tagged_dynamic_domain": 0.0,
+      "tagged_dynamic_lift_n": 12458.250453316019,
+      "buoyancy_weight_fraction": 0.16355416444405912,
+      "panel_pressure_weight_fraction": 0.8612632370763135,
+      "phase_pitch_moment_peak_to_peak_nm": 3246.8928553278174,
+      "phase_rear_net_torque_peak_to_peak_nm": 212.89157070807562,
+      "phase_samples": 16,
+      "surfaces": [
+        {
+          "name": "underbody",
+          "beam_m": 1.4,
+          "full_length_m": 3.3,
+          "bottom_z_range_m": [
+            0.10270205241913935,
+            0.42746133699450084
+          ],
+          "top_z_range_m": [
+            0.13056613388797922,
+            0.45532541846334074
+          ],
+          "top_sample_submerged_fraction": 0.0,
+          "whole_sampled_top_submerged": false,
+          "whole_top_below_mean_water": false,
+          "lift_n": 0.0,
+          "valid_force_z": 0.0,
+          "extrapolated_force_z": 0.0,
+          "cp_error_m": 0.0,
+          "lambda": 0.0,
+          "wet_length_m": 0.0,
+          "target_cp_m": 0.0,
+          "actual_cp_m": null
+        },
+        {
+          "name": "float_bottom_-1",
+          "beam_m": 0.75,
+          "full_length_m": 3.0,
+          "bottom_z_range_m": [
+            -0.20098280727651424,
+            0.09425290597381436
+          ],
+          "top_z_range_m": [
+            -0.10146823060208612,
+            0.19376748264824248
+          ],
+          "top_sample_submerged_fraction": 0.35,
+          "whole_sampled_top_submerged": false,
+          "whole_top_below_mean_water": false,
+          "lift_n": 6229.1252266580095,
+          "valid_force_z": 6229.1252266580095,
+          "extrapolated_force_z": 0.0,
+          "cp_error_m": 0.0010519829391437696,
+          "lambda": 2.644909560401429,
+          "wet_length_m": 1.9836821703010719,
+          "target_cp_m": 1.487761627725804,
+          "actual_cp_m": 1.4888136106649477,
+          "contiguous_transom_wet": true,
+          "full_width_wet": true,
+          "speed_relative_spread": 1.3664283380001927e-16,
+          "attack_spread_deg": 0.0,
+          "geometric_trim_deg": 5.6477282010490315,
+          "mean_vertical_flow_angle_deg": 0.0
+        },
+        {
+          "name": "float_bottom_1",
+          "beam_m": 0.75,
+          "full_length_m": 3.0,
+          "bottom_z_range_m": [
+            -0.20098280727651424,
+            0.09425290597381436
+          ],
+          "top_z_range_m": [
+            -0.10146823060208612,
+            0.19376748264824248
+          ],
+          "top_sample_submerged_fraction": 0.35,
+          "whole_sampled_top_submerged": false,
+          "whole_top_below_mean_water": false,
+          "lift_n": 6229.1252266580095,
+          "valid_force_z": 6229.1252266580095,
+          "extrapolated_force_z": 0.0,
+          "cp_error_m": 0.0010519829391437696,
+          "lambda": 2.644909560401429,
+          "wet_length_m": 1.9836821703010719,
+          "target_cp_m": 1.487761627725804,
+          "actual_cp_m": 1.4888136106649477,
+          "contiguous_transom_wet": true,
+          "full_width_wet": true,
+          "speed_relative_spread": 1.3664283380001927e-16,
+          "attack_spread_deg": 0.0,
+          "geometric_trim_deg": 5.6477282010490315,
+          "mean_vertical_flow_angle_deg": 0.0
+        }
+      ],
+      "speed_m_s": 13.0,
+      "accepted_constrained_equilibrium": true
+    },
+    {
+      "z_m": 0.7367134220816413,
+      "trim_deg": 6.533701348977162,
+      "rear_wheel_rad_s": 35.27438845825245,
+      "front_wheel_rad_s": -4.5014884109664564e-253,
+      "residual": {
+        "vertical_n": -9.276845958083868e-11,
+        "pitch_nm": 2.4427806444293765e-09,
+        "rear_per_wheel_nm": -1.7038814803527202e-11,
+        "front_per_wheel_nm": 9.002976821932913e-255
+      },
+      "normalized_max_residual": 1.1258280463335403e-13,
+      "net_external_force_including_weight_n": [
+        -1144.463548485069,
+        0.0,
+        -9.276845958083868e-11
+      ],
+      "external_moment_about_whole_com_nm": [
+        4.787281682183675e-13,
+        2.4427806444293765e-09,
+        -9.094947017729282e-13
+      ],
+      "force_by_group_n": {
+        "buoyancy": [
+          0.0,
+          0.0,
+          2451.5779562595435
+        ],
+        "wave_pressure": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "volume_drag": [
+          -1297.2887687424504,
+          0.0,
+          -154.64248924420377
+        ],
+        "panel_pressure": [
+          -1419.0024548012664,
+          0.0,
+          12389.627834258948
+        ],
+        "skin_drag": [
+          -1935.9556103776895,
+          0.0,
+          -221.72786787962056
+        ],
+        "paddles": [
+          3569.5232854363376,
+          0.0,
+          0.25481660524265237
+        ],
+        "air_drag": [
+          -61.74000000000001,
+          0.0,
+          0.0
+        ]
+      },
+      "moment_by_group_nm": {
+        "buoyancy": [
+          -4.547473508864641e-13,
+          1525.3167311350862,
+          0.0
+        ],
+        "wave_pressure": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "volume_drag": [
+          3.8191672047105385e-14,
+          819.4255219974928,
+          -1.0231815394945443e-12
+        ],
+        "panel_pressure": [
+          9.094947017729282e-13,
+          85.31161192770779,
+          0.0
+        ],
+        "skin_drag": [
+          -1.4210854715202004e-14,
+          1402.2751350762362,
+          1.1368683772161603e-13
+        ],
+        "paddles": [
+          0.0,
+          -3831.0931693360976,
+          0.0
+        ],
+        "air_drag": [
+          0.0,
+          -1.2358307979826662,
+          0.0
+        ]
+      },
+      "motor_power_kw": 73.3707279931651,
+      "installed_power_limit_kw": 176.0,
+      "required_additional_horizontal_force_n": 1144.463548485069,
+      "external_tow_power_kw": 13.733562581820829,
+      "paddle_thrust_n": 3569.5232854363376,
+      "nonpaddle_horizontal_resistance_n": 4713.986833921406,
+      "fraction_outside_tagged_dynamic_domain": 0.0,
+      "tagged_dynamic_lift_n": 12389.627834258948,
+      "buoyancy_weight_fraction": 0.16948238233491444,
+      "panel_pressure_weight_fraction": 0.8565192211129791,
+      "phase_pitch_moment_peak_to_peak_nm": 3190.857289568428,
+      "phase_rear_net_torque_peak_to_peak_nm": 276.4377622480414,
+      "phase_samples": 16,
+      "surfaces": [
+        {
+          "name": "underbody",
+          "beam_m": 1.4,
+          "full_length_m": 3.3,
+          "bottom_z_range_m": [
+            0.07208141434537813,
+            0.44758053599792963
+          ],
+          "top_z_range_m": [
+            0.09989955708179406,
+            0.47539867873434555
+          ],
+          "top_sample_submerged_fraction": 0.0,
+          "whole_sampled_top_submerged": false,
+          "whole_top_below_mean_water": false,
+          "lift_n": 0.0,
+          "valid_force_z": 0.0,
+          "extrapolated_force_z": 0.0,
+          "cp_error_m": 0.0,
+          "lambda": 0.0,
+          "wet_length_m": 0.0,
+          "target_cp_m": 0.0,
+          "actual_cp_m": null
+        },
+        {
+          "name": "float_bottom_-1",
+          "beam_m": 0.75,
+          "full_length_m": 3.0,
+          "bottom_z_range_m": [
+            -0.22877207503464903,
+            0.11259076283130687
+          ],
+          "top_z_range_m": [
+            -0.12942156526173498,
+            0.2119412726042209
+          ],
+          "top_sample_submerged_fraction": 0.375,
+          "whole_sampled_top_submerged": false,
+          "whole_top_below_mean_water": false,
+          "lift_n": 6194.813917129474,
+          "valid_force_z": 6194.813917129474,
+          "extrapolated_force_z": 0.0,
+          "cp_error_m": 0.0011912271512914963,
+          "lambda": 2.61477050702963,
+          "wet_length_m": 1.9610778802722224,
+          "target_cp_m": 1.4708084102041667,
+          "actual_cp_m": 1.4719996373554582,
+          "contiguous_transom_wet": true,
+          "full_width_wet": true,
+          "speed_relative_spread": 0.0,
+          "attack_spread_deg": 8.881784197001252e-16,
+          "geometric_trim_deg": 6.5337013489771625,
+          "mean_vertical_flow_angle_deg": 0.0
+        },
+        {
+          "name": "float_bottom_1",
+          "beam_m": 0.75,
+          "full_length_m": 3.0,
+          "bottom_z_range_m": [
+            -0.22877207503464903,
+            0.11259076283130687
+          ],
+          "top_z_range_m": [
+            -0.12942156526173498,
+            0.2119412726042209
+          ],
+          "top_sample_submerged_fraction": 0.375,
+          "whole_sampled_top_submerged": false,
+          "whole_top_below_mean_water": false,
+          "lift_n": 6194.813917129474,
+          "valid_force_z": 6194.813917129474,
+          "extrapolated_force_z": 0.0,
+          "cp_error_m": 0.0011912271512914963,
+          "lambda": 2.61477050702963,
+          "wet_length_m": 1.9610778802722224,
+          "target_cp_m": 1.4708084102041667,
+          "actual_cp_m": 1.4719996373554582,
+          "contiguous_transom_wet": true,
+          "full_width_wet": true,
+          "speed_relative_spread": 0.0,
+          "attack_spread_deg": 8.881784197001252e-16,
+          "geometric_trim_deg": 6.5337013489771625,
+          "mean_vertical_flow_angle_deg": 0.0
+        }
+      ],
+      "speed_m_s": 12.0,
+      "accepted_constrained_equilibrium": true
+    },
+    {
+      "z_m": 0.7260342144870494,
+      "trim_deg": 9.010592693392676,
+      "rear_wheel_rad_s": 28.5854528386381,
+      "front_wheel_rad_s": -4.3586693997935774e-278,
+      "residual": {
+        "vertical_n": -336.1609735651309,
+        "pitch_nm": 474.1583957992734,
+        "rear_per_wheel_nm": -8.33316326042248,
+        "front_per_wheel_nm": 8.717338799587155e-280
+      },
+      "normalized_max_residual": 0.02323946603548712,
+      "net_external_force_including_weight_n": [
+        -1591.9881902888055,
+        0.0,
+        -336.1609735651309
+      ],
+      "external_moment_about_whole_com_nm": [
+        -1.3873346915715956e-12,
+        474.1583957992734,
+        2.984279490192421e-13
+      ],
+      "force_by_group_n": {
+        "buoyancy": [
+          0.0,
+          0.0,
+          2539.086868305083
+        ],
+        "wave_pressure": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "volume_drag": [
+          -1223.5575894160118,
+          0.0,
+          -161.11132801844997
+        ],
+        "panel_pressure": [
+          -1897.4919795335443,
+          0.0,
+          11965.974535479376
+        ],
+        "skin_drag": [
+          -1348.5263473095679,
+          0.0,
+          -213.84116443024507
+        ],
+        "paddles": [
+          2920.4627259703184,
+          0.0,
+          -1.179634900894257
+        ],
+        "air_drag": [
+          -42.87500000000001,
+          0.0,
+          0.0
+        ]
+      },
+      "moment_by_group_nm": {
+        "buoyancy": [
+          -4.547473508864641e-13,
+          1529.310082922646,
+          0.0
+        ],
+        "wave_pressure": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "volume_drag": [
+          1.2434497875801753e-14,
+          702.1966651593655,
+          1.4210854715202004e-14
+        ],
+        "panel_pressure": [
+          -9.094947017729282e-13,
+          925.023336492599,
+          2.2737367544323206e-13
+        ],
+        "skin_drag": [
+          -3.552713678800501e-14,
+          976.7684793475742,
+          5.684341886080802e-14
+        ],
+        "paddles": [
+          0.0,
+          -3658.2475393711243,
+          0.0
+        ],
+        "air_drag": [
+          0.0,
+          -0.8926287517865868,
+          0.0
+        ]
+      },
+      "motor_power_kw": 59.457741904367246,
+      "installed_power_limit_kw": 176.0,
+      "required_additional_horizontal_force_n": 1591.9881902888055,
+      "external_tow_power_kw": 15.919881902888056,
+      "paddle_thrust_n": 2920.4627259703184,
+      "nonpaddle_horizontal_resistance_n": 4512.450916259124,
+      "fraction_outside_tagged_dynamic_domain": 0.0,
+      "tagged_dynamic_lift_n": 11965.974535479365,
+      "buoyancy_weight_fraction": 0.1755320446967196,
+      "panel_pressure_weight_fraction": 0.8272312393957842,
+      "phase_pitch_moment_peak_to_peak_nm": 3300.430437218026,
+      "phase_rear_net_torque_peak_to_peak_nm": 370.40080384854446,
+      "phase_samples": 16,
+      "surfaces": [
+        {
+          "name": "underbody",
+          "beam_m": 1.4,
+          "full_length_m": 3.3,
+          "bottom_z_range_m": [
+            -0.006460453655164233,
+            0.5103758562077436
+          ],
+          "top_z_range_m": [
+            0.02119400961546342,
+            0.5380303194783713
+          ],
+          "top_sample_submerged_fraction": 0.0,
+          "whole_sampled_top_submerged": false,
+          "whole_top_below_mean_water": false,
+          "lift_n": 0.0,
+          "valid_force_z": 0.0,
+          "extrapolated_force_z": 0.0,
+          "cp_error_m": 0.0,
+          "lambda": 0.0,
+          "wet_length_m": 0.0,
+          "target_cp_m": 0.0,
+          "actual_cp_m": null
+        },
+        {
+          "name": "float_bottom_-1",
+          "beam_m": 0.75,
+          "full_length_m": 3.0,
+          "bottom_z_range_m": [
+            -0.29901890292311434,
+            0.17083228786134735
+          ],
+          "top_z_range_m": [
+            -0.20025296267087273,
+            0.26959822811358897
+          ],
+          "top_sample_submerged_fraction": 0.425,
+          "whole_sampled_top_submerged": false,
+          "whole_top_below_mean_water": false,
+          "lift_n": 5982.9872677396825,
+          "valid_force_z": 5982.9872677396825,
+          "extrapolated_force_z": 0.0,
+          "cp_error_m": -0.000174134618851296,
+          "lambda": 2.493625404730263,
+          "wet_length_m": 1.8702190535476972,
+          "target_cp_m": 1.4026642901607729,
+          "actual_cp_m": 1.4024901555419216,
+          "contiguous_transom_wet": true,
+          "full_width_wet": true,
+          "speed_relative_spread": 0.0,
+          "attack_spread_deg": 0.0,
+          "geometric_trim_deg": 9.010592693392676,
+          "mean_vertical_flow_angle_deg": 0.0
+        },
+        {
+          "name": "float_bottom_1",
+          "beam_m": 0.75,
+          "full_length_m": 3.0,
+          "bottom_z_range_m": [
+            -0.29901890292311434,
+            0.17083228786134735
+          ],
+          "top_z_range_m": [
+            -0.20025296267087273,
+            0.26959822811358897
+          ],
+          "top_sample_submerged_fraction": 0.425,
+          "whole_sampled_top_submerged": false,
+          "whole_top_below_mean_water": false,
+          "lift_n": 5982.9872677396825,
+          "valid_force_z": 5982.9872677396825,
+          "extrapolated_force_z": 0.0,
+          "cp_error_m": -0.000174134618851296,
+          "lambda": 2.493625404730263,
+          "wet_length_m": 1.8702190535476972,
+          "target_cp_m": 1.4026642901607729,
+          "actual_cp_m": 1.4024901555419216,
+          "contiguous_transom_wet": true,
+          "full_width_wet": true,
+          "speed_relative_spread": 0.0,
+          "attack_spread_deg": 0.0,
+          "geometric_trim_deg": 9.010592693392676,
+          "mean_vertical_flow_angle_deg": 0.0
+        }
+      ],
+      "speed_m_s": 10.0,
+      "accepted_constrained_equilibrium": false
+    },
+    {
+      "z_m": 0.6281479744470096,
+      "trim_deg": 7.335673276192733,
+      "rear_wheel_rad_s": 22.817709215559557,
+      "front_wheel_rad_s": -1.890791e-317,
+      "residual": {
+        "vertical_n": -1.674779923632741e-07,
+        "pitch_nm": 1.9861706437307447e-06,
+        "rear_per_wheel_nm": -1.6047295048338128e-08,
+        "front_per_wheel_nm": 3.7816e-319
+      },
+      "normalized_max_residual": 9.153857595096325e-11,
+      "net_external_force_including_weight_n": [
+        -2120.9531267910797,
+        0.0,
+        -1.674779923632741e-07
+      ],
+      "external_moment_about_whole_com_nm": [
+        9.303668946358812e-13,
+        1.9861706437307447e-06,
+        -1.8118839761882555e-13
+      ],
+      "force_by_group_n": {
+        "buoyancy": [
+          0.0,
+          0.0,
+          3781.112427074659
+        ],
+        "wave_pressure": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "volume_drag": [
+          -1307.582742576695,
+          0.0,
+          -158.93232347747858
+        ],
+        "panel_pressure": [
+          -1423.0385939361117,
+          0.0,
+          11053.942791334908
+        ],
+        "skin_drag": [
+          -1644.8116414863412,
+          0.0,
+          -211.74620583573684
+        ],
+        "paddles": [
+          2281.919851208068,
+          0.0,
+          0.7135607361714698
+        ],
+        "air_drag": [
+          -27.44,
+          0.0,
+          0.0
+        ]
+      },
+      "moment_by_group_nm": {
+        "buoyancy": [
+          0.0,
+          905.6899041887821,
+          0.0
+        ],
+        "wave_pressure": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "volume_drag": [
+          1.3766765505351941e-14,
+          658.8253249475836,
+          -1.0658141036401503e-14
+        ],
+        "panel_pressure": [
+          9.094947017729282e-13,
+          522.2695056992361,
+          -1.1368683772161603e-13
+        ],
+        "skin_drag": [
+          7.105427357601002e-15,
+          1090.8826014661702,
+          -5.684341886080802e-14
+        ],
+        "paddles": [
+          0.0,
+          -3177.110830748416,
+          0.0
+        ],
+        "air_drag": [
+          0.0,
+          -0.5565035671850478,
+          0.0
+        ]
+      },
+      "motor_power_kw": 47.46083516836388,
+      "installed_power_limit_kw": 176.0,
+      "required_additional_horizontal_force_n": 2120.9531267910797,
+      "external_tow_power_kw": 16.96762501432864,
+      "paddle_thrust_n": 2281.919851208068,
+      "nonpaddle_horizontal_resistance_n": 4402.872977999147,
+      "fraction_outside_tagged_dynamic_domain": 0.0,
+      "tagged_dynamic_lift_n": 11053.942791334914,
+      "buoyancy_weight_fraction": 0.26139570246197796,
+      "panel_pressure_weight_fraction": 0.7641806998981501,
+      "phase_pitch_moment_peak_to_peak_nm": 2251.258593238262,
+      "phase_rear_net_torque_peak_to_peak_nm": 507.199190978999,
+      "phase_samples": 16,
+      "surfaces": [
+        {
+          "name": "underbody",
+          "beam_m": 1.4,
+          "full_length_m": 3.3,
+          "bottom_z_range_m": [
+            -0.05859884485034306,
+            0.36275226139240946
+          ],
+          "top_z_range_m": [
+            -0.03082802099007776,
+            0.39052308525267476
+          ],
+          "top_sample_submerged_fraction": 0.075,
+          "whole_sampled_top_submerged": false,
+          "whole_top_below_mean_water": false,
+          "lift_n": 3653.5213396492795,
+          "valid_force_z": 3653.5213396492795,
+          "extrapolated_force_z": 0.0,
+          "cp_error_m": 0.0014092641682826867,
+          "lambda": 0.2939549305982045,
+          "wet_length_m": 0.4115369028374863,
+          "target_cp_m": 0.3086526771281147,
+          "actual_cp_m": 0.3100619412963974,
+          "contiguous_transom_wet": true,
+          "full_width_wet": true,
+          "speed_relative_spread": 1.1102230246251565e-16,
+          "attack_spread_deg": 8.881784197001251e-16,
+          "geometric_trim_deg": 7.335673276192734,
+          "mean_vertical_flow_angle_deg": 0.0
+        },
+        {
+          "name": "float_bottom_-1",
+          "beam_m": 0.75,
+          "full_length_m": 3.0,
+          "bottom_z_range_m": [
+            -0.3568273659566266,
+            0.026219094264057496
+          ],
+          "top_z_range_m": [
+            -0.25764585216996483,
+            0.1254006080507193
+          ],
+          "top_sample_submerged_fraction": 0.675,
+          "whole_sampled_top_submerged": false,
+          "whole_top_below_mean_water": false,
+          "lift_n": 3700.2107258428173,
+          "valid_force_z": 3700.2107258428173,
+          "extrapolated_force_z": 0.0,
+          "cp_error_m": 0.0007075907980151896,
+          "lambda": 3.6608122583771032,
+          "wet_length_m": 2.7456091937828275,
+          "target_cp_m": 2.0592068953371205,
+          "actual_cp_m": 2.0599144861351357,
+          "contiguous_transom_wet": true,
+          "full_width_wet": true,
+          "speed_relative_spread": 0.0,
+          "attack_spread_deg": 0.0,
+          "geometric_trim_deg": 7.335673276192734,
+          "mean_vertical_flow_angle_deg": 0.0
+        },
+        {
+          "name": "float_bottom_1",
+          "beam_m": 0.75,
+          "full_length_m": 3.0,
+          "bottom_z_range_m": [
+            -0.3568273659566266,
+            0.026219094264057496
+          ],
+          "top_z_range_m": [
+            -0.25764585216996483,
+            0.1254006080507193
+          ],
+          "top_sample_submerged_fraction": 0.675,
+          "whole_sampled_top_submerged": false,
+          "whole_top_below_mean_water": false,
+          "lift_n": 3700.2107258428173,
+          "valid_force_z": 3700.2107258428173,
+          "extrapolated_force_z": 0.0,
+          "cp_error_m": 0.0007075907980151896,
+          "lambda": 3.6608122583771032,
+          "wet_length_m": 2.7456091937828275,
+          "target_cp_m": 2.0592068953371205,
+          "actual_cp_m": 2.0599144861351357,
+          "contiguous_transom_wet": true,
+          "full_width_wet": true,
+          "speed_relative_spread": 0.0,
+          "attack_spread_deg": 0.0,
+          "geometric_trim_deg": 7.335673276192734,
+          "mean_vertical_flow_angle_deg": 0.0
+        }
+      ],
+      "speed_m_s": 8.0,
+      "accepted_constrained_equilibrium": true
+    },
+    {
+      "z_m": 0.49216792131804954,
+      "trim_deg": 13.034520235871362,
+      "rear_wheel_rad_s": 11.282051167416018,
+      "front_wheel_rad_s": -1.890791e-317,
+      "residual": {
+        "vertical_n": -1.7615875549381599e-06,
+        "pitch_nm": -2.538415773911673e-06,
+        "rear_per_wheel_nm": 2.0329942174157623e-08,
+        "front_per_wheel_nm": 3.7816e-319
+      },
+      "normalized_max_residual": 1.2178199544507922e-10,
+      "net_external_force_including_weight_n": [
+        -5873.914188272163,
+        0.0,
+        -1.7615875549381599e-06
+      ],
+      "external_moment_about_whole_com_nm": [
+        4.858335955759685e-13,
+        -2.538415773911673e-06,
+        -9.237055564881302e-14
+      ],
+      "force_by_group_n": {
+        "buoyancy": [
+          0.0,
+          0.0,
+          4193.359222437309
+        ],
+        "wave_pressure": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "volume_drag": [
+          -1764.6305735588226,
+          0.0,
+          -63.376632431997386
+        ],
+        "panel_pressure": [
+          -2451.007922009442,
+          0.0,
+          10587.37531957791
+        ],
+        "skin_drag": [
+          -1093.215527645578,
+          0.0,
+          -253.08254764221144
+        ],
+        "paddles": [
+          -554.3414150583212,
+          0.0,
+          0.8148862974030546
+        ],
+        "air_drag": [
+          -10.718750000000002,
+          0.0,
+          0.0
+        ]
+      },
+      "moment_by_group_nm": {
+        "buoyancy": [
+          9.094947017729282e-13,
+          624.8907883206894,
+          0.0
+        ],
+        "wave_pressure": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "volume_drag": [
+          3.108624468950438e-14,
+          973.1997928235265,
+          2.1316282072803006e-14
+        ],
+        "panel_pressure": [
+          -4.547473508864641e-13,
+          -648.7856551535131,
+          -1.1368683772161603e-13
+        ],
+        "skin_drag": [
+          0.0,
+          629.1930931002555,
+          0.0
+        ],
+        "paddles": [
+          0.0,
+          -1578.2617835296053,
+          0.0
+        ],
+        "air_drag": [
+          0.0,
+          -0.23623809976871557,
+          0.0
+        ]
+      },
+      "motor_power_kw": 23.46666642822532,
+      "installed_power_limit_kw": 176.0,
+      "required_additional_horizontal_force_n": 5873.914188272163,
+      "external_tow_power_kw": 29.369570941360816,
+      "paddle_thrust_n": -554.3414150583212,
+      "nonpaddle_horizontal_resistance_n": 5319.572773213842,
+      "fraction_outside_tagged_dynamic_domain": 0.0,
+      "tagged_dynamic_lift_n": 10587.375319577899,
+      "buoyancy_weight_fraction": 0.28989513027319747,
+      "panel_pressure_weight_fraction": 0.7319259774115761,
+      "phase_pitch_moment_peak_to_peak_nm": 1811.0349435393712,
+      "phase_rear_net_torque_peak_to_peak_nm": 186.67071883761378,
+      "phase_samples": 16,
+      "surfaces": [
+        {
+          "name": "underbody",
+          "beam_m": 1.4,
+          "full_length_m": 3.3,
+          "bottom_z_range_m": [
+            -0.3476023745984841,
+            0.3966732347189236
+          ],
+          "top_z_range_m": [
+            -0.320323812608444,
+            0.42395179670896366
+          ],
+          "top_sample_submerged_fraction": 0.425,
+          "whole_sampled_top_submerged": false,
+          "whole_top_below_mean_water": false,
+          "lift_n": 5141.829749588916,
+          "valid_force_z": 5141.829749588916,
+          "extrapolated_force_z": 0.0,
+          "cp_error_m": 0.0012539449918493872,
+          "lambda": 1.0772874813308098,
+          "wet_length_m": 1.5082024738631334,
+          "target_cp_m": 1.13115185539735,
+          "actual_cp_m": 1.1324058003891995,
+          "contiguous_transom_wet": true,
+          "full_width_wet": true,
+          "speed_relative_spread": 0.0,
+          "attack_spread_deg": 0.0,
+          "geometric_trim_deg": 13.034520235871362,
+          "mean_vertical_flow_angle_deg": 0.0
+        },
+        {
+          "name": "float_bottom_-1",
+          "beam_m": 0.75,
+          "full_length_m": 3.0,
+          "bottom_z_range_m": [
+            -0.6255266592559431,
+            0.051087531032609435
+          ],
+          "top_z_range_m": [
+            -0.5281032235772285,
+            0.14851096671132397
+          ],
+          "top_sample_submerged_fraction": 0.775,
+          "whole_sampled_top_submerged": false,
+          "whole_top_below_mean_water": false,
+          "lift_n": 2722.7727849944913,
+          "valid_force_z": 2722.7727849944913,
+          "extrapolated_force_z": 0.0,
+          "cp_error_m": 0.0006138423902899426,
+          "lambda": 3.6676350884803246,
+          "wet_length_m": 2.7507263163602436,
+          "target_cp_m": 2.063044737270183,
+          "actual_cp_m": 2.0636585796604727,
+          "contiguous_transom_wet": true,
+          "full_width_wet": true,
+          "speed_relative_spread": 0.0,
+          "attack_spread_deg": 1.7763568394002505e-15,
+          "geometric_trim_deg": 13.034520235871362,
+          "mean_vertical_flow_angle_deg": 0.0
+        },
+        {
+          "name": "float_bottom_1",
+          "beam_m": 0.75,
+          "full_length_m": 3.0,
+          "bottom_z_range_m": [
+            -0.6255266592559431,
+            0.051087531032609435
+          ],
+          "top_z_range_m": [
+            -0.5281032235772285,
+            0.14851096671132397
+          ],
+          "top_sample_submerged_fraction": 0.775,
+          "whole_sampled_top_submerged": false,
+          "whole_top_below_mean_water": false,
+          "lift_n": 2722.7727849944913,
+          "valid_force_z": 2722.7727849944913,
+          "extrapolated_force_z": 0.0,
+          "cp_error_m": 0.0006138423902899426,
+          "lambda": 3.6676350884803246,
+          "wet_length_m": 2.7507263163602436,
+          "target_cp_m": 2.063044737270183,
+          "actual_cp_m": 2.0636585796604727,
+          "contiguous_transom_wet": true,
+          "full_width_wet": true,
+          "speed_relative_spread": 0.0,
+          "attack_spread_deg": 1.7763568394002505e-15,
+          "geometric_trim_deg": 13.034520235871362,
+          "mean_vertical_flow_angle_deg": 0.0
+        }
+      ],
+      "speed_m_s": 5.0,
+      "accepted_constrained_equilibrium": true
+    },
+    {
+      "z_m": 0.764229598558039,
+      "trim_deg": 2.5940381730641926,
+      "rear_wheel_rad_s": 59.77559484583207,
+      "front_wheel_rad_s": -3.330499489203717e-129,
+      "residual": {
+        "vertical_n": -5.056790541857481e-10,
+        "pitch_nm": 1.2446477626326669e-08,
+        "rear_per_wheel_nm": -8.741807278056513e-11,
+        "front_per_wheel_nm": 6.660998978407434e-131
+      },
+      "normalized_max_residual": 5.736329056698727e-13,
+      "net_external_force_including_weight_n": [
+        -2207.476324948171,
+        0.0,
+        -5.056790541857481e-10
+      ],
+      "external_moment_about_whole_com_nm": [
+        -2.1360690993788012e-13,
+        1.2446477626326669e-08,
+        -2.4513724383723456e-13
+      ],
+      "force_by_group_n": {
+        "buoyancy": [
+          0.0,
+          0.0,
+          1719.6180235367717
+        ],
+        "wave_pressure": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "volume_drag": [
+          -2097.048417472696,
+          0.0,
+          -95.00775724910817
+        ],
+        "panel_pressure": [
+          -589.5184113700313,
+          0.0,
+          13012.081196624087
+        ],
+        "skin_drag": [
+          -3852.938403998678,
+          0.0,
+          -174.5591725650452
+        ],
+        "paddles": [
+          4503.528907893235,
+          0.0,
+          2.95795965278856
+        ],
+        "air_drag": [
+          -171.50000000000003,
+          0.0,
+          0.0
+        ]
+      },
+      "moment_by_group_nm": {
+        "buoyancy": [
+          -2.2737367544323206e-13,
+          1182.1618946440508,
+          0.0
+        ],
+        "wave_pressure": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "volume_drag": [
+          1.4210854715202004e-14,
+          1513.5172225197314,
+          2.2737367544323206e-13
+        ],
+        "panel_pressure": [
+          0.0,
+          -1716.2063061784245,
+          0.0
+        ],
+        "skin_drag": [
+          -4.440892098500626e-16,
+          2911.54891319245,
+          -4.725109192804666e-13
+        ],
+        "paddles": [
+          0.0,
+          -3887.8209116746057,
+          0.0
+        ],
+        "air_drag": [
+          0.0,
+          -3.200812490756064,
+          0.0
+        ]
+      },
+      "motor_power_kw": 124.3332372793307,
+      "installed_power_limit_kw": 176.0,
+      "required_additional_horizontal_force_n": 2207.476324948171,
+      "external_tow_power_kw": 44.149526498963425,
+      "paddle_thrust_n": 4503.528907893235,
+      "nonpaddle_horizontal_resistance_n": 6711.005232841406,
+      "fraction_outside_tagged_dynamic_domain": 0.0,
+      "tagged_dynamic_lift_n": 13012.0811966241,
+      "buoyancy_weight_fraction": 0.11888055959670017,
+      "panel_pressure_weight_fraction": 0.8995506403165432,
+      "phase_pitch_moment_peak_to_peak_nm": 2494.9208501064095,
+      "phase_rear_net_torque_peak_to_peak_nm": 183.82177875126797,
+      "phase_samples": 16,
+      "surfaces": [
+        {
+          "name": "underbody",
+          "beam_m": 1.4,
+          "full_length_m": 3.3,
+          "bottom_z_range_m": [
+            0.2100440435099658,
+            0.3593988804277179
+          ],
+          "top_z_range_m": [
+            0.23801535147766897,
+            0.38737018839542103
+          ],
+          "top_sample_submerged_fraction": 0.0,
+          "whole_sampled_top_submerged": false,
+          "whole_top_below_mean_water": false,
+          "lift_n": 0.0,
+          "valid_force_z": 0.0,
+          "extrapolated_force_z": 0.0,
+          "cp_error_m": 0.0,
+          "lambda": 0.0,
+          "wet_length_m": 0.0,
+          "target_cp_m": 0.0,
+          "actual_cp_m": null
+        },
+        {
+          "name": "float_bottom_-1",
+          "beam_m": 0.75,
+          "full_length_m": 3.0,
+          "bottom_z_range_m": [
+            -0.10283919132596482,
+            0.03293793314471889
+          ],
+          "top_z_range_m": [
+            -0.0029416628698820807,
+            0.13283546160080162
+          ],
+          "top_sample_submerged_fraction": 0.025,
+          "whole_sampled_top_submerged": false,
+          "whole_top_below_mean_water": false,
+          "lift_n": 6506.04059831205,
+          "valid_force_z": 6506.04059831205,
+          "extrapolated_force_z": 0.0,
+          "cp_error_m": 0.0060958024003456845,
+          "lambda": 2.852449753515065,
+          "wet_length_m": 2.1393373151362987,
+          "target_cp_m": 1.604502986352224,
+          "actual_cp_m": 1.6105987887525697,
+          "contiguous_transom_wet": true,
+          "full_width_wet": true,
+          "speed_relative_spread": 1.7763568394002506e-16,
+          "attack_spread_deg": 0.0,
+          "geometric_trim_deg": 2.5940381730641926,
+          "mean_vertical_flow_angle_deg": 0.0
+        },
+        {
+          "name": "float_bottom_1",
+          "beam_m": 0.75,
+          "full_length_m": 3.0,
+          "bottom_z_range_m": [
+            -0.10283919132596482,
+            0.03293793314471889
+          ],
+          "top_z_range_m": [
+            -0.0029416628698820807,
+            0.13283546160080162
+          ],
+          "top_sample_submerged_fraction": 0.025,
+          "whole_sampled_top_submerged": false,
+          "whole_top_below_mean_water": false,
+          "lift_n": 6506.04059831205,
+          "valid_force_z": 6506.04059831205,
+          "extrapolated_force_z": 0.0,
+          "cp_error_m": 0.0060958024003456845,
+          "lambda": 2.852449753515065,
+          "wet_length_m": 2.1393373151362987,
+          "target_cp_m": 1.604502986352224,
+          "actual_cp_m": 1.6105987887525697,
+          "contiguous_transom_wet": true,
+          "full_width_wet": true,
+          "speed_relative_spread": 1.7763568394002506e-16,
+          "attack_spread_deg": 0.0,
+          "geometric_trim_deg": 2.5940381730641926,
+          "mean_vertical_flow_angle_deg": 0.0
+        }
+      ],
+      "speed_m_s": 20.0,
+      "accepted_constrained_equilibrium": true
+    }
+  ],
+  "original_15m_s_geometry_recheck": [
+    {
+      "z_m": 0.3965906794862492,
+      "trim_deg": 3.1793145122702056,
+      "rear_wheel_rad_s": 23.843677167218416,
+      "front_wheel_rad_s": 38.09349312987169,
+      "residual": {
+        "vertical_n": -2.13567545870319e-08,
+        "pitch_nm": 5.551966628658533e-07,
+        "rear_per_wheel_nm": -1.1145004918944323e-09,
+        "front_per_wheel_nm": -8.182254873645434e-10
+      },
+      "normalized_max_residual": 2.649577281388771e-11,
+      "net_external_force_including_weight_n": [
+        -24844.76141452349,
+        0.0,
+        -2.13567545870319e-08
+      ],
+      "external_moment_about_whole_com_nm": [
+        7.26640969617165e-14,
+        5.551966628658533e-07,
+        1.1945999744966684e-13
+      ],
+      "force_by_group_n": {
+        "buoyancy": [
+          0.0,
+          0.0,
+          575.536201001668
+        ],
+        "wave_pressure": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "volume_drag": [
+          -11115.202289727175,
+          0.0,
+          56.20741135525527
+        ],
+        "panel_pressure": [
+          -772.4358161471974,
+          0.0,
+          13906.10419296421
+        ],
+        "skin_drag": [
+          -10470.38813242621,
+          0.0,
+          -581.5937152650256
+        ],
+        "paddles": [
+          -2390.26642622291,
+          0.0,
+          13.185909922535373
+        ],
+        "air_drag": [
+          -96.46875,
+          0.0,
+          0.0
+        ]
+      },
+      "moment_by_group_nm": {
+        "buoyancy": [
+          2.5757174171303632e-14,
+          106.17773303626782,
+          0.0
+        ],
+        "wave_pressure": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "volume_drag": [
+          1.8207657603852567e-14,
+          5590.463521836433,
+          1.2079226507921703e-13
+        ],
+        "panel_pressure": [
+          2.842170943040401e-14,
+          -9071.281789584651,
+          -2.6645352591003757e-15
+        ],
+        "skin_drag": [
+          2.7755575615628914e-16,
+          4693.268792356684,
+          1.3322676295501878e-15
+        ],
+        "paddles": [
+          0.0,
+          -1316.6116832135874,
+          0.0
+        ],
+        "air_drag": [
+          0.0,
+          -2.016573875948837,
+          0.0
+        ]
+      },
+      "motor_power_kw": 49.594848507814305,
+      "installed_power_limit_kw": 176.0,
+      "required_additional_horizontal_force_n": 24844.76141452349,
+      "external_tow_power_kw": 372.6714212178524,
+      "paddle_thrust_n": -2390.26642622291,
+      "nonpaddle_horizontal_resistance_n": 22454.494988300583,
+      "fraction_outside_tagged_dynamic_domain": 0.0,
+      "tagged_dynamic_lift_n": 13906.104192964225,
+      "buoyancy_weight_fraction": 0.0411996616186238,
+      "panel_pressure_weight_fraction": 0.9954661169641883,
+      "phase_pitch_moment_peak_to_peak_nm": 6270.049334678374,
+      "phase_rear_net_torque_peak_to_peak_nm": 1076.6480221434726,
+      "phase_samples": 16,
+      "surfaces": [
+        {
+          "name": "underbody",
+          "beam_m": 1.4,
+          "full_length_m": 3.3,
+          "bottom_z_range_m": [
+            -0.1741812364401657,
+            0.008840177163890642
+          ],
+          "top_z_range_m": [
+            -0.14622433257457648,
+            0.03679708102947987
+          ],
+          "top_sample_submerged_fraction": 0.8,
+          "whole_sampled_top_submerged": false,
+          "whole_top_below_mean_water": false,
+          "lift_n": 13906.104192964225,
+          "valid_force_z": 13906.104192964225,
+          "extrapolated_force_z": 0.0,
+          "cp_error_m": 0.0028087449258347164,
+          "lambda": 2.1681912881130896,
+          "wet_length_m": 3.0354678033583253,
+          "target_cp_m": 2.276600852518744,
+          "actual_cp_m": 2.2794095974445785,
+          "contiguous_transom_wet": true,
+          "full_width_wet": true,
+          "speed_relative_spread": 2.368475785867001e-16,
+          "attack_spread_deg": 8.881784197001251e-16,
+          "geometric_trim_deg": 3.179314512270206,
+          "mean_vertical_flow_angle_deg": 0.0
+        }
+      ],
+      "geometry": "paddles",
+      "power_factor": 4.0
+    },
+    {
+      "z_m": 0.7288856426750027,
+      "trim_deg": 3.8686784383755786,
+      "rear_wheel_rad_s": 37.173226771843495,
+      "front_wheel_rad_s": -1.2086199254801547e-44,
+      "residual": {
+        "vertical_n": -7.839844329282641e-10,
+        "pitch_nm": 2.4877325977001874e-08,
+        "rear_per_wheel_nm": -1.1807443911493465e-10,
+        "front_per_wheel_nm": 2.4172398509603096e-46
+      },
+      "normalized_max_residual": 1.1465454897295171e-12,
+      "net_external_force_including_weight_n": [
+        -5390.451690600752,
+        0.0,
+        -7.839844329282641e-10
+      ],
+      "external_moment_about_whole_com_nm": [
+        -1.3784529073745944e-12,
+        2.4877325977001874e-08,
+        5.684341886080801e-13
+      ],
+      "force_by_group_n": {
+        "buoyancy": [
+          0.0,
+          0.0,
+          2692.770465051245
+        ],
+        "wave_pressure": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "volume_drag": [
+          -2061.3455489749076,
+          0.0,
+          -125.09905242137754
+        ],
+        "panel_pressure": [
+          -820.1847479838669,
+          0.0,
+          12128.608752548236
+        ],
+        "skin_drag": [
+          -3419.0022150417335,
+          0.0,
+          -231.20652395610617
+        ],
+        "paddles": [
+          1006.5495713997561,
+          0.0,
+          0.016608777219861537
+        ],
+        "air_drag": [
+          -96.46875,
+          0.0,
+          0.0
+        ]
+      },
+      "moment_by_group_nm": {
+        "buoyancy": [
+          -4.547473508864641e-13,
+          1353.2811683566108,
+          0.0
+        ],
+        "wave_pressure": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "volume_drag": [
+          -2.842170943040401e-14,
+          1451.139180366207,
+          2.2737367544323206e-13
+        ],
+        "panel_pressure": [
+          -9.094947017729282e-13,
+          -4282.829531228316,
+          -1.1368683772161603e-13
+        ],
+        "skin_drag": [
+          1.4210854715202004e-14,
+          2491.189903033633,
+          4.547473508864641e-13
+        ],
+        "paddles": [
+          0.0,
+          -1010.9370704148997,
+          0.0
+        ],
+        "air_drag": [
+          0.0,
+          -1.8436500883576317,
+          0.0
+        ]
+      },
+      "motor_power_kw": 19.33007792135862,
+      "installed_power_limit_kw": 44.0,
+      "required_additional_horizontal_force_n": 5390.451690600752,
+      "external_tow_power_kw": 80.85677535901128,
+      "paddle_thrust_n": 1006.5495713997561,
+      "nonpaddle_horizontal_resistance_n": 6397.001262000508,
+      "fraction_outside_tagged_dynamic_domain": 0.0,
+      "tagged_dynamic_lift_n": 12128.608752548242,
+      "buoyancy_weight_fraction": 0.18615649252871028,
+      "panel_pressure_weight_fraction": 0.8384744611288019,
+      "phase_pitch_moment_peak_to_peak_nm": 1264.753144610907,
+      "phase_rear_net_torque_peak_to_peak_nm": 256.21851717489943,
+      "phase_samples": 16,
+      "surfaces": [
+        {
+          "name": "underbody",
+          "beam_m": 1.4,
+          "full_length_m": 3.3,
+          "bottom_z_range_m": [
+            0.13865410783023016,
+            0.36130471867627156
+          ],
+          "top_z_range_m": [
+            0.166590304546499,
+            0.3892409153925404
+          ],
+          "top_sample_submerged_fraction": 0.0,
+          "whole_sampled_top_submerged": false,
+          "whole_top_below_mean_water": false,
+          "lift_n": 0.0,
+          "valid_force_z": 0.0,
+          "extrapolated_force_z": 0.0,
+          "cp_error_m": 0.0,
+          "lambda": 0.0,
+          "wet_length_m": 0.0,
+          "target_cp_m": 0.0,
+          "actual_cp_m": null
+        },
+        {
+          "name": "float_bottom_-1",
+          "beam_m": 0.75,
+          "full_length_m": 3.0,
+          "bottom_z_range_m": [
+            -0.1704962294730874,
+            0.031913416750586565
+          ],
+          "top_z_range_m": [
+            -0.07072409834355577,
+            0.13168554788011821
+          ],
+          "top_sample_submerged_fraction": 0.35,
+          "whole_sampled_top_submerged": false,
+          "whole_top_below_mean_water": false,
+          "lift_n": 6064.304376274121,
+          "valid_force_z": 6064.304376274121,
+          "extrapolated_force_z": 0.0,
+          "cp_error_m": 0.002489067326664207,
+          "lambda": 3.250959797908807,
+          "wet_length_m": 2.438219848431605,
+          "target_cp_m": 1.8286648863237038,
+          "actual_cp_m": 1.831153953650368,
+          "contiguous_transom_wet": true,
+          "full_width_wet": true,
+          "speed_relative_spread": 0.0,
+          "attack_spread_deg": 0.0,
+          "geometric_trim_deg": 3.8686784383755786,
+          "mean_vertical_flow_angle_deg": 0.0
+        },
+        {
+          "name": "float_bottom_1",
+          "beam_m": 0.75,
+          "full_length_m": 3.0,
+          "bottom_z_range_m": [
+            -0.1704962294730874,
+            0.031913416750586565
+          ],
+          "top_z_range_m": [
+            -0.07072409834355577,
+            0.13168554788011821
+          ],
+          "top_sample_submerged_fraction": 0.35,
+          "whole_sampled_top_submerged": false,
+          "whole_top_below_mean_water": false,
+          "lift_n": 6064.304376274121,
+          "valid_force_z": 6064.304376274121,
+          "extrapolated_force_z": 0.0,
+          "cp_error_m": 0.002489067326664207,
+          "lambda": 3.250959797908807,
+          "wet_length_m": 2.438219848431605,
+          "target_cp_m": 1.8286648863237038,
+          "actual_cp_m": 1.831153953650368,
+          "contiguous_transom_wet": true,
+          "full_width_wet": true,
+          "speed_relative_spread": 0.0,
+          "attack_spread_deg": 0.0,
+          "geometric_trim_deg": 3.8686784383755786,
+          "mean_vertical_flow_angle_deg": 0.0
+        }
+      ],
+      "geometry": "wide_low",
+      "power_factor": 1.0
+    },
+    {
+      "z_m": 0.7511635861579891,
+      "trim_deg": 4.351774618663928,
+      "rear_wheel_rad_s": 44.8934751647812,
+      "front_wheel_rad_s": 1.2792989655592214e-31,
+      "residual": {
+        "vertical_n": -1.708940544631332e-08,
+        "pitch_nm": 4.891465821277308e-07,
+        "rear_per_wheel_nm": -4.18509671362699e-09,
+        "front_per_wheel_nm": -2.558597931118443e-33
+      },
+      "normalized_max_residual": 2.2543773718832286e-11,
+      "net_external_force_including_weight_n": [
+        -1215.897559498726,
+        0.0,
+        -1.708940544631332e-08
+      ],
+      "external_moment_about_whole_com_nm": [
+        1.6280310433103296e-12,
+        4.891465821277308e-07,
+        1.7053025658242404e-13
+      ],
+      "force_by_group_n": {
+        "buoyancy": [
+          0.0,
+          0.0,
+          2187.951312403177
+        ],
+        "wave_pressure": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "volume_drag": [
+          -1514.650807879028,
+          0.0,
+          -120.76687933444681
+        ],
+        "panel_pressure": [
+          -959.4189276459747,
+          0.0,
+          12607.479492559194
+        ],
+        "skin_drag": [
+          -2765.647412893971,
+          0.0,
+          -210.4635170488774
+        ],
+        "paddles": [
+          4120.288338920247,
+          0.0,
+          0.8898414038669671
+        ],
+        "air_drag": [
+          -96.46875,
+          0.0,
+          0.0
+        ]
+      },
+      "moment_by_group_nm": {
+        "buoyancy": [
+          -2.2737367544323206e-13,
+          1439.0372049851405,
+          0.0
+        ],
+        "wave_pressure": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "volume_drag": [
+          2.930988785010413e-14,
+          1062.2946243315873,
+          1.1368683772161603e-13
+        ],
+        "panel_pressure": [
+          1.8189894035458565e-12,
+          -620.2983375800092,
+          1.1368683772161603e-13
+        ],
+        "skin_drag": [
+          7.105427357601002e-15,
+          2022.1742075984291,
+          -5.684341886080802e-14
+        ],
+        "paddles": [
+          0.0,
+          -3901.3479156267917,
+          0.0
+        ],
+        "air_drag": [
+          0.0,
+          -1.859783219209153,
+          0.0
+        ]
+      },
+      "motor_power_kw": 93.3784283427449,
+      "installed_power_limit_kw": 176.0,
+      "required_additional_horizontal_force_n": 1215.897559498726,
+      "external_tow_power_kw": 18.238463392480888,
+      "paddle_thrust_n": 4120.288338920247,
+      "nonpaddle_horizontal_resistance_n": 5336.185898418973,
+      "fraction_outside_tagged_dynamic_domain": 0.0,
+      "tagged_dynamic_lift_n": 12607.47949255919,
+      "buoyancy_weight_fraction": 0.1512573564760978,
+      "panel_pressure_weight_fraction": 0.8715797326296801,
+      "phase_pitch_moment_peak_to_peak_nm": 2074.1879196982,
+      "phase_rear_net_torque_peak_to_peak_nm": 529.1544248091793,
+      "phase_samples": 16,
+      "surfaces": [
+        {
+          "name": "underbody",
+          "beam_m": 1.4,
+          "full_length_m": 3.3,
+          "bottom_z_range_m": [
+            0.1473457856487196,
+            0.3977490927705367
+          ],
+          "top_z_range_m": [
+            0.175265060887374,
+            0.4256683680091911
+          ],
+          "top_sample_submerged_fraction": 0.0,
+          "whole_sampled_top_submerged": false,
+          "whole_top_below_mean_water": false,
+          "lift_n": 0.0,
+          "valid_force_z": 0.0,
+          "extrapolated_force_z": 0.0,
+          "cp_error_m": 0.0,
+          "lambda": 0.0,
+          "wet_length_m": 0.0,
+          "target_cp_m": 0.0,
+          "actual_cp_m": null
+        },
+        {
+          "name": "float_bottom_-1",
+          "beam_m": 0.75,
+          "full_length_m": 3.0,
+          "bottom_z_range_m": [
+            -0.16034967714465062,
+            0.06728969296609219
+          ],
+          "top_z_range_m": [
+            -0.060637979863742086,
+            0.16700139024700072
+          ],
+          "top_sample_submerged_fraction": 0.275,
+          "whole_sampled_top_submerged": false,
+          "whole_top_below_mean_water": false,
+          "lift_n": 6303.739746279595,
+          "valid_force_z": 6303.739746279595,
+          "extrapolated_force_z": 0.0,
+          "cp_error_m": 0.0026517827115313253,
+          "lambda": 2.711551705331654,
+          "wet_length_m": 2.0336637789987404,
+          "target_cp_m": 1.5252478342490554,
+          "actual_cp_m": 1.5278996169605867,
+          "contiguous_transom_wet": true,
+          "full_width_wet": true,
+          "speed_relative_spread": 1.1842378929335e-16,
+          "attack_spread_deg": 0.0,
+          "geometric_trim_deg": 4.351774618663928,
+          "mean_vertical_flow_angle_deg": 0.0
+        },
+        {
+          "name": "float_bottom_1",
+          "beam_m": 0.75,
+          "full_length_m": 3.0,
+          "bottom_z_range_m": [
+            -0.16034967714465062,
+            0.06728969296609219
+          ],
+          "top_z_range_m": [
+            -0.060637979863742086,
+            0.16700139024700072
+          ],
+          "top_sample_submerged_fraction": 0.275,
+          "whole_sampled_top_submerged": false,
+          "whole_top_below_mean_water": false,
+          "lift_n": 6303.739746279595,
+          "valid_force_z": 6303.739746279595,
+          "extrapolated_force_z": 0.0,
+          "cp_error_m": 0.0026517827115313253,
+          "lambda": 2.711551705331654,
+          "wet_length_m": 2.0336637789987404,
+          "target_cp_m": 1.5252478342490554,
+          "actual_cp_m": 1.5278996169605867,
+          "contiguous_transom_wet": true,
+          "full_width_wet": true,
+          "speed_relative_spread": 1.1842378929335e-16,
+          "attack_spread_deg": 0.0,
+          "geometric_trim_deg": 4.351774618663928,
+          "mean_vertical_flow_angle_deg": 0.0
+        }
+      ],
+      "geometry": "wide_low",
+      "power_factor": 4.0
+    }
+  ]
+}

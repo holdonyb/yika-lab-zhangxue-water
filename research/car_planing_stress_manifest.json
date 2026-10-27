@@ -1,0 +1,4250 @@
+{
+  "stage": "stress",
+  "note": "Registered before execution; all outcomes retained. Coarse 10 s cases are not sufficient to claim sustained planing.",
+  "cases": [
+    {
+      "name": "pln_four_skis_v10_p176_30s",
+      "parameters": {
+        "vehicle": "car",
+        "variant": "planing_four_skis",
+        "water": {
+          "kind": "calm",
+          "mean_z": 0.0,
+          "density": 1000.0,
+          "current": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "components": [],
+          "seed": 17,
+          "gravity": 9.81
+        },
+        "duration": 30.0,
+        "dt": 0.001,
+        "output_hz": 48.0,
+        "initial_speed": 10.0,
+        "initial_roll_deg": 0.0,
+        "initial_pitch_deg": 0.0,
+        "initial_z": 0.8931699242873575,
+        "drive_off_s": null,
+        "steer_target_deg": 0.0,
+        "steer_start_s": 0.0,
+        "parameter_origin": "declared experimental model, not a measurement of the news vehicle",
+        "volumes": [
+          {
+            "name": "rear_left_wheel_sealed",
+            "body": "rear_left_wheel",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              0.6200000000000001,
+              0.22,
+              0.6200000000000001
+            ],
+            "shape": "annular_cylinder",
+            "outer_radius": 0.31000000000000005,
+            "inner_radius": 0.23000000000000004,
+            "width": 0.22,
+            "cd": [
+              0.8,
+              1.0,
+              0.8
+            ],
+            "grid": [
+              32,
+              2,
+              2
+            ],
+            "pitch_deg": 0.0
+          },
+          {
+            "name": "rear_right_wheel_sealed",
+            "body": "rear_right_wheel",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              0.6200000000000001,
+              0.22,
+              0.6200000000000001
+            ],
+            "shape": "annular_cylinder",
+            "outer_radius": 0.31000000000000005,
+            "inner_radius": 0.23000000000000004,
+            "width": 0.22,
+            "cd": [
+              0.8,
+              1.0,
+              0.8
+            ],
+            "grid": [
+              32,
+              2,
+              2
+            ],
+            "pitch_deg": 0.0
+          },
+          {
+            "name": "front_left_wheel_sealed",
+            "body": "front_left_wheel",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              0.6200000000000001,
+              0.22,
+              0.6200000000000001
+            ],
+            "shape": "annular_cylinder",
+            "outer_radius": 0.31000000000000005,
+            "inner_radius": 0.23000000000000004,
+            "width": 0.22,
+            "cd": [
+              0.8,
+              1.0,
+              0.8
+            ],
+            "grid": [
+              32,
+              2,
+              2
+            ],
+            "pitch_deg": 0.0
+          },
+          {
+            "name": "front_right_wheel_sealed",
+            "body": "front_right_wheel",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              0.6200000000000001,
+              0.22,
+              0.6200000000000001
+            ],
+            "shape": "annular_cylinder",
+            "outer_radius": 0.31000000000000005,
+            "inner_radius": 0.23000000000000004,
+            "width": 0.22,
+            "cd": [
+              0.8,
+              1.0,
+              0.8
+            ],
+            "grid": [
+              32,
+              2,
+              2
+            ],
+            "pitch_deg": 0.0
+          },
+          {
+            "name": "drivetrain_solids",
+            "body": "chassis",
+            "center": [
+              0,
+              0,
+              -0.05
+            ],
+            "size": [
+              1.3,
+              0.55,
+              0.21
+            ],
+            "cd": [
+              0.85,
+              1.0,
+              1.0
+            ],
+            "grid": [
+              12,
+              5,
+              3
+            ],
+            "pitch_deg": 0
+          },
+          {
+            "name": "ski_solid_-1.3_-1",
+            "body": "chassis",
+            "center": [
+              -1.302090569265353,
+              -1.3,
+              -0.7801095620926346
+            ],
+            "size": [
+              1.4,
+              0.65,
+              0.04
+            ],
+            "cd": [
+              0.18,
+              0.85,
+              0.0
+            ],
+            "grid": [
+              14,
+              5,
+              2
+            ],
+            "pitch_deg": 6.0
+          },
+          {
+            "name": "ski_solid_-1.3_1",
+            "body": "chassis",
+            "center": [
+              -1.302090569265353,
+              1.3,
+              -0.7801095620926346
+            ],
+            "size": [
+              1.4,
+              0.65,
+              0.04
+            ],
+            "cd": [
+              0.18,
+              0.85,
+              0.0
+            ],
+            "grid": [
+              14,
+              5,
+              2
+            ],
+            "pitch_deg": 6.0
+          },
+          {
+            "name": "ski_solid_1.3_-1",
+            "body": "chassis",
+            "center": [
+              1.297909430734647,
+              -1.3,
+              -0.7801095620926346
+            ],
+            "size": [
+              1.4,
+              0.65,
+              0.04
+            ],
+            "cd": [
+              0.18,
+              0.85,
+              0.0
+            ],
+            "grid": [
+              14,
+              5,
+              2
+            ],
+            "pitch_deg": 6.0
+          },
+          {
+            "name": "ski_solid_1.3_1",
+            "body": "chassis",
+            "center": [
+              1.297909430734647,
+              1.3,
+              -0.7801095620926346
+            ],
+            "size": [
+              1.4,
+              0.65,
+              0.04
+            ],
+            "cd": [
+              0.18,
+              0.85,
+              0.0
+            ],
+            "grid": [
+              14,
+              5,
+              2
+            ],
+            "pitch_deg": 6.0
+          }
+        ],
+        "panels": [
+          {
+            "name": "underbody",
+            "body": "chassis",
+            "center": [
+              0,
+              0,
+              -0.48
+            ],
+            "size": [
+              3.3,
+              1.4
+            ],
+            "pitch_deg": 0,
+            "grid": [
+              40,
+              6
+            ],
+            "cn": 1.5,
+            "cf": 0.012,
+            "wet_transition_m": 0.012,
+            "thickness": 0.028,
+            "pressure_model": "savitsky_dynamic"
+          },
+          {
+            "name": "ski_bottom_-1.3_-1",
+            "body": "chassis",
+            "center": [
+              -1.3,
+              -1.3,
+              -0.8
+            ],
+            "size": [
+              1.4,
+              0.65
+            ],
+            "pitch_deg": 6.0,
+            "grid": [
+              40,
+              6
+            ],
+            "cn": 2.0,
+            "cf": 0.006,
+            "wet_transition_m": 0.012,
+            "thickness": 0.04,
+            "pressure_model": "savitsky_dynamic"
+          },
+          {
+            "name": "ski_bottom_-1.3_1",
+            "body": "chassis",
+            "center": [
+              -1.3,
+              1.3,
+              -0.8
+            ],
+            "size": [
+              1.4,
+              0.65
+            ],
+            "pitch_deg": 6.0,
+            "grid": [
+              40,
+              6
+            ],
+            "cn": 2.0,
+            "cf": 0.006,
+            "wet_transition_m": 0.012,
+            "thickness": 0.04,
+            "pressure_model": "savitsky_dynamic"
+          },
+          {
+            "name": "ski_bottom_1.3_-1",
+            "body": "chassis",
+            "center": [
+              1.3,
+              -1.3,
+              -0.8
+            ],
+            "size": [
+              1.4,
+              0.65
+            ],
+            "pitch_deg": 6.0,
+            "grid": [
+              40,
+              6
+            ],
+            "cn": 2.0,
+            "cf": 0.006,
+            "wet_transition_m": 0.012,
+            "thickness": 0.04,
+            "pressure_model": "savitsky_dynamic"
+          },
+          {
+            "name": "ski_bottom_1.3_1",
+            "body": "chassis",
+            "center": [
+              1.3,
+              1.3,
+              -0.8
+            ],
+            "size": [
+              1.4,
+              0.65
+            ],
+            "pitch_deg": 6.0,
+            "grid": [
+              40,
+              6
+            ],
+            "cn": 2.0,
+            "cf": 0.006,
+            "wet_transition_m": 0.012,
+            "thickness": 0.04,
+            "pressure_model": "savitsky_dynamic"
+          }
+        ],
+        "wheels": [
+          {
+            "name": "rear_left_wheel",
+            "parent": "chassis",
+            "center": [
+              -1.3,
+              0.78,
+              -0.39
+            ],
+            "radius": 0.34,
+            "width": 0.22,
+            "mass": 24.0,
+            "inertia": [
+              1.50415,
+              2.7883000000000004,
+              1.50415
+            ],
+            "paddles": true,
+            "blade_area": 0.034,
+            "blade_width": 0.34,
+            "blade_count": 12,
+            "blade_radius": 0.405,
+            "blade_depth": 0.1
+          },
+          {
+            "name": "rear_right_wheel",
+            "parent": "chassis",
+            "center": [
+              -1.3,
+              -0.78,
+              -0.39
+            ],
+            "radius": 0.34,
+            "width": 0.22,
+            "mass": 24.0,
+            "inertia": [
+              1.50415,
+              2.7883000000000004,
+              1.50415
+            ],
+            "paddles": true,
+            "blade_area": 0.034,
+            "blade_width": 0.34,
+            "blade_count": 12,
+            "blade_radius": 0.405,
+            "blade_depth": 0.1
+          },
+          {
+            "name": "front_left_wheel",
+            "parent": "chassis",
+            "center": [
+              1.3,
+              0.78,
+              -0.39
+            ],
+            "radius": 0.34,
+            "width": 0.22,
+            "mass": 12.0,
+            "inertia": [
+              0.52,
+              0.82,
+              0.52
+            ],
+            "paddles": false,
+            "blade_area": 0.034,
+            "blade_width": 0.34,
+            "blade_count": 12,
+            "blade_radius": 0.405,
+            "blade_depth": 0.1
+          },
+          {
+            "name": "front_right_wheel",
+            "parent": "chassis",
+            "center": [
+              1.3,
+              -0.78,
+              -0.39
+            ],
+            "radius": 0.34,
+            "width": 0.22,
+            "mass": 12.0,
+            "inertia": [
+              0.52,
+              0.82,
+              0.52
+            ],
+            "paddles": false,
+            "blade_area": 0.034,
+            "blade_width": 0.34,
+            "blade_count": 12,
+            "blade_radius": 0.405,
+            "blade_depth": 0.1
+          }
+        ],
+        "chassis_mass": 1396.1408,
+        "chassis_inertia": [
+          752.2501765565868,
+          2207.8271934511,
+          2407.8811688945134
+        ],
+        "visual_origin_to_com": [
+          0,
+          0,
+          0.78
+        ],
+        "drive_torque_nm": 1040.0,
+        "drive_power_w": 88000.0,
+        "wheel_target_rad_s": 100.0,
+        "cabin_condition": "open/flooded cabin; only listed solid/sealed components displace water",
+        "drive_rating_scope": "per driven wheel; total budget is per-wheel rating times driven wheel count",
+        "chassis_com": [
+          -6.609605551824994e-05,
+          0.0,
+          -0.02466417438586321
+        ],
+        "reference_frame_note": "Free body origin is a fixed geometry reference; chassis_com is its physical mass-center offset. Modifications include their mass and parallel-axis inertia.",
+        "total_drive_power_w": 176000.0,
+        "drive_control": "positive_power_envelope",
+        "power_sensitivity_note": "Power/torque factor is an isolated rating sensitivity at fixed mass, not an engineered engine upgrade.",
+        "float_mass_kg": 44.1408,
+        "ski_mass_estimate": {
+          "mass_kg": 44.1408,
+          "aluminium_density_kg_m3": 2700.0,
+          "shell_thickness_m": 0.0015,
+          "brackets_kg": 12.0,
+          "calculated_inertia_tensor_kg_m2": [
+            [
+              752.2501765565868,
+              0.0,
+              -0.8185869373236407
+            ],
+            [
+              0.0,
+              2207.8271934511,
+              0.0
+            ],
+            [
+              -0.8185869373236407,
+              0.0,
+              2407.8811688945134
+            ]
+          ],
+          "model_note": "Diagonal inertia approximation; off-diagonal terms recorded. Separated fore/aft boards have unmodelled wake interaction."
+        },
+        "initial_clearance_note": "2 cm clearance above calm water for the lowest board or wheel/blade envelope; free entry thereafter."
+      }
+    },
+    {
+      "name": "pln_four_skis_v15_p176_roll1_30s",
+      "parameters": {
+        "vehicle": "car",
+        "variant": "planing_four_skis",
+        "water": {
+          "kind": "calm",
+          "mean_z": 0.0,
+          "density": 1000.0,
+          "current": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "components": [],
+          "seed": 17,
+          "gravity": 9.81
+        },
+        "duration": 30.0,
+        "dt": 0.001,
+        "output_hz": 48.0,
+        "initial_speed": 15.0,
+        "initial_roll_deg": 1.0,
+        "initial_pitch_deg": 0.0,
+        "initial_z": 0.8931699242873575,
+        "drive_off_s": null,
+        "steer_target_deg": 0.0,
+        "steer_start_s": 0.0,
+        "parameter_origin": "declared experimental model, not a measurement of the news vehicle",
+        "volumes": [
+          {
+            "name": "rear_left_wheel_sealed",
+            "body": "rear_left_wheel",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              0.6200000000000001,
+              0.22,
+              0.6200000000000001
+            ],
+            "shape": "annular_cylinder",
+            "outer_radius": 0.31000000000000005,
+            "inner_radius": 0.23000000000000004,
+            "width": 0.22,
+            "cd": [
+              0.8,
+              1.0,
+              0.8
+            ],
+            "grid": [
+              32,
+              2,
+              2
+            ],
+            "pitch_deg": 0.0
+          },
+          {
+            "name": "rear_right_wheel_sealed",
+            "body": "rear_right_wheel",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              0.6200000000000001,
+              0.22,
+              0.6200000000000001
+            ],
+            "shape": "annular_cylinder",
+            "outer_radius": 0.31000000000000005,
+            "inner_radius": 0.23000000000000004,
+            "width": 0.22,
+            "cd": [
+              0.8,
+              1.0,
+              0.8
+            ],
+            "grid": [
+              32,
+              2,
+              2
+            ],
+            "pitch_deg": 0.0
+          },
+          {
+            "name": "front_left_wheel_sealed",
+            "body": "front_left_wheel",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              0.6200000000000001,
+              0.22,
+              0.6200000000000001
+            ],
+            "shape": "annular_cylinder",
+            "outer_radius": 0.31000000000000005,
+            "inner_radius": 0.23000000000000004,
+            "width": 0.22,
+            "cd": [
+              0.8,
+              1.0,
+              0.8
+            ],
+            "grid": [
+              32,
+              2,
+              2
+            ],
+            "pitch_deg": 0.0
+          },
+          {
+            "name": "front_right_wheel_sealed",
+            "body": "front_right_wheel",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              0.6200000000000001,
+              0.22,
+              0.6200000000000001
+            ],
+            "shape": "annular_cylinder",
+            "outer_radius": 0.31000000000000005,
+            "inner_radius": 0.23000000000000004,
+            "width": 0.22,
+            "cd": [
+              0.8,
+              1.0,
+              0.8
+            ],
+            "grid": [
+              32,
+              2,
+              2
+            ],
+            "pitch_deg": 0.0
+          },
+          {
+            "name": "drivetrain_solids",
+            "body": "chassis",
+            "center": [
+              0,
+              0,
+              -0.05
+            ],
+            "size": [
+              1.3,
+              0.55,
+              0.21
+            ],
+            "cd": [
+              0.85,
+              1.0,
+              1.0
+            ],
+            "grid": [
+              12,
+              5,
+              3
+            ],
+            "pitch_deg": 0
+          },
+          {
+            "name": "ski_solid_-1.3_-1",
+            "body": "chassis",
+            "center": [
+              -1.302090569265353,
+              -1.3,
+              -0.7801095620926346
+            ],
+            "size": [
+              1.4,
+              0.65,
+              0.04
+            ],
+            "cd": [
+              0.18,
+              0.85,
+              0.0
+            ],
+            "grid": [
+              14,
+              5,
+              2
+            ],
+            "pitch_deg": 6.0
+          },
+          {
+            "name": "ski_solid_-1.3_1",
+            "body": "chassis",
+            "center": [
+              -1.302090569265353,
+              1.3,
+              -0.7801095620926346
+            ],
+            "size": [
+              1.4,
+              0.65,
+              0.04
+            ],
+            "cd": [
+              0.18,
+              0.85,
+              0.0
+            ],
+            "grid": [
+              14,
+              5,
+              2
+            ],
+            "pitch_deg": 6.0
+          },
+          {
+            "name": "ski_solid_1.3_-1",
+            "body": "chassis",
+            "center": [
+              1.297909430734647,
+              -1.3,
+              -0.7801095620926346
+            ],
+            "size": [
+              1.4,
+              0.65,
+              0.04
+            ],
+            "cd": [
+              0.18,
+              0.85,
+              0.0
+            ],
+            "grid": [
+              14,
+              5,
+              2
+            ],
+            "pitch_deg": 6.0
+          },
+          {
+            "name": "ski_solid_1.3_1",
+            "body": "chassis",
+            "center": [
+              1.297909430734647,
+              1.3,
+              -0.7801095620926346
+            ],
+            "size": [
+              1.4,
+              0.65,
+              0.04
+            ],
+            "cd": [
+              0.18,
+              0.85,
+              0.0
+            ],
+            "grid": [
+              14,
+              5,
+              2
+            ],
+            "pitch_deg": 6.0
+          }
+        ],
+        "panels": [
+          {
+            "name": "underbody",
+            "body": "chassis",
+            "center": [
+              0,
+              0,
+              -0.48
+            ],
+            "size": [
+              3.3,
+              1.4
+            ],
+            "pitch_deg": 0,
+            "grid": [
+              40,
+              6
+            ],
+            "cn": 1.5,
+            "cf": 0.012,
+            "wet_transition_m": 0.012,
+            "thickness": 0.028,
+            "pressure_model": "savitsky_dynamic"
+          },
+          {
+            "name": "ski_bottom_-1.3_-1",
+            "body": "chassis",
+            "center": [
+              -1.3,
+              -1.3,
+              -0.8
+            ],
+            "size": [
+              1.4,
+              0.65
+            ],
+            "pitch_deg": 6.0,
+            "grid": [
+              40,
+              6
+            ],
+            "cn": 2.0,
+            "cf": 0.006,
+            "wet_transition_m": 0.012,
+            "thickness": 0.04,
+            "pressure_model": "savitsky_dynamic"
+          },
+          {
+            "name": "ski_bottom_-1.3_1",
+            "body": "chassis",
+            "center": [
+              -1.3,
+              1.3,
+              -0.8
+            ],
+            "size": [
+              1.4,
+              0.65
+            ],
+            "pitch_deg": 6.0,
+            "grid": [
+              40,
+              6
+            ],
+            "cn": 2.0,
+            "cf": 0.006,
+            "wet_transition_m": 0.012,
+            "thickness": 0.04,
+            "pressure_model": "savitsky_dynamic"
+          },
+          {
+            "name": "ski_bottom_1.3_-1",
+            "body": "chassis",
+            "center": [
+              1.3,
+              -1.3,
+              -0.8
+            ],
+            "size": [
+              1.4,
+              0.65
+            ],
+            "pitch_deg": 6.0,
+            "grid": [
+              40,
+              6
+            ],
+            "cn": 2.0,
+            "cf": 0.006,
+            "wet_transition_m": 0.012,
+            "thickness": 0.04,
+            "pressure_model": "savitsky_dynamic"
+          },
+          {
+            "name": "ski_bottom_1.3_1",
+            "body": "chassis",
+            "center": [
+              1.3,
+              1.3,
+              -0.8
+            ],
+            "size": [
+              1.4,
+              0.65
+            ],
+            "pitch_deg": 6.0,
+            "grid": [
+              40,
+              6
+            ],
+            "cn": 2.0,
+            "cf": 0.006,
+            "wet_transition_m": 0.012,
+            "thickness": 0.04,
+            "pressure_model": "savitsky_dynamic"
+          }
+        ],
+        "wheels": [
+          {
+            "name": "rear_left_wheel",
+            "parent": "chassis",
+            "center": [
+              -1.3,
+              0.78,
+              -0.39
+            ],
+            "radius": 0.34,
+            "width": 0.22,
+            "mass": 24.0,
+            "inertia": [
+              1.50415,
+              2.7883000000000004,
+              1.50415
+            ],
+            "paddles": true,
+            "blade_area": 0.034,
+            "blade_width": 0.34,
+            "blade_count": 12,
+            "blade_radius": 0.405,
+            "blade_depth": 0.1
+          },
+          {
+            "name": "rear_right_wheel",
+            "parent": "chassis",
+            "center": [
+              -1.3,
+              -0.78,
+              -0.39
+            ],
+            "radius": 0.34,
+            "width": 0.22,
+            "mass": 24.0,
+            "inertia": [
+              1.50415,
+              2.7883000000000004,
+              1.50415
+            ],
+            "paddles": true,
+            "blade_area": 0.034,
+            "blade_width": 0.34,
+            "blade_count": 12,
+            "blade_radius": 0.405,
+            "blade_depth": 0.1
+          },
+          {
+            "name": "front_left_wheel",
+            "parent": "chassis",
+            "center": [
+              1.3,
+              0.78,
+              -0.39
+            ],
+            "radius": 0.34,
+            "width": 0.22,
+            "mass": 12.0,
+            "inertia": [
+              0.52,
+              0.82,
+              0.52
+            ],
+            "paddles": false,
+            "blade_area": 0.034,
+            "blade_width": 0.34,
+            "blade_count": 12,
+            "blade_radius": 0.405,
+            "blade_depth": 0.1
+          },
+          {
+            "name": "front_right_wheel",
+            "parent": "chassis",
+            "center": [
+              1.3,
+              -0.78,
+              -0.39
+            ],
+            "radius": 0.34,
+            "width": 0.22,
+            "mass": 12.0,
+            "inertia": [
+              0.52,
+              0.82,
+              0.52
+            ],
+            "paddles": false,
+            "blade_area": 0.034,
+            "blade_width": 0.34,
+            "blade_count": 12,
+            "blade_radius": 0.405,
+            "blade_depth": 0.1
+          }
+        ],
+        "chassis_mass": 1396.1408,
+        "chassis_inertia": [
+          752.2501765565868,
+          2207.8271934511,
+          2407.8811688945134
+        ],
+        "visual_origin_to_com": [
+          0,
+          0,
+          0.78
+        ],
+        "drive_torque_nm": 1040.0,
+        "drive_power_w": 88000.0,
+        "wheel_target_rad_s": 100.0,
+        "cabin_condition": "open/flooded cabin; only listed solid/sealed components displace water",
+        "drive_rating_scope": "per driven wheel; total budget is per-wheel rating times driven wheel count",
+        "chassis_com": [
+          -6.609605551824994e-05,
+          0.0,
+          -0.02466417438586321
+        ],
+        "reference_frame_note": "Free body origin is a fixed geometry reference; chassis_com is its physical mass-center offset. Modifications include their mass and parallel-axis inertia.",
+        "total_drive_power_w": 176000.0,
+        "drive_control": "positive_power_envelope",
+        "power_sensitivity_note": "Power/torque factor is an isolated rating sensitivity at fixed mass, not an engineered engine upgrade.",
+        "float_mass_kg": 44.1408,
+        "ski_mass_estimate": {
+          "mass_kg": 44.1408,
+          "aluminium_density_kg_m3": 2700.0,
+          "shell_thickness_m": 0.0015,
+          "brackets_kg": 12.0,
+          "calculated_inertia_tensor_kg_m2": [
+            [
+              752.2501765565868,
+              0.0,
+              -0.8185869373236407
+            ],
+            [
+              0.0,
+              2207.8271934511,
+              0.0
+            ],
+            [
+              -0.8185869373236407,
+              0.0,
+              2407.8811688945134
+            ]
+          ],
+          "model_note": "Diagonal inertia approximation; off-diagonal terms recorded. Separated fore/aft boards have unmodelled wake interaction."
+        },
+        "initial_clearance_note": "2 cm clearance above calm water for the lowest board or wheel/blade envelope; free entry thereafter."
+      }
+    },
+    {
+      "name": "pln_four_skis_v15_p176_off12",
+      "parameters": {
+        "vehicle": "car",
+        "variant": "planing_four_skis",
+        "water": {
+          "kind": "calm",
+          "mean_z": 0.0,
+          "density": 1000.0,
+          "current": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "components": [],
+          "seed": 17,
+          "gravity": 9.81
+        },
+        "duration": 25.0,
+        "dt": 0.001,
+        "output_hz": 48.0,
+        "initial_speed": 15.0,
+        "initial_roll_deg": 0.0,
+        "initial_pitch_deg": 0.0,
+        "initial_z": 0.8931699242873575,
+        "drive_off_s": 12.0,
+        "steer_target_deg": 0.0,
+        "steer_start_s": 0.0,
+        "parameter_origin": "declared experimental model, not a measurement of the news vehicle",
+        "volumes": [
+          {
+            "name": "rear_left_wheel_sealed",
+            "body": "rear_left_wheel",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              0.6200000000000001,
+              0.22,
+              0.6200000000000001
+            ],
+            "shape": "annular_cylinder",
+            "outer_radius": 0.31000000000000005,
+            "inner_radius": 0.23000000000000004,
+            "width": 0.22,
+            "cd": [
+              0.8,
+              1.0,
+              0.8
+            ],
+            "grid": [
+              32,
+              2,
+              2
+            ],
+            "pitch_deg": 0.0
+          },
+          {
+            "name": "rear_right_wheel_sealed",
+            "body": "rear_right_wheel",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              0.6200000000000001,
+              0.22,
+              0.6200000000000001
+            ],
+            "shape": "annular_cylinder",
+            "outer_radius": 0.31000000000000005,
+            "inner_radius": 0.23000000000000004,
+            "width": 0.22,
+            "cd": [
+              0.8,
+              1.0,
+              0.8
+            ],
+            "grid": [
+              32,
+              2,
+              2
+            ],
+            "pitch_deg": 0.0
+          },
+          {
+            "name": "front_left_wheel_sealed",
+            "body": "front_left_wheel",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              0.6200000000000001,
+              0.22,
+              0.6200000000000001
+            ],
+            "shape": "annular_cylinder",
+            "outer_radius": 0.31000000000000005,
+            "inner_radius": 0.23000000000000004,
+            "width": 0.22,
+            "cd": [
+              0.8,
+              1.0,
+              0.8
+            ],
+            "grid": [
+              32,
+              2,
+              2
+            ],
+            "pitch_deg": 0.0
+          },
+          {
+            "name": "front_right_wheel_sealed",
+            "body": "front_right_wheel",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              0.6200000000000001,
+              0.22,
+              0.6200000000000001
+            ],
+            "shape": "annular_cylinder",
+            "outer_radius": 0.31000000000000005,
+            "inner_radius": 0.23000000000000004,
+            "width": 0.22,
+            "cd": [
+              0.8,
+              1.0,
+              0.8
+            ],
+            "grid": [
+              32,
+              2,
+              2
+            ],
+            "pitch_deg": 0.0
+          },
+          {
+            "name": "drivetrain_solids",
+            "body": "chassis",
+            "center": [
+              0,
+              0,
+              -0.05
+            ],
+            "size": [
+              1.3,
+              0.55,
+              0.21
+            ],
+            "cd": [
+              0.85,
+              1.0,
+              1.0
+            ],
+            "grid": [
+              12,
+              5,
+              3
+            ],
+            "pitch_deg": 0
+          },
+          {
+            "name": "ski_solid_-1.3_-1",
+            "body": "chassis",
+            "center": [
+              -1.302090569265353,
+              -1.3,
+              -0.7801095620926346
+            ],
+            "size": [
+              1.4,
+              0.65,
+              0.04
+            ],
+            "cd": [
+              0.18,
+              0.85,
+              0.0
+            ],
+            "grid": [
+              14,
+              5,
+              2
+            ],
+            "pitch_deg": 6.0
+          },
+          {
+            "name": "ski_solid_-1.3_1",
+            "body": "chassis",
+            "center": [
+              -1.302090569265353,
+              1.3,
+              -0.7801095620926346
+            ],
+            "size": [
+              1.4,
+              0.65,
+              0.04
+            ],
+            "cd": [
+              0.18,
+              0.85,
+              0.0
+            ],
+            "grid": [
+              14,
+              5,
+              2
+            ],
+            "pitch_deg": 6.0
+          },
+          {
+            "name": "ski_solid_1.3_-1",
+            "body": "chassis",
+            "center": [
+              1.297909430734647,
+              -1.3,
+              -0.7801095620926346
+            ],
+            "size": [
+              1.4,
+              0.65,
+              0.04
+            ],
+            "cd": [
+              0.18,
+              0.85,
+              0.0
+            ],
+            "grid": [
+              14,
+              5,
+              2
+            ],
+            "pitch_deg": 6.0
+          },
+          {
+            "name": "ski_solid_1.3_1",
+            "body": "chassis",
+            "center": [
+              1.297909430734647,
+              1.3,
+              -0.7801095620926346
+            ],
+            "size": [
+              1.4,
+              0.65,
+              0.04
+            ],
+            "cd": [
+              0.18,
+              0.85,
+              0.0
+            ],
+            "grid": [
+              14,
+              5,
+              2
+            ],
+            "pitch_deg": 6.0
+          }
+        ],
+        "panels": [
+          {
+            "name": "underbody",
+            "body": "chassis",
+            "center": [
+              0,
+              0,
+              -0.48
+            ],
+            "size": [
+              3.3,
+              1.4
+            ],
+            "pitch_deg": 0,
+            "grid": [
+              40,
+              6
+            ],
+            "cn": 1.5,
+            "cf": 0.012,
+            "wet_transition_m": 0.012,
+            "thickness": 0.028,
+            "pressure_model": "savitsky_dynamic"
+          },
+          {
+            "name": "ski_bottom_-1.3_-1",
+            "body": "chassis",
+            "center": [
+              -1.3,
+              -1.3,
+              -0.8
+            ],
+            "size": [
+              1.4,
+              0.65
+            ],
+            "pitch_deg": 6.0,
+            "grid": [
+              40,
+              6
+            ],
+            "cn": 2.0,
+            "cf": 0.006,
+            "wet_transition_m": 0.012,
+            "thickness": 0.04,
+            "pressure_model": "savitsky_dynamic"
+          },
+          {
+            "name": "ski_bottom_-1.3_1",
+            "body": "chassis",
+            "center": [
+              -1.3,
+              1.3,
+              -0.8
+            ],
+            "size": [
+              1.4,
+              0.65
+            ],
+            "pitch_deg": 6.0,
+            "grid": [
+              40,
+              6
+            ],
+            "cn": 2.0,
+            "cf": 0.006,
+            "wet_transition_m": 0.012,
+            "thickness": 0.04,
+            "pressure_model": "savitsky_dynamic"
+          },
+          {
+            "name": "ski_bottom_1.3_-1",
+            "body": "chassis",
+            "center": [
+              1.3,
+              -1.3,
+              -0.8
+            ],
+            "size": [
+              1.4,
+              0.65
+            ],
+            "pitch_deg": 6.0,
+            "grid": [
+              40,
+              6
+            ],
+            "cn": 2.0,
+            "cf": 0.006,
+            "wet_transition_m": 0.012,
+            "thickness": 0.04,
+            "pressure_model": "savitsky_dynamic"
+          },
+          {
+            "name": "ski_bottom_1.3_1",
+            "body": "chassis",
+            "center": [
+              1.3,
+              1.3,
+              -0.8
+            ],
+            "size": [
+              1.4,
+              0.65
+            ],
+            "pitch_deg": 6.0,
+            "grid": [
+              40,
+              6
+            ],
+            "cn": 2.0,
+            "cf": 0.006,
+            "wet_transition_m": 0.012,
+            "thickness": 0.04,
+            "pressure_model": "savitsky_dynamic"
+          }
+        ],
+        "wheels": [
+          {
+            "name": "rear_left_wheel",
+            "parent": "chassis",
+            "center": [
+              -1.3,
+              0.78,
+              -0.39
+            ],
+            "radius": 0.34,
+            "width": 0.22,
+            "mass": 24.0,
+            "inertia": [
+              1.50415,
+              2.7883000000000004,
+              1.50415
+            ],
+            "paddles": true,
+            "blade_area": 0.034,
+            "blade_width": 0.34,
+            "blade_count": 12,
+            "blade_radius": 0.405,
+            "blade_depth": 0.1
+          },
+          {
+            "name": "rear_right_wheel",
+            "parent": "chassis",
+            "center": [
+              -1.3,
+              -0.78,
+              -0.39
+            ],
+            "radius": 0.34,
+            "width": 0.22,
+            "mass": 24.0,
+            "inertia": [
+              1.50415,
+              2.7883000000000004,
+              1.50415
+            ],
+            "paddles": true,
+            "blade_area": 0.034,
+            "blade_width": 0.34,
+            "blade_count": 12,
+            "blade_radius": 0.405,
+            "blade_depth": 0.1
+          },
+          {
+            "name": "front_left_wheel",
+            "parent": "chassis",
+            "center": [
+              1.3,
+              0.78,
+              -0.39
+            ],
+            "radius": 0.34,
+            "width": 0.22,
+            "mass": 12.0,
+            "inertia": [
+              0.52,
+              0.82,
+              0.52
+            ],
+            "paddles": false,
+            "blade_area": 0.034,
+            "blade_width": 0.34,
+            "blade_count": 12,
+            "blade_radius": 0.405,
+            "blade_depth": 0.1
+          },
+          {
+            "name": "front_right_wheel",
+            "parent": "chassis",
+            "center": [
+              1.3,
+              -0.78,
+              -0.39
+            ],
+            "radius": 0.34,
+            "width": 0.22,
+            "mass": 12.0,
+            "inertia": [
+              0.52,
+              0.82,
+              0.52
+            ],
+            "paddles": false,
+            "blade_area": 0.034,
+            "blade_width": 0.34,
+            "blade_count": 12,
+            "blade_radius": 0.405,
+            "blade_depth": 0.1
+          }
+        ],
+        "chassis_mass": 1396.1408,
+        "chassis_inertia": [
+          752.2501765565868,
+          2207.8271934511,
+          2407.8811688945134
+        ],
+        "visual_origin_to_com": [
+          0,
+          0,
+          0.78
+        ],
+        "drive_torque_nm": 1040.0,
+        "drive_power_w": 88000.0,
+        "wheel_target_rad_s": 100.0,
+        "cabin_condition": "open/flooded cabin; only listed solid/sealed components displace water",
+        "drive_rating_scope": "per driven wheel; total budget is per-wheel rating times driven wheel count",
+        "chassis_com": [
+          -6.609605551824994e-05,
+          0.0,
+          -0.02466417438586321
+        ],
+        "reference_frame_note": "Free body origin is a fixed geometry reference; chassis_com is its physical mass-center offset. Modifications include their mass and parallel-axis inertia.",
+        "total_drive_power_w": 176000.0,
+        "drive_control": "positive_power_envelope",
+        "power_sensitivity_note": "Power/torque factor is an isolated rating sensitivity at fixed mass, not an engineered engine upgrade.",
+        "float_mass_kg": 44.1408,
+        "ski_mass_estimate": {
+          "mass_kg": 44.1408,
+          "aluminium_density_kg_m3": 2700.0,
+          "shell_thickness_m": 0.0015,
+          "brackets_kg": 12.0,
+          "calculated_inertia_tensor_kg_m2": [
+            [
+              752.2501765565868,
+              0.0,
+              -0.8185869373236407
+            ],
+            [
+              0.0,
+              2207.8271934511,
+              0.0
+            ],
+            [
+              -0.8185869373236407,
+              0.0,
+              2407.8811688945134
+            ]
+          ],
+          "model_note": "Diagonal inertia approximation; off-diagonal terms recorded. Separated fore/aft boards have unmodelled wake interaction."
+        },
+        "initial_clearance_note": "2 cm clearance above calm water for the lowest board or wheel/blade envelope; free entry thereafter."
+      }
+    },
+    {
+      "name": "pln_wide_low_v15_t3_p44_refined",
+      "parameters": {
+        "vehicle": "car",
+        "variant": "planing_wide_low",
+        "water": {
+          "kind": "calm",
+          "mean_z": 0.0,
+          "density": 1000.0,
+          "current": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "components": [],
+          "seed": 17,
+          "gravity": 9.81
+        },
+        "duration": 10.0,
+        "dt": 0.0005,
+        "output_hz": 48.0,
+        "initial_speed": 15.0,
+        "initial_roll_deg": 0.0,
+        "initial_pitch_deg": 3.0,
+        "initial_z": 0.8974075621680748,
+        "drive_off_s": null,
+        "steer_target_deg": 0.0,
+        "steer_start_s": 0.0,
+        "parameter_origin": "declared experimental model, not a measurement of the news vehicle",
+        "volumes": [
+          {
+            "name": "rear_left_wheel_sealed",
+            "body": "rear_left_wheel",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              0.6200000000000001,
+              0.22,
+              0.6200000000000001
+            ],
+            "shape": "annular_cylinder",
+            "outer_radius": 0.31000000000000005,
+            "inner_radius": 0.23000000000000004,
+            "width": 0.22,
+            "cd": [
+              0.8,
+              1.0,
+              0.8
+            ],
+            "grid": [
+              32,
+              2,
+              2
+            ],
+            "pitch_deg": 0.0
+          },
+          {
+            "name": "rear_right_wheel_sealed",
+            "body": "rear_right_wheel",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              0.6200000000000001,
+              0.22,
+              0.6200000000000001
+            ],
+            "shape": "annular_cylinder",
+            "outer_radius": 0.31000000000000005,
+            "inner_radius": 0.23000000000000004,
+            "width": 0.22,
+            "cd": [
+              0.8,
+              1.0,
+              0.8
+            ],
+            "grid": [
+              32,
+              2,
+              2
+            ],
+            "pitch_deg": 0.0
+          },
+          {
+            "name": "front_left_wheel_sealed",
+            "body": "front_left_wheel",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              0.6200000000000001,
+              0.22,
+              0.6200000000000001
+            ],
+            "shape": "annular_cylinder",
+            "outer_radius": 0.31000000000000005,
+            "inner_radius": 0.23000000000000004,
+            "width": 0.22,
+            "cd": [
+              0.8,
+              1.0,
+              0.8
+            ],
+            "grid": [
+              32,
+              2,
+              2
+            ],
+            "pitch_deg": 0.0
+          },
+          {
+            "name": "front_right_wheel_sealed",
+            "body": "front_right_wheel",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              0.6200000000000001,
+              0.22,
+              0.6200000000000001
+            ],
+            "shape": "annular_cylinder",
+            "outer_radius": 0.31000000000000005,
+            "inner_radius": 0.23000000000000004,
+            "width": 0.22,
+            "cd": [
+              0.8,
+              1.0,
+              0.8
+            ],
+            "grid": [
+              32,
+              2,
+              2
+            ],
+            "pitch_deg": 0.0
+          },
+          {
+            "name": "drivetrain_solids",
+            "body": "chassis",
+            "center": [
+              0,
+              0,
+              -0.05
+            ],
+            "size": [
+              1.3,
+              0.55,
+              0.21
+            ],
+            "cd": [
+              0.85,
+              1.0,
+              1.0
+            ],
+            "grid": [
+              12,
+              5,
+              3
+            ],
+            "pitch_deg": 0
+          },
+          {
+            "name": "side_float_-1",
+            "body": "chassis",
+            "center": [
+              0,
+              -1.3,
+              -0.75
+            ],
+            "size": [
+              3.0,
+              0.75,
+              0.1
+            ],
+            "cd": [
+              0.18,
+              0.85,
+              0.0
+            ],
+            "grid": [
+              20,
+              5,
+              4
+            ],
+            "pitch_deg": 0
+          },
+          {
+            "name": "side_float_1",
+            "body": "chassis",
+            "center": [
+              0,
+              1.3,
+              -0.75
+            ],
+            "size": [
+              3.0,
+              0.75,
+              0.1
+            ],
+            "cd": [
+              0.18,
+              0.85,
+              0.0
+            ],
+            "grid": [
+              20,
+              5,
+              4
+            ],
+            "pitch_deg": 0
+          }
+        ],
+        "panels": [
+          {
+            "name": "underbody",
+            "body": "chassis",
+            "center": [
+              0,
+              0,
+              -0.48
+            ],
+            "size": [
+              3.3,
+              1.4
+            ],
+            "pitch_deg": 0,
+            "grid": [
+              80,
+              6
+            ],
+            "cn": 1.5,
+            "cf": 0.012,
+            "wet_transition_m": 0.012,
+            "thickness": 0.028,
+            "pressure_model": "savitsky_dynamic"
+          },
+          {
+            "name": "float_bottom_-1",
+            "body": "chassis",
+            "center": [
+              0,
+              -1.3,
+              -0.8
+            ],
+            "size": [
+              3.0,
+              0.75
+            ],
+            "pitch_deg": 0,
+            "grid": [
+              80,
+              6
+            ],
+            "cn": 2.0,
+            "cf": 0.006,
+            "wet_transition_m": 0.012,
+            "thickness": 0.1,
+            "pressure_model": "savitsky_dynamic"
+          },
+          {
+            "name": "float_bottom_1",
+            "body": "chassis",
+            "center": [
+              0,
+              1.3,
+              -0.8
+            ],
+            "size": [
+              3.0,
+              0.75
+            ],
+            "pitch_deg": 0,
+            "grid": [
+              80,
+              6
+            ],
+            "cn": 2.0,
+            "cf": 0.006,
+            "wet_transition_m": 0.012,
+            "thickness": 0.1,
+            "pressure_model": "savitsky_dynamic"
+          }
+        ],
+        "wheels": [
+          {
+            "name": "rear_left_wheel",
+            "parent": "chassis",
+            "center": [
+              -1.3,
+              0.78,
+              -0.39
+            ],
+            "radius": 0.34,
+            "width": 0.22,
+            "mass": 24.0,
+            "inertia": [
+              1.50415,
+              2.7883000000000004,
+              1.50415
+            ],
+            "paddles": true,
+            "blade_area": 0.034,
+            "blade_width": 0.34,
+            "blade_count": 12,
+            "blade_radius": 0.405,
+            "blade_depth": 0.1
+          },
+          {
+            "name": "rear_right_wheel",
+            "parent": "chassis",
+            "center": [
+              -1.3,
+              -0.78,
+              -0.39
+            ],
+            "radius": 0.34,
+            "width": 0.22,
+            "mass": 24.0,
+            "inertia": [
+              1.50415,
+              2.7883000000000004,
+              1.50415
+            ],
+            "paddles": true,
+            "blade_area": 0.034,
+            "blade_width": 0.34,
+            "blade_count": 12,
+            "blade_radius": 0.405,
+            "blade_depth": 0.1
+          },
+          {
+            "name": "front_left_wheel",
+            "parent": "chassis",
+            "center": [
+              1.3,
+              0.78,
+              -0.39
+            ],
+            "radius": 0.34,
+            "width": 0.22,
+            "mass": 12.0,
+            "inertia": [
+              0.52,
+              0.82,
+              0.52
+            ],
+            "paddles": false,
+            "blade_area": 0.034,
+            "blade_width": 0.34,
+            "blade_count": 12,
+            "blade_radius": 0.405,
+            "blade_depth": 0.1
+          },
+          {
+            "name": "front_right_wheel",
+            "parent": "chassis",
+            "center": [
+              1.3,
+              -0.78,
+              -0.39
+            ],
+            "radius": 0.34,
+            "width": 0.22,
+            "mass": 12.0,
+            "inertia": [
+              0.52,
+              0.82,
+              0.52
+            ],
+            "paddles": false,
+            "blade_area": 0.034,
+            "blade_width": 0.34,
+            "blade_count": 12,
+            "blade_radius": 0.405,
+            "blade_depth": 0.1
+          }
+        ],
+        "chassis_mass": 1402.525,
+        "chassis_inertia": [
+          765.1942038003074,
+          2165.3323444253074,
+          2375.649359375
+        ],
+        "visual_origin_to_com": [
+          0,
+          0,
+          0.78
+        ],
+        "drive_torque_nm": 260.0,
+        "drive_power_w": 22000.0,
+        "wheel_target_rad_s": 100.0,
+        "cabin_condition": "open/flooded cabin; only listed solid/sealed components displace water",
+        "drive_rating_scope": "per driven wheel; total budget is per-wheel rating times driven wheel count",
+        "chassis_com": [
+          0.0,
+          0.0,
+          -0.027018234969073632
+        ],
+        "reference_frame_note": "Free body origin is a fixed geometry reference; chassis_com is its physical mass-center offset. Modifications include their mass and parallel-axis inertia.",
+        "total_drive_power_w": 44000.0,
+        "drive_control": "positive_power_envelope",
+        "power_sensitivity_note": "Power/torque factor is an isolated rating sensitivity at fixed mass, not an engineered engine upgrade.",
+        "float_mass_kg": 50.525,
+        "float_mass_estimate": {
+          "material_density_kg_m3": 2700.0,
+          "shell_thickness_m": 0.0015,
+          "brackets_kg": 8.0,
+          "total_kg": 50.525,
+          "note": "Mass assumption only; no structural certification."
+        },
+        "initial_clearance_note": "2 cm clearance above calm water for the lowest board or wheel/blade envelope; free entry thereafter."
+      }
+    },
+    {
+      "name": "pln_four_skis_v15_p176_head",
+      "parameters": {
+        "vehicle": "car",
+        "variant": "planing_four_skis",
+        "water": {
+          "kind": "head",
+          "mean_z": 0.0,
+          "density": 1000.0,
+          "current": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "components": [
+            {
+              "amplitude": 0.075,
+              "kx": -1.5707963267948966,
+              "ky": 1.9236706937217898e-16,
+              "omega": 3.9254951236573885,
+              "phase": 0
+            }
+          ],
+          "seed": 17,
+          "gravity": 9.81
+        },
+        "duration": 12.0,
+        "dt": 0.001,
+        "output_hz": 48.0,
+        "initial_speed": 15.0,
+        "initial_roll_deg": 0.0,
+        "initial_pitch_deg": 0.0,
+        "initial_z": 0.8931699242873575,
+        "drive_off_s": null,
+        "steer_target_deg": 0.0,
+        "steer_start_s": 0.0,
+        "parameter_origin": "declared experimental model, not a measurement of the news vehicle",
+        "volumes": [
+          {
+            "name": "rear_left_wheel_sealed",
+            "body": "rear_left_wheel",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              0.6200000000000001,
+              0.22,
+              0.6200000000000001
+            ],
+            "shape": "annular_cylinder",
+            "outer_radius": 0.31000000000000005,
+            "inner_radius": 0.23000000000000004,
+            "width": 0.22,
+            "cd": [
+              0.8,
+              1.0,
+              0.8
+            ],
+            "grid": [
+              32,
+              2,
+              2
+            ],
+            "pitch_deg": 0.0
+          },
+          {
+            "name": "rear_right_wheel_sealed",
+            "body": "rear_right_wheel",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              0.6200000000000001,
+              0.22,
+              0.6200000000000001
+            ],
+            "shape": "annular_cylinder",
+            "outer_radius": 0.31000000000000005,
+            "inner_radius": 0.23000000000000004,
+            "width": 0.22,
+            "cd": [
+              0.8,
+              1.0,
+              0.8
+            ],
+            "grid": [
+              32,
+              2,
+              2
+            ],
+            "pitch_deg": 0.0
+          },
+          {
+            "name": "front_left_wheel_sealed",
+            "body": "front_left_wheel",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              0.6200000000000001,
+              0.22,
+              0.6200000000000001
+            ],
+            "shape": "annular_cylinder",
+            "outer_radius": 0.31000000000000005,
+            "inner_radius": 0.23000000000000004,
+            "width": 0.22,
+            "cd": [
+              0.8,
+              1.0,
+              0.8
+            ],
+            "grid": [
+              32,
+              2,
+              2
+            ],
+            "pitch_deg": 0.0
+          },
+          {
+            "name": "front_right_wheel_sealed",
+            "body": "front_right_wheel",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              0.6200000000000001,
+              0.22,
+              0.6200000000000001
+            ],
+            "shape": "annular_cylinder",
+            "outer_radius": 0.31000000000000005,
+            "inner_radius": 0.23000000000000004,
+            "width": 0.22,
+            "cd": [
+              0.8,
+              1.0,
+              0.8
+            ],
+            "grid": [
+              32,
+              2,
+              2
+            ],
+            "pitch_deg": 0.0
+          },
+          {
+            "name": "drivetrain_solids",
+            "body": "chassis",
+            "center": [
+              0,
+              0,
+              -0.05
+            ],
+            "size": [
+              1.3,
+              0.55,
+              0.21
+            ],
+            "cd": [
+              0.85,
+              1.0,
+              1.0
+            ],
+            "grid": [
+              12,
+              5,
+              3
+            ],
+            "pitch_deg": 0
+          },
+          {
+            "name": "ski_solid_-1.3_-1",
+            "body": "chassis",
+            "center": [
+              -1.302090569265353,
+              -1.3,
+              -0.7801095620926346
+            ],
+            "size": [
+              1.4,
+              0.65,
+              0.04
+            ],
+            "cd": [
+              0.18,
+              0.85,
+              0.0
+            ],
+            "grid": [
+              14,
+              5,
+              2
+            ],
+            "pitch_deg": 6.0
+          },
+          {
+            "name": "ski_solid_-1.3_1",
+            "body": "chassis",
+            "center": [
+              -1.302090569265353,
+              1.3,
+              -0.7801095620926346
+            ],
+            "size": [
+              1.4,
+              0.65,
+              0.04
+            ],
+            "cd": [
+              0.18,
+              0.85,
+              0.0
+            ],
+            "grid": [
+              14,
+              5,
+              2
+            ],
+            "pitch_deg": 6.0
+          },
+          {
+            "name": "ski_solid_1.3_-1",
+            "body": "chassis",
+            "center": [
+              1.297909430734647,
+              -1.3,
+              -0.7801095620926346
+            ],
+            "size": [
+              1.4,
+              0.65,
+              0.04
+            ],
+            "cd": [
+              0.18,
+              0.85,
+              0.0
+            ],
+            "grid": [
+              14,
+              5,
+              2
+            ],
+            "pitch_deg": 6.0
+          },
+          {
+            "name": "ski_solid_1.3_1",
+            "body": "chassis",
+            "center": [
+              1.297909430734647,
+              1.3,
+              -0.7801095620926346
+            ],
+            "size": [
+              1.4,
+              0.65,
+              0.04
+            ],
+            "cd": [
+              0.18,
+              0.85,
+              0.0
+            ],
+            "grid": [
+              14,
+              5,
+              2
+            ],
+            "pitch_deg": 6.0
+          }
+        ],
+        "panels": [
+          {
+            "name": "underbody",
+            "body": "chassis",
+            "center": [
+              0,
+              0,
+              -0.48
+            ],
+            "size": [
+              3.3,
+              1.4
+            ],
+            "pitch_deg": 0,
+            "grid": [
+              40,
+              6
+            ],
+            "cn": 1.5,
+            "cf": 0.012,
+            "wet_transition_m": 0.012,
+            "thickness": 0.028,
+            "pressure_model": "savitsky_dynamic"
+          },
+          {
+            "name": "ski_bottom_-1.3_-1",
+            "body": "chassis",
+            "center": [
+              -1.3,
+              -1.3,
+              -0.8
+            ],
+            "size": [
+              1.4,
+              0.65
+            ],
+            "pitch_deg": 6.0,
+            "grid": [
+              40,
+              6
+            ],
+            "cn": 2.0,
+            "cf": 0.006,
+            "wet_transition_m": 0.012,
+            "thickness": 0.04,
+            "pressure_model": "savitsky_dynamic"
+          },
+          {
+            "name": "ski_bottom_-1.3_1",
+            "body": "chassis",
+            "center": [
+              -1.3,
+              1.3,
+              -0.8
+            ],
+            "size": [
+              1.4,
+              0.65
+            ],
+            "pitch_deg": 6.0,
+            "grid": [
+              40,
+              6
+            ],
+            "cn": 2.0,
+            "cf": 0.006,
+            "wet_transition_m": 0.012,
+            "thickness": 0.04,
+            "pressure_model": "savitsky_dynamic"
+          },
+          {
+            "name": "ski_bottom_1.3_-1",
+            "body": "chassis",
+            "center": [
+              1.3,
+              -1.3,
+              -0.8
+            ],
+            "size": [
+              1.4,
+              0.65
+            ],
+            "pitch_deg": 6.0,
+            "grid": [
+              40,
+              6
+            ],
+            "cn": 2.0,
+            "cf": 0.006,
+            "wet_transition_m": 0.012,
+            "thickness": 0.04,
+            "pressure_model": "savitsky_dynamic"
+          },
+          {
+            "name": "ski_bottom_1.3_1",
+            "body": "chassis",
+            "center": [
+              1.3,
+              1.3,
+              -0.8
+            ],
+            "size": [
+              1.4,
+              0.65
+            ],
+            "pitch_deg": 6.0,
+            "grid": [
+              40,
+              6
+            ],
+            "cn": 2.0,
+            "cf": 0.006,
+            "wet_transition_m": 0.012,
+            "thickness": 0.04,
+            "pressure_model": "savitsky_dynamic"
+          }
+        ],
+        "wheels": [
+          {
+            "name": "rear_left_wheel",
+            "parent": "chassis",
+            "center": [
+              -1.3,
+              0.78,
+              -0.39
+            ],
+            "radius": 0.34,
+            "width": 0.22,
+            "mass": 24.0,
+            "inertia": [
+              1.50415,
+              2.7883000000000004,
+              1.50415
+            ],
+            "paddles": true,
+            "blade_area": 0.034,
+            "blade_width": 0.34,
+            "blade_count": 12,
+            "blade_radius": 0.405,
+            "blade_depth": 0.1
+          },
+          {
+            "name": "rear_right_wheel",
+            "parent": "chassis",
+            "center": [
+              -1.3,
+              -0.78,
+              -0.39
+            ],
+            "radius": 0.34,
+            "width": 0.22,
+            "mass": 24.0,
+            "inertia": [
+              1.50415,
+              2.7883000000000004,
+              1.50415
+            ],
+            "paddles": true,
+            "blade_area": 0.034,
+            "blade_width": 0.34,
+            "blade_count": 12,
+            "blade_radius": 0.405,
+            "blade_depth": 0.1
+          },
+          {
+            "name": "front_left_wheel",
+            "parent": "chassis",
+            "center": [
+              1.3,
+              0.78,
+              -0.39
+            ],
+            "radius": 0.34,
+            "width": 0.22,
+            "mass": 12.0,
+            "inertia": [
+              0.52,
+              0.82,
+              0.52
+            ],
+            "paddles": false,
+            "blade_area": 0.034,
+            "blade_width": 0.34,
+            "blade_count": 12,
+            "blade_radius": 0.405,
+            "blade_depth": 0.1
+          },
+          {
+            "name": "front_right_wheel",
+            "parent": "chassis",
+            "center": [
+              1.3,
+              -0.78,
+              -0.39
+            ],
+            "radius": 0.34,
+            "width": 0.22,
+            "mass": 12.0,
+            "inertia": [
+              0.52,
+              0.82,
+              0.52
+            ],
+            "paddles": false,
+            "blade_area": 0.034,
+            "blade_width": 0.34,
+            "blade_count": 12,
+            "blade_radius": 0.405,
+            "blade_depth": 0.1
+          }
+        ],
+        "chassis_mass": 1396.1408,
+        "chassis_inertia": [
+          752.2501765565868,
+          2207.8271934511,
+          2407.8811688945134
+        ],
+        "visual_origin_to_com": [
+          0,
+          0,
+          0.78
+        ],
+        "drive_torque_nm": 1040.0,
+        "drive_power_w": 88000.0,
+        "wheel_target_rad_s": 100.0,
+        "cabin_condition": "open/flooded cabin; only listed solid/sealed components displace water",
+        "drive_rating_scope": "per driven wheel; total budget is per-wheel rating times driven wheel count",
+        "chassis_com": [
+          -6.609605551824994e-05,
+          0.0,
+          -0.02466417438586321
+        ],
+        "reference_frame_note": "Free body origin is a fixed geometry reference; chassis_com is its physical mass-center offset. Modifications include their mass and parallel-axis inertia.",
+        "total_drive_power_w": 176000.0,
+        "drive_control": "positive_power_envelope",
+        "power_sensitivity_note": "Power/torque factor is an isolated rating sensitivity at fixed mass, not an engineered engine upgrade.",
+        "float_mass_kg": 44.1408,
+        "ski_mass_estimate": {
+          "mass_kg": 44.1408,
+          "aluminium_density_kg_m3": 2700.0,
+          "shell_thickness_m": 0.0015,
+          "brackets_kg": 12.0,
+          "calculated_inertia_tensor_kg_m2": [
+            [
+              752.2501765565868,
+              0.0,
+              -0.8185869373236407
+            ],
+            [
+              0.0,
+              2207.8271934511,
+              0.0
+            ],
+            [
+              -0.8185869373236407,
+              0.0,
+              2407.8811688945134
+            ]
+          ],
+          "model_note": "Diagonal inertia approximation; off-diagonal terms recorded. Separated fore/aft boards have unmodelled wake interaction."
+        },
+        "initial_clearance_note": "2 cm clearance above calm water for the lowest board or wheel/blade envelope; free entry thereafter.",
+        "wave_interpretation": "Quasi-steady prescribed incident waves only; impact, wake, added mass and free-surface feedback are not resolved. Exploratory stress test."
+      }
+    },
+    {
+      "name": "pln_four_skis_v15_p176_cross",
+      "parameters": {
+        "vehicle": "car",
+        "variant": "planing_four_skis",
+        "water": {
+          "kind": "cross",
+          "mean_z": 0.0,
+          "density": 1000.0,
+          "current": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "components": [
+            {
+              "amplitude": 0.075,
+              "kx": 9.618353468608949e-17,
+              "ky": 1.5707963267948966,
+              "omega": 3.9254951236573885,
+              "phase": 0
+            }
+          ],
+          "seed": 17,
+          "gravity": 9.81
+        },
+        "duration": 12.0,
+        "dt": 0.001,
+        "output_hz": 48.0,
+        "initial_speed": 15.0,
+        "initial_roll_deg": 0.0,
+        "initial_pitch_deg": 0.0,
+        "initial_z": 0.8931699242873575,
+        "drive_off_s": null,
+        "steer_target_deg": 0.0,
+        "steer_start_s": 0.0,
+        "parameter_origin": "declared experimental model, not a measurement of the news vehicle",
+        "volumes": [
+          {
+            "name": "rear_left_wheel_sealed",
+            "body": "rear_left_wheel",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              0.6200000000000001,
+              0.22,
+              0.6200000000000001
+            ],
+            "shape": "annular_cylinder",
+            "outer_radius": 0.31000000000000005,
+            "inner_radius": 0.23000000000000004,
+            "width": 0.22,
+            "cd": [
+              0.8,
+              1.0,
+              0.8
+            ],
+            "grid": [
+              32,
+              2,
+              2
+            ],
+            "pitch_deg": 0.0
+          },
+          {
+            "name": "rear_right_wheel_sealed",
+            "body": "rear_right_wheel",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              0.6200000000000001,
+              0.22,
+              0.6200000000000001
+            ],
+            "shape": "annular_cylinder",
+            "outer_radius": 0.31000000000000005,
+            "inner_radius": 0.23000000000000004,
+            "width": 0.22,
+            "cd": [
+              0.8,
+              1.0,
+              0.8
+            ],
+            "grid": [
+              32,
+              2,
+              2
+            ],
+            "pitch_deg": 0.0
+          },
+          {
+            "name": "front_left_wheel_sealed",
+            "body": "front_left_wheel",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              0.6200000000000001,
+              0.22,
+              0.6200000000000001
+            ],
+            "shape": "annular_cylinder",
+            "outer_radius": 0.31000000000000005,
+            "inner_radius": 0.23000000000000004,
+            "width": 0.22,
+            "cd": [
+              0.8,
+              1.0,
+              0.8
+            ],
+            "grid": [
+              32,
+              2,
+              2
+            ],
+            "pitch_deg": 0.0
+          },
+          {
+            "name": "front_right_wheel_sealed",
+            "body": "front_right_wheel",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              0.6200000000000001,
+              0.22,
+              0.6200000000000001
+            ],
+            "shape": "annular_cylinder",
+            "outer_radius": 0.31000000000000005,
+            "inner_radius": 0.23000000000000004,
+            "width": 0.22,
+            "cd": [
+              0.8,
+              1.0,
+              0.8
+            ],
+            "grid": [
+              32,
+              2,
+              2
+            ],
+            "pitch_deg": 0.0
+          },
+          {
+            "name": "drivetrain_solids",
+            "body": "chassis",
+            "center": [
+              0,
+              0,
+              -0.05
+            ],
+            "size": [
+              1.3,
+              0.55,
+              0.21
+            ],
+            "cd": [
+              0.85,
+              1.0,
+              1.0
+            ],
+            "grid": [
+              12,
+              5,
+              3
+            ],
+            "pitch_deg": 0
+          },
+          {
+            "name": "ski_solid_-1.3_-1",
+            "body": "chassis",
+            "center": [
+              -1.302090569265353,
+              -1.3,
+              -0.7801095620926346
+            ],
+            "size": [
+              1.4,
+              0.65,
+              0.04
+            ],
+            "cd": [
+              0.18,
+              0.85,
+              0.0
+            ],
+            "grid": [
+              14,
+              5,
+              2
+            ],
+            "pitch_deg": 6.0
+          },
+          {
+            "name": "ski_solid_-1.3_1",
+            "body": "chassis",
+            "center": [
+              -1.302090569265353,
+              1.3,
+              -0.7801095620926346
+            ],
+            "size": [
+              1.4,
+              0.65,
+              0.04
+            ],
+            "cd": [
+              0.18,
+              0.85,
+              0.0
+            ],
+            "grid": [
+              14,
+              5,
+              2
+            ],
+            "pitch_deg": 6.0
+          },
+          {
+            "name": "ski_solid_1.3_-1",
+            "body": "chassis",
+            "center": [
+              1.297909430734647,
+              -1.3,
+              -0.7801095620926346
+            ],
+            "size": [
+              1.4,
+              0.65,
+              0.04
+            ],
+            "cd": [
+              0.18,
+              0.85,
+              0.0
+            ],
+            "grid": [
+              14,
+              5,
+              2
+            ],
+            "pitch_deg": 6.0
+          },
+          {
+            "name": "ski_solid_1.3_1",
+            "body": "chassis",
+            "center": [
+              1.297909430734647,
+              1.3,
+              -0.7801095620926346
+            ],
+            "size": [
+              1.4,
+              0.65,
+              0.04
+            ],
+            "cd": [
+              0.18,
+              0.85,
+              0.0
+            ],
+            "grid": [
+              14,
+              5,
+              2
+            ],
+            "pitch_deg": 6.0
+          }
+        ],
+        "panels": [
+          {
+            "name": "underbody",
+            "body": "chassis",
+            "center": [
+              0,
+              0,
+              -0.48
+            ],
+            "size": [
+              3.3,
+              1.4
+            ],
+            "pitch_deg": 0,
+            "grid": [
+              40,
+              6
+            ],
+            "cn": 1.5,
+            "cf": 0.012,
+            "wet_transition_m": 0.012,
+            "thickness": 0.028,
+            "pressure_model": "savitsky_dynamic"
+          },
+          {
+            "name": "ski_bottom_-1.3_-1",
+            "body": "chassis",
+            "center": [
+              -1.3,
+              -1.3,
+              -0.8
+            ],
+            "size": [
+              1.4,
+              0.65
+            ],
+            "pitch_deg": 6.0,
+            "grid": [
+              40,
+              6
+            ],
+            "cn": 2.0,
+            "cf": 0.006,
+            "wet_transition_m": 0.012,
+            "thickness": 0.04,
+            "pressure_model": "savitsky_dynamic"
+          },
+          {
+            "name": "ski_bottom_-1.3_1",
+            "body": "chassis",
+            "center": [
+              -1.3,
+              1.3,
+              -0.8
+            ],
+            "size": [
+              1.4,
+              0.65
+            ],
+            "pitch_deg": 6.0,
+            "grid": [
+              40,
+              6
+            ],
+            "cn": 2.0,
+            "cf": 0.006,
+            "wet_transition_m": 0.012,
+            "thickness": 0.04,
+            "pressure_model": "savitsky_dynamic"
+          },
+          {
+            "name": "ski_bottom_1.3_-1",
+            "body": "chassis",
+            "center": [
+              1.3,
+              -1.3,
+              -0.8
+            ],
+            "size": [
+              1.4,
+              0.65
+            ],
+            "pitch_deg": 6.0,
+            "grid": [
+              40,
+              6
+            ],
+            "cn": 2.0,
+            "cf": 0.006,
+            "wet_transition_m": 0.012,
+            "thickness": 0.04,
+            "pressure_model": "savitsky_dynamic"
+          },
+          {
+            "name": "ski_bottom_1.3_1",
+            "body": "chassis",
+            "center": [
+              1.3,
+              1.3,
+              -0.8
+            ],
+            "size": [
+              1.4,
+              0.65
+            ],
+            "pitch_deg": 6.0,
+            "grid": [
+              40,
+              6
+            ],
+            "cn": 2.0,
+            "cf": 0.006,
+            "wet_transition_m": 0.012,
+            "thickness": 0.04,
+            "pressure_model": "savitsky_dynamic"
+          }
+        ],
+        "wheels": [
+          {
+            "name": "rear_left_wheel",
+            "parent": "chassis",
+            "center": [
+              -1.3,
+              0.78,
+              -0.39
+            ],
+            "radius": 0.34,
+            "width": 0.22,
+            "mass": 24.0,
+            "inertia": [
+              1.50415,
+              2.7883000000000004,
+              1.50415
+            ],
+            "paddles": true,
+            "blade_area": 0.034,
+            "blade_width": 0.34,
+            "blade_count": 12,
+            "blade_radius": 0.405,
+            "blade_depth": 0.1
+          },
+          {
+            "name": "rear_right_wheel",
+            "parent": "chassis",
+            "center": [
+              -1.3,
+              -0.78,
+              -0.39
+            ],
+            "radius": 0.34,
+            "width": 0.22,
+            "mass": 24.0,
+            "inertia": [
+              1.50415,
+              2.7883000000000004,
+              1.50415
+            ],
+            "paddles": true,
+            "blade_area": 0.034,
+            "blade_width": 0.34,
+            "blade_count": 12,
+            "blade_radius": 0.405,
+            "blade_depth": 0.1
+          },
+          {
+            "name": "front_left_wheel",
+            "parent": "chassis",
+            "center": [
+              1.3,
+              0.78,
+              -0.39
+            ],
+            "radius": 0.34,
+            "width": 0.22,
+            "mass": 12.0,
+            "inertia": [
+              0.52,
+              0.82,
+              0.52
+            ],
+            "paddles": false,
+            "blade_area": 0.034,
+            "blade_width": 0.34,
+            "blade_count": 12,
+            "blade_radius": 0.405,
+            "blade_depth": 0.1
+          },
+          {
+            "name": "front_right_wheel",
+            "parent": "chassis",
+            "center": [
+              1.3,
+              -0.78,
+              -0.39
+            ],
+            "radius": 0.34,
+            "width": 0.22,
+            "mass": 12.0,
+            "inertia": [
+              0.52,
+              0.82,
+              0.52
+            ],
+            "paddles": false,
+            "blade_area": 0.034,
+            "blade_width": 0.34,
+            "blade_count": 12,
+            "blade_radius": 0.405,
+            "blade_depth": 0.1
+          }
+        ],
+        "chassis_mass": 1396.1408,
+        "chassis_inertia": [
+          752.2501765565868,
+          2207.8271934511,
+          2407.8811688945134
+        ],
+        "visual_origin_to_com": [
+          0,
+          0,
+          0.78
+        ],
+        "drive_torque_nm": 1040.0,
+        "drive_power_w": 88000.0,
+        "wheel_target_rad_s": 100.0,
+        "cabin_condition": "open/flooded cabin; only listed solid/sealed components displace water",
+        "drive_rating_scope": "per driven wheel; total budget is per-wheel rating times driven wheel count",
+        "chassis_com": [
+          -6.609605551824994e-05,
+          0.0,
+          -0.02466417438586321
+        ],
+        "reference_frame_note": "Free body origin is a fixed geometry reference; chassis_com is its physical mass-center offset. Modifications include their mass and parallel-axis inertia.",
+        "total_drive_power_w": 176000.0,
+        "drive_control": "positive_power_envelope",
+        "power_sensitivity_note": "Power/torque factor is an isolated rating sensitivity at fixed mass, not an engineered engine upgrade.",
+        "float_mass_kg": 44.1408,
+        "ski_mass_estimate": {
+          "mass_kg": 44.1408,
+          "aluminium_density_kg_m3": 2700.0,
+          "shell_thickness_m": 0.0015,
+          "brackets_kg": 12.0,
+          "calculated_inertia_tensor_kg_m2": [
+            [
+              752.2501765565868,
+              0.0,
+              -0.8185869373236407
+            ],
+            [
+              0.0,
+              2207.8271934511,
+              0.0
+            ],
+            [
+              -0.8185869373236407,
+              0.0,
+              2407.8811688945134
+            ]
+          ],
+          "model_note": "Diagonal inertia approximation; off-diagonal terms recorded. Separated fore/aft boards have unmodelled wake interaction."
+        },
+        "initial_clearance_note": "2 cm clearance above calm water for the lowest board or wheel/blade envelope; free entry thereafter.",
+        "wave_interpretation": "Quasi-steady prescribed incident waves only; impact, wake, added mass and free-surface feedback are not resolved. Exploratory stress test."
+      }
+    },
+    {
+      "name": "pln_four_skis_v15_p176_swell",
+      "parameters": {
+        "vehicle": "car",
+        "variant": "planing_four_skis",
+        "water": {
+          "kind": "swell",
+          "mean_z": 0.0,
+          "density": 1000.0,
+          "current": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "components": [
+            {
+              "amplitude": 0.075,
+              "kx": -0.28559933214452665,
+              "ky": 3.497583079494163e-17,
+              "omega": 1.6738367448284217,
+              "phase": 0
+            }
+          ],
+          "seed": 17,
+          "gravity": 9.81
+        },
+        "duration": 12.0,
+        "dt": 0.001,
+        "output_hz": 48.0,
+        "initial_speed": 15.0,
+        "initial_roll_deg": 0.0,
+        "initial_pitch_deg": 0.0,
+        "initial_z": 0.8931699242873575,
+        "drive_off_s": null,
+        "steer_target_deg": 0.0,
+        "steer_start_s": 0.0,
+        "parameter_origin": "declared experimental model, not a measurement of the news vehicle",
+        "volumes": [
+          {
+            "name": "rear_left_wheel_sealed",
+            "body": "rear_left_wheel",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              0.6200000000000001,
+              0.22,
+              0.6200000000000001
+            ],
+            "shape": "annular_cylinder",
+            "outer_radius": 0.31000000000000005,
+            "inner_radius": 0.23000000000000004,
+            "width": 0.22,
+            "cd": [
+              0.8,
+              1.0,
+              0.8
+            ],
+            "grid": [
+              32,
+              2,
+              2
+            ],
+            "pitch_deg": 0.0
+          },
+          {
+            "name": "rear_right_wheel_sealed",
+            "body": "rear_right_wheel",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              0.6200000000000001,
+              0.22,
+              0.6200000000000001
+            ],
+            "shape": "annular_cylinder",
+            "outer_radius": 0.31000000000000005,
+            "inner_radius": 0.23000000000000004,
+            "width": 0.22,
+            "cd": [
+              0.8,
+              1.0,
+              0.8
+            ],
+            "grid": [
+              32,
+              2,
+              2
+            ],
+            "pitch_deg": 0.0
+          },
+          {
+            "name": "front_left_wheel_sealed",
+            "body": "front_left_wheel",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              0.6200000000000001,
+              0.22,
+              0.6200000000000001
+            ],
+            "shape": "annular_cylinder",
+            "outer_radius": 0.31000000000000005,
+            "inner_radius": 0.23000000000000004,
+            "width": 0.22,
+            "cd": [
+              0.8,
+              1.0,
+              0.8
+            ],
+            "grid": [
+              32,
+              2,
+              2
+            ],
+            "pitch_deg": 0.0
+          },
+          {
+            "name": "front_right_wheel_sealed",
+            "body": "front_right_wheel",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              0.6200000000000001,
+              0.22,
+              0.6200000000000001
+            ],
+            "shape": "annular_cylinder",
+            "outer_radius": 0.31000000000000005,
+            "inner_radius": 0.23000000000000004,
+            "width": 0.22,
+            "cd": [
+              0.8,
+              1.0,
+              0.8
+            ],
+            "grid": [
+              32,
+              2,
+              2
+            ],
+            "pitch_deg": 0.0
+          },
+          {
+            "name": "drivetrain_solids",
+            "body": "chassis",
+            "center": [
+              0,
+              0,
+              -0.05
+            ],
+            "size": [
+              1.3,
+              0.55,
+              0.21
+            ],
+            "cd": [
+              0.85,
+              1.0,
+              1.0
+            ],
+            "grid": [
+              12,
+              5,
+              3
+            ],
+            "pitch_deg": 0
+          },
+          {
+            "name": "ski_solid_-1.3_-1",
+            "body": "chassis",
+            "center": [
+              -1.302090569265353,
+              -1.3,
+              -0.7801095620926346
+            ],
+            "size": [
+              1.4,
+              0.65,
+              0.04
+            ],
+            "cd": [
+              0.18,
+              0.85,
+              0.0
+            ],
+            "grid": [
+              14,
+              5,
+              2
+            ],
+            "pitch_deg": 6.0
+          },
+          {
+            "name": "ski_solid_-1.3_1",
+            "body": "chassis",
+            "center": [
+              -1.302090569265353,
+              1.3,
+              -0.7801095620926346
+            ],
+            "size": [
+              1.4,
+              0.65,
+              0.04
+            ],
+            "cd": [
+              0.18,
+              0.85,
+              0.0
+            ],
+            "grid": [
+              14,
+              5,
+              2
+            ],
+            "pitch_deg": 6.0
+          },
+          {
+            "name": "ski_solid_1.3_-1",
+            "body": "chassis",
+            "center": [
+              1.297909430734647,
+              -1.3,
+              -0.7801095620926346
+            ],
+            "size": [
+              1.4,
+              0.65,
+              0.04
+            ],
+            "cd": [
+              0.18,
+              0.85,
+              0.0
+            ],
+            "grid": [
+              14,
+              5,
+              2
+            ],
+            "pitch_deg": 6.0
+          },
+          {
+            "name": "ski_solid_1.3_1",
+            "body": "chassis",
+            "center": [
+              1.297909430734647,
+              1.3,
+              -0.7801095620926346
+            ],
+            "size": [
+              1.4,
+              0.65,
+              0.04
+            ],
+            "cd": [
+              0.18,
+              0.85,
+              0.0
+            ],
+            "grid": [
+              14,
+              5,
+              2
+            ],
+            "pitch_deg": 6.0
+          }
+        ],
+        "panels": [
+          {
+            "name": "underbody",
+            "body": "chassis",
+            "center": [
+              0,
+              0,
+              -0.48
+            ],
+            "size": [
+              3.3,
+              1.4
+            ],
+            "pitch_deg": 0,
+            "grid": [
+              40,
+              6
+            ],
+            "cn": 1.5,
+            "cf": 0.012,
+            "wet_transition_m": 0.012,
+            "thickness": 0.028,
+            "pressure_model": "savitsky_dynamic"
+          },
+          {
+            "name": "ski_bottom_-1.3_-1",
+            "body": "chassis",
+            "center": [
+              -1.3,
+              -1.3,
+              -0.8
+            ],
+            "size": [
+              1.4,
+              0.65
+            ],
+            "pitch_deg": 6.0,
+            "grid": [
+              40,
+              6
+            ],
+            "cn": 2.0,
+            "cf": 0.006,
+            "wet_transition_m": 0.012,
+            "thickness": 0.04,
+            "pressure_model": "savitsky_dynamic"
+          },
+          {
+            "name": "ski_bottom_-1.3_1",
+            "body": "chassis",
+            "center": [
+              -1.3,
+              1.3,
+              -0.8
+            ],
+            "size": [
+              1.4,
+              0.65
+            ],
+            "pitch_deg": 6.0,
+            "grid": [
+              40,
+              6
+            ],
+            "cn": 2.0,
+            "cf": 0.006,
+            "wet_transition_m": 0.012,
+            "thickness": 0.04,
+            "pressure_model": "savitsky_dynamic"
+          },
+          {
+            "name": "ski_bottom_1.3_-1",
+            "body": "chassis",
+            "center": [
+              1.3,
+              -1.3,
+              -0.8
+            ],
+            "size": [
+              1.4,
+              0.65
+            ],
+            "pitch_deg": 6.0,
+            "grid": [
+              40,
+              6
+            ],
+            "cn": 2.0,
+            "cf": 0.006,
+            "wet_transition_m": 0.012,
+            "thickness": 0.04,
+            "pressure_model": "savitsky_dynamic"
+          },
+          {
+            "name": "ski_bottom_1.3_1",
+            "body": "chassis",
+            "center": [
+              1.3,
+              1.3,
+              -0.8
+            ],
+            "size": [
+              1.4,
+              0.65
+            ],
+            "pitch_deg": 6.0,
+            "grid": [
+              40,
+              6
+            ],
+            "cn": 2.0,
+            "cf": 0.006,
+            "wet_transition_m": 0.012,
+            "thickness": 0.04,
+            "pressure_model": "savitsky_dynamic"
+          }
+        ],
+        "wheels": [
+          {
+            "name": "rear_left_wheel",
+            "parent": "chassis",
+            "center": [
+              -1.3,
+              0.78,
+              -0.39
+            ],
+            "radius": 0.34,
+            "width": 0.22,
+            "mass": 24.0,
+            "inertia": [
+              1.50415,
+              2.7883000000000004,
+              1.50415
+            ],
+            "paddles": true,
+            "blade_area": 0.034,
+            "blade_width": 0.34,
+            "blade_count": 12,
+            "blade_radius": 0.405,
+            "blade_depth": 0.1
+          },
+          {
+            "name": "rear_right_wheel",
+            "parent": "chassis",
+            "center": [
+              -1.3,
+              -0.78,
+              -0.39
+            ],
+            "radius": 0.34,
+            "width": 0.22,
+            "mass": 24.0,
+            "inertia": [
+              1.50415,
+              2.7883000000000004,
+              1.50415
+            ],
+            "paddles": true,
+            "blade_area": 0.034,
+            "blade_width": 0.34,
+            "blade_count": 12,
+            "blade_radius": 0.405,
+            "blade_depth": 0.1
+          },
+          {
+            "name": "front_left_wheel",
+            "parent": "chassis",
+            "center": [
+              1.3,
+              0.78,
+              -0.39
+            ],
+            "radius": 0.34,
+            "width": 0.22,
+            "mass": 12.0,
+            "inertia": [
+              0.52,
+              0.82,
+              0.52
+            ],
+            "paddles": false,
+            "blade_area": 0.034,
+            "blade_width": 0.34,
+            "blade_count": 12,
+            "blade_radius": 0.405,
+            "blade_depth": 0.1
+          },
+          {
+            "name": "front_right_wheel",
+            "parent": "chassis",
+            "center": [
+              1.3,
+              -0.78,
+              -0.39
+            ],
+            "radius": 0.34,
+            "width": 0.22,
+            "mass": 12.0,
+            "inertia": [
+              0.52,
+              0.82,
+              0.52
+            ],
+            "paddles": false,
+            "blade_area": 0.034,
+            "blade_width": 0.34,
+            "blade_count": 12,
+            "blade_radius": 0.405,
+            "blade_depth": 0.1
+          }
+        ],
+        "chassis_mass": 1396.1408,
+        "chassis_inertia": [
+          752.2501765565868,
+          2207.8271934511,
+          2407.8811688945134
+        ],
+        "visual_origin_to_com": [
+          0,
+          0,
+          0.78
+        ],
+        "drive_torque_nm": 1040.0,
+        "drive_power_w": 88000.0,
+        "wheel_target_rad_s": 100.0,
+        "cabin_condition": "open/flooded cabin; only listed solid/sealed components displace water",
+        "drive_rating_scope": "per driven wheel; total budget is per-wheel rating times driven wheel count",
+        "chassis_com": [
+          -6.609605551824994e-05,
+          0.0,
+          -0.02466417438586321
+        ],
+        "reference_frame_note": "Free body origin is a fixed geometry reference; chassis_com is its physical mass-center offset. Modifications include their mass and parallel-axis inertia.",
+        "total_drive_power_w": 176000.0,
+        "drive_control": "positive_power_envelope",
+        "power_sensitivity_note": "Power/torque factor is an isolated rating sensitivity at fixed mass, not an engineered engine upgrade.",
+        "float_mass_kg": 44.1408,
+        "ski_mass_estimate": {
+          "mass_kg": 44.1408,
+          "aluminium_density_kg_m3": 2700.0,
+          "shell_thickness_m": 0.0015,
+          "brackets_kg": 12.0,
+          "calculated_inertia_tensor_kg_m2": [
+            [
+              752.2501765565868,
+              0.0,
+              -0.8185869373236407
+            ],
+            [
+              0.0,
+              2207.8271934511,
+              0.0
+            ],
+            [
+              -0.8185869373236407,
+              0.0,
+              2407.8811688945134
+            ]
+          ],
+          "model_note": "Diagonal inertia approximation; off-diagonal terms recorded. Separated fore/aft boards have unmodelled wake interaction."
+        },
+        "initial_clearance_note": "2 cm clearance above calm water for the lowest board or wheel/blade envelope; free entry thereafter.",
+        "wave_interpretation": "Quasi-steady prescribed incident waves only; impact, wake, added mass and free-surface feedback are not resolved. Exploratory stress test."
+      }
+    },
+    {
+      "name": "pln_four_skis_v15_p176_irregular",
+      "parameters": {
+        "vehicle": "car",
+        "variant": "planing_four_skis",
+        "water": {
+          "kind": "irregular",
+          "mean_z": 0.0,
+          "density": 1000.0,
+          "current": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "components": [
+            {
+              "amplitude": 0.035,
+              "kx": -1.9046009252216447,
+              "ky": 0.6932180449365482,
+              "omega": 4.4590628215207175,
+              "phase": 5.309761521575608
+            },
+            {
+              "amplitude": 0.055,
+              "kx": -1.1451115018046745,
+              "ky": -0.30683170215215266,
+              "omega": 3.4102522416371044,
+              "phase": 1.0114237612850128
+            },
+            {
+              "amplitude": 0.04,
+              "kx": -0.05952344372482718,
+              "ky": 0.6803560750152456,
+              "omega": 2.5883948329500623,
+              "phase": 3.5044123451676454
+            },
+            {
+              "amplitude": 0.025,
+              "kx": -0.4125153069415232,
+              "ky": 0.07273757856902444,
+              "omega": 2.0271169652724654,
+              "phase": 2.3127144813324683
+            },
+            {
+              "amplitude": 0.018,
+              "kx": 0.08954066413763744,
+              "ky": 0.24601095284112906,
+              "omega": 1.6025766734573594,
+              "phase": 1.3505201873476333
+            }
+          ],
+          "seed": 17,
+          "gravity": 9.81
+        },
+        "duration": 12.0,
+        "dt": 0.001,
+        "output_hz": 48.0,
+        "initial_speed": 15.0,
+        "initial_roll_deg": 0.0,
+        "initial_pitch_deg": 0.0,
+        "initial_z": 0.8931699242873575,
+        "drive_off_s": null,
+        "steer_target_deg": 0.0,
+        "steer_start_s": 0.0,
+        "parameter_origin": "declared experimental model, not a measurement of the news vehicle",
+        "volumes": [
+          {
+            "name": "rear_left_wheel_sealed",
+            "body": "rear_left_wheel",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              0.6200000000000001,
+              0.22,
+              0.6200000000000001
+            ],
+            "shape": "annular_cylinder",
+            "outer_radius": 0.31000000000000005,
+            "inner_radius": 0.23000000000000004,
+            "width": 0.22,
+            "cd": [
+              0.8,
+              1.0,
+              0.8
+            ],
+            "grid": [
+              32,
+              2,
+              2
+            ],
+            "pitch_deg": 0.0
+          },
+          {
+            "name": "rear_right_wheel_sealed",
+            "body": "rear_right_wheel",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              0.6200000000000001,
+              0.22,
+              0.6200000000000001
+            ],
+            "shape": "annular_cylinder",
+            "outer_radius": 0.31000000000000005,
+            "inner_radius": 0.23000000000000004,
+            "width": 0.22,
+            "cd": [
+              0.8,
+              1.0,
+              0.8
+            ],
+            "grid": [
+              32,
+              2,
+              2
+            ],
+            "pitch_deg": 0.0
+          },
+          {
+            "name": "front_left_wheel_sealed",
+            "body": "front_left_wheel",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              0.6200000000000001,
+              0.22,
+              0.6200000000000001
+            ],
+            "shape": "annular_cylinder",
+            "outer_radius": 0.31000000000000005,
+            "inner_radius": 0.23000000000000004,
+            "width": 0.22,
+            "cd": [
+              0.8,
+              1.0,
+              0.8
+            ],
+            "grid": [
+              32,
+              2,
+              2
+            ],
+            "pitch_deg": 0.0
+          },
+          {
+            "name": "front_right_wheel_sealed",
+            "body": "front_right_wheel",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              0.6200000000000001,
+              0.22,
+              0.6200000000000001
+            ],
+            "shape": "annular_cylinder",
+            "outer_radius": 0.31000000000000005,
+            "inner_radius": 0.23000000000000004,
+            "width": 0.22,
+            "cd": [
+              0.8,
+              1.0,
+              0.8
+            ],
+            "grid": [
+              32,
+              2,
+              2
+            ],
+            "pitch_deg": 0.0
+          },
+          {
+            "name": "drivetrain_solids",
+            "body": "chassis",
+            "center": [
+              0,
+              0,
+              -0.05
+            ],
+            "size": [
+              1.3,
+              0.55,
+              0.21
+            ],
+            "cd": [
+              0.85,
+              1.0,
+              1.0
+            ],
+            "grid": [
+              12,
+              5,
+              3
+            ],
+            "pitch_deg": 0
+          },
+          {
+            "name": "ski_solid_-1.3_-1",
+            "body": "chassis",
+            "center": [
+              -1.302090569265353,
+              -1.3,
+              -0.7801095620926346
+            ],
+            "size": [
+              1.4,
+              0.65,
+              0.04
+            ],
+            "cd": [
+              0.18,
+              0.85,
+              0.0
+            ],
+            "grid": [
+              14,
+              5,
+              2
+            ],
+            "pitch_deg": 6.0
+          },
+          {
+            "name": "ski_solid_-1.3_1",
+            "body": "chassis",
+            "center": [
+              -1.302090569265353,
+              1.3,
+              -0.7801095620926346
+            ],
+            "size": [
+              1.4,
+              0.65,
+              0.04
+            ],
+            "cd": [
+              0.18,
+              0.85,
+              0.0
+            ],
+            "grid": [
+              14,
+              5,
+              2
+            ],
+            "pitch_deg": 6.0
+          },
+          {
+            "name": "ski_solid_1.3_-1",
+            "body": "chassis",
+            "center": [
+              1.297909430734647,
+              -1.3,
+              -0.7801095620926346
+            ],
+            "size": [
+              1.4,
+              0.65,
+              0.04
+            ],
+            "cd": [
+              0.18,
+              0.85,
+              0.0
+            ],
+            "grid": [
+              14,
+              5,
+              2
+            ],
+            "pitch_deg": 6.0
+          },
+          {
+            "name": "ski_solid_1.3_1",
+            "body": "chassis",
+            "center": [
+              1.297909430734647,
+              1.3,
+              -0.7801095620926346
+            ],
+            "size": [
+              1.4,
+              0.65,
+              0.04
+            ],
+            "cd": [
+              0.18,
+              0.85,
+              0.0
+            ],
+            "grid": [
+              14,
+              5,
+              2
+            ],
+            "pitch_deg": 6.0
+          }
+        ],
+        "panels": [
+          {
+            "name": "underbody",
+            "body": "chassis",
+            "center": [
+              0,
+              0,
+              -0.48
+            ],
+            "size": [
+              3.3,
+              1.4
+            ],
+            "pitch_deg": 0,
+            "grid": [
+              40,
+              6
+            ],
+            "cn": 1.5,
+            "cf": 0.012,
+            "wet_transition_m": 0.012,
+            "thickness": 0.028,
+            "pressure_model": "savitsky_dynamic"
+          },
+          {
+            "name": "ski_bottom_-1.3_-1",
+            "body": "chassis",
+            "center": [
+              -1.3,
+              -1.3,
+              -0.8
+            ],
+            "size": [
+              1.4,
+              0.65
+            ],
+            "pitch_deg": 6.0,
+            "grid": [
+              40,
+              6
+            ],
+            "cn": 2.0,
+            "cf": 0.006,
+            "wet_transition_m": 0.012,
+            "thickness": 0.04,
+            "pressure_model": "savitsky_dynamic"
+          },
+          {
+            "name": "ski_bottom_-1.3_1",
+            "body": "chassis",
+            "center": [
+              -1.3,
+              1.3,
+              -0.8
+            ],
+            "size": [
+              1.4,
+              0.65
+            ],
+            "pitch_deg": 6.0,
+            "grid": [
+              40,
+              6
+            ],
+            "cn": 2.0,
+            "cf": 0.006,
+            "wet_transition_m": 0.012,
+            "thickness": 0.04,
+            "pressure_model": "savitsky_dynamic"
+          },
+          {
+            "name": "ski_bottom_1.3_-1",
+            "body": "chassis",
+            "center": [
+              1.3,
+              -1.3,
+              -0.8
+            ],
+            "size": [
+              1.4,
+              0.65
+            ],
+            "pitch_deg": 6.0,
+            "grid": [
+              40,
+              6
+            ],
+            "cn": 2.0,
+            "cf": 0.006,
+            "wet_transition_m": 0.012,
+            "thickness": 0.04,
+            "pressure_model": "savitsky_dynamic"
+          },
+          {
+            "name": "ski_bottom_1.3_1",
+            "body": "chassis",
+            "center": [
+              1.3,
+              1.3,
+              -0.8
+            ],
+            "size": [
+              1.4,
+              0.65
+            ],
+            "pitch_deg": 6.0,
+            "grid": [
+              40,
+              6
+            ],
+            "cn": 2.0,
+            "cf": 0.006,
+            "wet_transition_m": 0.012,
+            "thickness": 0.04,
+            "pressure_model": "savitsky_dynamic"
+          }
+        ],
+        "wheels": [
+          {
+            "name": "rear_left_wheel",
+            "parent": "chassis",
+            "center": [
+              -1.3,
+              0.78,
+              -0.39
+            ],
+            "radius": 0.34,
+            "width": 0.22,
+            "mass": 24.0,
+            "inertia": [
+              1.50415,
+              2.7883000000000004,
+              1.50415
+            ],
+            "paddles": true,
+            "blade_area": 0.034,
+            "blade_width": 0.34,
+            "blade_count": 12,
+            "blade_radius": 0.405,
+            "blade_depth": 0.1
+          },
+          {
+            "name": "rear_right_wheel",
+            "parent": "chassis",
+            "center": [
+              -1.3,
+              -0.78,
+              -0.39
+            ],
+            "radius": 0.34,
+            "width": 0.22,
+            "mass": 24.0,
+            "inertia": [
+              1.50415,
+              2.7883000000000004,
+              1.50415
+            ],
+            "paddles": true,
+            "blade_area": 0.034,
+            "blade_width": 0.34,
+            "blade_count": 12,
+            "blade_radius": 0.405,
+            "blade_depth": 0.1
+          },
+          {
+            "name": "front_left_wheel",
+            "parent": "chassis",
+            "center": [
+              1.3,
+              0.78,
+              -0.39
+            ],
+            "radius": 0.34,
+            "width": 0.22,
+            "mass": 12.0,
+            "inertia": [
+              0.52,
+              0.82,
+              0.52
+            ],
+            "paddles": false,
+            "blade_area": 0.034,
+            "blade_width": 0.34,
+            "blade_count": 12,
+            "blade_radius": 0.405,
+            "blade_depth": 0.1
+          },
+          {
+            "name": "front_right_wheel",
+            "parent": "chassis",
+            "center": [
+              1.3,
+              -0.78,
+              -0.39
+            ],
+            "radius": 0.34,
+            "width": 0.22,
+            "mass": 12.0,
+            "inertia": [
+              0.52,
+              0.82,
+              0.52
+            ],
+            "paddles": false,
+            "blade_area": 0.034,
+            "blade_width": 0.34,
+            "blade_count": 12,
+            "blade_radius": 0.405,
+            "blade_depth": 0.1
+          }
+        ],
+        "chassis_mass": 1396.1408,
+        "chassis_inertia": [
+          752.2501765565868,
+          2207.8271934511,
+          2407.8811688945134
+        ],
+        "visual_origin_to_com": [
+          0,
+          0,
+          0.78
+        ],
+        "drive_torque_nm": 1040.0,
+        "drive_power_w": 88000.0,
+        "wheel_target_rad_s": 100.0,
+        "cabin_condition": "open/flooded cabin; only listed solid/sealed components displace water",
+        "drive_rating_scope": "per driven wheel; total budget is per-wheel rating times driven wheel count",
+        "chassis_com": [
+          -6.609605551824994e-05,
+          0.0,
+          -0.02466417438586321
+        ],
+        "reference_frame_note": "Free body origin is a fixed geometry reference; chassis_com is its physical mass-center offset. Modifications include their mass and parallel-axis inertia.",
+        "total_drive_power_w": 176000.0,
+        "drive_control": "positive_power_envelope",
+        "power_sensitivity_note": "Power/torque factor is an isolated rating sensitivity at fixed mass, not an engineered engine upgrade.",
+        "float_mass_kg": 44.1408,
+        "ski_mass_estimate": {
+          "mass_kg": 44.1408,
+          "aluminium_density_kg_m3": 2700.0,
+          "shell_thickness_m": 0.0015,
+          "brackets_kg": 12.0,
+          "calculated_inertia_tensor_kg_m2": [
+            [
+              752.2501765565868,
+              0.0,
+              -0.8185869373236407
+            ],
+            [
+              0.0,
+              2207.8271934511,
+              0.0
+            ],
+            [
+              -0.8185869373236407,
+              0.0,
+              2407.8811688945134
+            ]
+          ],
+          "model_note": "Diagonal inertia approximation; off-diagonal terms recorded. Separated fore/aft boards have unmodelled wake interaction."
+        },
+        "initial_clearance_note": "2 cm clearance above calm water for the lowest board or wheel/blade envelope; free entry thereafter.",
+        "wave_interpretation": "Quasi-steady prescribed incident waves only; impact, wake, added mass and free-surface feedback are not resolved. Exploratory stress test."
+      }
+    }
+  ],
+  "source_hashes": {
+    "hydro.py": "20357f4c7d29238af982a7a1d9416462776ae0e1d8c0f97f9d1de6b017610693",
+    "hydro_planing.py": "4ee1a5ba360123179ab01ed0578f06d075c99d324b4ad87ca06208b16300d641",
+    "planing_surface.py": "0f550ff57f3669992849179b2b62c532141f183f1404c3bd49cfff01580d9e90"
+  }
+}

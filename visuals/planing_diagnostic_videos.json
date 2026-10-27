@@ -1,0 +1,14 @@
+[
+  {
+    "id": "pln_wide_low_v15_t3_p44_cutaway_t0_s05",
+    "run": "pln_wide_low_v15_t3_p44",
+    "camera": "cutaway",
+    "start": 0,
+    "scale": 0.5,
+    "duration": 6,
+    "width": 1920,
+    "samples": 24,
+    "use_in_film": false,
+    "exclusion_reason": "Paddle/float lateral envelopes overlap by 25 mm; superseded by y=+-1.35 m clear geometry."
+  }
+]
