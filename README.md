@@ -1,5 +1,7 @@
 # 张雪的摩托能跑水上，那我的汽车呢？
 
+[观看B站成片](https://www.bilibili.com/video/BV1ykHF6FENx/) · [下载模型与实验数据](https://github.com/holdonyb/yika-lab-zhangxue-water/releases/tag/v2.1)
+
 一卡实验室 · 离谱改装。用 MuJoCo 计算车辆运动与水动力外力，再在 Blender 中回放保存的轨迹。
 
 ![封面](covers/root_water_variant/cover_1280x720.png)
